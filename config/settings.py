@@ -1,0 +1,7 @@
+APP_NAME = "Athena"
+
+VERSION = "0.1"
+
+DEFAULT_SYMBOL = "SPY"
+
+PAPER_TRADING = True
