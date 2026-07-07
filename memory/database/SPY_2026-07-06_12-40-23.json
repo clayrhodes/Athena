@@ -1,0 +1,549 @@
+{
+    "timestamp": "2026-07-06 12:40:23",
+    "date": "2026-07-06",
+    "time": "12:40:23",
+    "ticker": "SPY",
+    "current_price": 750.23,
+    "decision": {
+        "bias": "Strong Bullish",
+        "trade_grade": "A",
+        "confidence": 88,
+        "risk": "Low"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is 70%. Setup is promising, but Athena is waiting because: Volume is not confirming the move.",
+    "overall_score": 88,
+    "trade_grade": "A",
+    "confidence": "High",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 100,
+    "momentum_score": 100,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": true,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Risk-On",
+            "score": 85,
+            "reasons": [
+                "Higher-timeframe trend is bullish.",
+                "Low volatility supports risk assets."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V3",
+                "status": "LIVE",
+                "provider": "Finnhub Live News",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [
+                    "Hamas dissolves Gaza government, Israel dismisses move as 'stunt' - Reuters",
+                    "Why Jim Cramer says this AI play \u2014 up 85% this year \u2014 is headed even higher",
+                    "Trump says there will either be a deal with Iran or US will 'finish the job' - Reuters",
+                    "We're booking big profits in a cyber stock that's rallied back to record highs",
+                    "Shippers Maersk and Hapag-Lloyd begin return to Suez Canal trade route - Reuters",
+                    "Trump says Sikorsky to fund White House helicopter landing pad - Reuters",
+                    "Explainer: Netanyahu government challenge to Supreme Court reignites judicial dispute - Reuters",
+                    "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts",
+                    "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say - Reuters",
+                    "NATO tensions are \u2018growing pains,\u2019 U.S. ambassador says as Trump presses allies"
+                ],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Low",
+                "score": 50,
+                "confidence": 90,
+                "bullish_factors": [
+                    "Positive market momentum in headlines."
+                ],
+                "bearish_factors": [],
+                "major_catalysts": [],
+                "trade_warning": "Live Finnhub news connected.",
+                "recommendation": "News backdrop is neutral. Let price action and confirmation lead.",
+                "reason": "Live headlines analyzed successfully.",
+                "provider_errors": []
+            }
+        },
+        "confidence": 80,
+        "scenarios": {
+            "primary": {
+                "probability": 95,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 3,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 2,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; momentum confirms the move; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 61,
+            "bearish_reversal": 3,
+            "range_consolidation": 33,
+            "pullback_reversal_risk": 3
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 61,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 70,
+        "verdict": "MEDIUM CONVICTION",
+        "action": "WAIT FOR ENTRY",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "1 Hour Confirmation supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 100.",
+            "Momentum supports the setup with a score of 100."
+        ],
+        "warnings": [
+            "Auction Flow needs improvement. Score 60, required 70.",
+            "Volume needs improvement. Score 30, required 70.",
+            "Smart Money needs improvement. Score 0, required 60.",
+            "Liquidity needs improvement. Score 0, required 60.",
+            "Market Breadth needs improvement. Score 0, required 55.",
+            "Options Flow needs improvement. Score 0, required 55.",
+            "Historical Similarity needs improvement. Score 0, required 55."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.78,
+        "reward_per_share": 12.97,
+        "shares_allowed": 1,
+        "win_probability": 61,
+        "expected_value": 4.88,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 750.23,
+        "entry_high": 750.23,
+        "distance": -0.0,
+        "message": "Wait for price to reclaim support before entering.",
+        "entry_price": 750.23,
+        "entry_type": "Reclaim Support",
+        "aggressive_entry": 750.23,
+        "conservative_entry": 750.23,
+        "stop_reference": 746.48,
+        "resistance_reference": 757.73,
+        "reason": "Wait for price to reclaim support before entering.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 750.23,
+        "stop_loss": 742.45,
+        "target_1": 758.01,
+        "target_2": 763.2,
+        "target_3": 770.98,
+        "risk": 7.78,
+        "reward": 12.97,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to reclaim support before entering."
+    },
+    "market_intelligence": {
+        "market_data": {
+            "connected": true,
+            "provider": "Yahoo Finance",
+            "spy": 750.23,
+            "current_price": 750.23,
+            "previous_close": 744.78,
+            "day_high": 751.53,
+            "day_low": 747.41,
+            "vix": 15.86,
+            "dxy": 100.93,
+            "treasury_10y": 4.48,
+            "fear_greed": null
+        },
+        "calendar": {
+            "connected": false,
+            "provider": "FRED + Finnhub Economic Provider",
+            "events": [],
+            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+        },
+        "news": {
+            "connected": true,
+            "provider": "Finnhub Live News",
+            "symbol": "SPY",
+            "headline_count": 20,
+            "headlines": [
+                "Hamas dissolves Gaza government, Israel dismisses move as 'stunt' - Reuters",
+                "Why Jim Cramer says this AI play \u2014 up 85% this year \u2014 is headed even higher",
+                "Trump says there will either be a deal with Iran or US will 'finish the job' - Reuters",
+                "We're booking big profits in a cyber stock that's rallied back to record highs",
+                "Shippers Maersk and Hapag-Lloyd begin return to Suez Canal trade route - Reuters",
+                "Trump says Sikorsky to fund White House helicopter landing pad - Reuters",
+                "Explainer: Netanyahu government challenge to Supreme Court reignites judicial dispute - Reuters",
+                "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts",
+                "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say - Reuters",
+                "NATO tensions are \u2018growing pains,\u2019 U.S. ambassador says as Trump presses allies"
+            ],
+            "articles": [
+                {
+                    "headline": "Hamas dissolves Gaza government, Israel dismisses move as 'stunt' - Reuters",
+                    "source": "Reuters",
+                    "summary": "Hamas dissolves Gaza government, Israel dismisses move as 'stunt'\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFo2LTlqNk9aYUFPVWY4LWtLZFVranB4RHp3SEJNaXd2VzNjWUtWUUs0TkktQnVET2N6YndZMDBzY2MwYXQ0NnVmU0lmUC1Ga3dRcWZXSXZQaVBxdWRFM3VtNUktWEZiMFA4RUNERmJoRHFOUFRoZ1hDUjlBdnhBNnJIZUdWdlRLYVRoSkcxRkdmZnV4dDc2Ykt5cmI4R3JhNmRrMlhoeTRiYUkzVGhtemRsbXNXcjFDVlV3bS1n?oc=5",
+                    "datetime": 1783357509,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Why Jim Cramer says this AI play \u2014 up 85% this year \u2014 is headed even higher",
+                    "source": "CNBC",
+                    "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+                    "url": "https://www.cnbc.com/2026/07/06/jim-cramer-says-this-ai-play-up-85percent-this-year-is-headed-even-higher.html",
+                    "datetime": 1783353992,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/104442540-RTX35F89.jpg?v=1529452282&w=1920&h=1080"
+                },
+                {
+                    "headline": "Trump says there will either be a deal with Iran or US will 'finish the job' - Reuters",
+                    "source": "Reuters",
+                    "summary": "Trump says there will either be a deal with Iran or US will 'finish the job'\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTkNkUE5kLUozQnVZUy1YTVJodXBJWmZmQ3Y5cTBCcTkzb0NCdl82TW1kbGJON1ZkYXM0LVhMWTJiSDFTNndDTkEyTk1jaWs3UEZmUjlzV3V6ZVc5MjBac3lVVFFpQlFfMkFZdVlaVmhOM1Zsa0FlaVVzSHlDX0s5NVNNMXRKNUg5aWRJcTNURmFGVW1nRElxRk5NVEdPdkJSVDdfVzJTVGMxMGZBOVpmWG9pblNKRXVEeVVrbXRycw?oc=5",
+                    "datetime": 1783353257,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "We're booking big profits in a cyber stock that's rallied back to record highs",
+                    "source": "CNBC",
+                    "summary": "Our two cybersecurity stocks have been two of the stronger positions in the portfolio lately.",
+                    "url": "https://www.cnbc.com/2026/07/06/were-booking-big-profits-in-a-cyber-stock-thats-rallied-back-to-record-highs.html",
+                    "datetime": 1783352432,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108225091-17629848922025-06-11t142240z_328980464_rc2e0fa4wopj_rtrmadp_0_france-tech.jpeg?v=1762984960&w=1920&h=1080"
+                },
+                {
+                    "headline": "Shippers Maersk and Hapag-Lloyd begin return to Suez Canal trade route - Reuters",
+                    "source": "Reuters",
+                    "summary": "Shippers Maersk and Hapag-Lloyd begin return to Suez Canal trade route\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGhZRUlsNHhOOFpGdlBySXQwUS10Tk9kWE5wclJ2UENGeURhTzl5cjF1MV9CblJIMWFsaFRFSjVjTXBEN1RmMHVvLUFBU3lLY0RxcDVXN3pUOXRObk1GQ3llZnRSNXYwNEJlQW1QNGp3M2xkUDRLMmY3OVlYMWs2cjNuSDJoc2tsekRiclA1bmppRjBLYlVWdXBta0s0V2ZIemZDUW1XMmlESjViYXdnNTFUeC1PX2lKZFdkOXhQeWxaZjNm?oc=5",
+                    "datetime": 1783351659,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Trump says Sikorsky to fund White House helicopter landing pad - Reuters",
+                    "source": "Reuters",
+                    "summary": "Trump says Sikorsky to fund White House helicopter landing pad\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUVFmNnZHQmR4OTYwck8tbXg5UlZmUHBfWjlJRWtBY2xPZmRkS0sxZTk5QXpfRUoxT2Q4dm95Uk9NMjdQakZIbzJMRWVjSDNsNExHb01uRV84eEcyUXhZeHZSWE53TUh4UTkwZWVDWm5fV1l6SG9hLWEwQWZHV3Voc0lKeTY4YnhNTGF4ZnBoNmh4T0d0RkZuc0xWb3RuNXlOSXN4U2xjSzU1azJBd2FPWmc0WHBCanY1OXBUeVJmbw?oc=5",
+                    "datetime": 1783351304,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Explainer: Netanyahu government challenge to Supreme Court reignites judicial dispute - Reuters",
+                    "source": "Reuters",
+                    "summary": "Explainer: Netanyahu government challenge to Supreme Court reignites judicial dispute\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNktvX2JPM3NWN2N6ZHRESzFkVVB6UnRzQVdwTGtGMnFLcGJycTFUc0l6QldsSDBycVFfTURrNWJOd1JCT2x0cW5fWU9IQ1hNWTFUTV9tWTgtcmUtZTRNVjRiWlhBNWJCQjc4U0VrcUNfQS00NlVjNGdWUGRnb0t3NTk3Q3NIUks0MjlqSlVzck1zWlJsSEE0S1JwM0prYmNscmo2T2wta2hHSmJ4WF82Y3JrSjRUTWEyaGdMRU9B?oc=5",
+                    "datetime": 1783348303,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts",
+                    "source": "CNBC",
+                    "summary": "President Donald Trump told CNBC's Joe Kernen last week that he thought SpaceX CEO Elon Musk would donate company stock to the program.",
+                    "url": "https://www.cnbc.com/2026/07/06/spacex-spcx-gwynne-shotwell-stock-trump-accounts.html",
+                    "datetime": 1783346307,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108285632-1774986309800-cnbc_versant_share.png?v=1774986411&w=1920&h=1080"
+                },
+                {
+                    "headline": "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say - Reuters",
+                    "source": "Reuters",
+                    "summary": "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVBKOGVzNmg4dTVVYk9td2JWYkV1YUVIeHFvc0tjNUJaOTJib21JazdwcG5CMlJnSkc4QjBvbUdmWU5vendvX29WeVJIbUJ2eUZZZTBOeXNUSVMwSkVLMHdlY1lkU2R2ZU9nWXotMTV5RGpGNGZRU0FSb1BOcThiUkJZX21sa2s1QnJKUnJtUkdQVG1zbzhFODlPNDJGS0ZaNzlfb3JWTVRpTXJVRXBaNlNKVFo?oc=5",
+                    "datetime": 1783345358,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "NATO tensions are \u2018growing pains,\u2019 U.S. ambassador says as Trump presses allies",
+                    "source": "CNBC",
+                    "summary": "U.S. Ambassador to NATO Matthew Whitaker said NATO's allies boosting defense spending under pressure from Trump reflects \u201cgrowing pains,\u201d not a crisis.",
+                    "url": "https://www.cnbc.com/2026/07/06/nato-trump-defense-spending-whitaker.html",
+                    "datetime": 1783345058,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108326434-1782332921618-gettyimages-2283164895-ah809288_5l6jkg6t.jpeg?v=1782332964&w=1920&h=1080"
+                }
+            ],
+            "errors": []
+        },
+        "fred_macro": {
+            "connected": true,
+            "provider": "FRED + Finnhub Economic Provider",
+            "data": {
+                "fed_funds_rate": {
+                    "series_id": "FEDFUNDS",
+                    "date": "2026-06-01",
+                    "value": 3.63
+                },
+                "cpi": {
+                    "series_id": "CPIAUCSL",
+                    "date": "2026-05-01",
+                    "value": 333.979
+                },
+                "unemployment_rate": {
+                    "series_id": "UNRATE",
+                    "date": "2026-06-01",
+                    "value": 4.2
+                },
+                "nonfarm_payrolls": {
+                    "series_id": "PAYEMS",
+                    "date": "2026-06-01",
+                    "value": 158984.0
+                },
+                "consumer_sentiment": {
+                    "series_id": "UMCSENT",
+                    "date": "2026-05-01",
+                    "value": 44.8
+                },
+                "yield_curve_10y_2y": {
+                    "series_id": "T10Y2Y",
+                    "date": "2026-07-02",
+                    "value": 0.35
+                }
+            }
+        },
+        "sentiment": {
+            "overall_sentiment": "Neutral",
+            "score": 60,
+            "vix": 15.86,
+            "dxy": 100.93,
+            "treasury_10y": 4.48,
+            "fear_greed": null,
+            "bullish_factors": [
+                "Dollar index is not pressuring equities.",
+                "10-year yield is not highly restrictive."
+            ],
+            "bearish_factors": [],
+            "warnings": [],
+            "provider_connected": true
+        },
+        "macro_score": {
+            "score": 60,
+            "reasons": [
+                "Weak dollar supports equities.",
+                "Treasury yields are supportive."
+            ]
+        },
+        "fear_greed": {
+            "connected": true,
+            "provider": "Athena Fear & Greed Estimate",
+            "value": 70,
+            "classification": "Greed",
+            "score": 70,
+            "reason": "Fear & Greed estimated from VIX. VIX is 15.86, estimated sentiment is Greed with a score of 70."
+        },
+        "breadth": {
+            "connected": false,
+            "status": "OFFLINE",
+            "breadth": "Unknown",
+            "score": 50,
+            "advancers": null,
+            "decliners": null,
+            "advance_decline_ratio": null,
+            "new_highs": null,
+            "new_lows": null,
+            "new_high_low_ratio": null,
+            "summary": "Live market breadth not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Athena is treating market breadth as neutral until live breadth is connected."
+            ]
+        },
+        "options_flow": {
+            "connected": false,
+            "status": "OFFLINE",
+            "bias": "NEUTRAL",
+            "bullish_flow": 0,
+            "bearish_flow": 0,
+            "call_premium": 0,
+            "put_premium": 0,
+            "call_ratio": 0,
+            "put_ratio": 0,
+            "score": 50,
+            "summary": "Live options flow not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Options flow provider is not connected yet.",
+                "Athena is treating options flow as neutral."
+            ]
+        },
+        "institutional_flow": {
+            "connected": true,
+            "provider": "Yahoo Finance Institutional Flow Proxy",
+            "symbol": "SPY",
+            "score": 55,
+            "bias": "Neutral / Mixed",
+            "price_change_percent": 0.74,
+            "volume_ratio": 0.37,
+            "latest_volume": 22938202,
+            "average_volume": 61677642,
+            "dollar_volume": 17210074868.58,
+            "summary": "Neutral / Mixed. SPY changed 0.74% with volume 0.37x its 20-day average. Institutional flow proxy score: 55/100."
+        },
+        "sector_rotation": {
+            "connected": true,
+            "provider": "Yahoo Finance Sector ETFs",
+            "leading_sector": "Financials",
+            "leading_ticker": "XLF",
+            "lagging_sector": "Energy",
+            "lagging_ticker": "XLE",
+            "score": 39.41,
+            "market_tone": "Mixed",
+            "summary": "Mixed sector rotation. Leading sector: Financials (XLF) at 8.16%. Lagging sector: Energy (XLE) at -7.99%. Sector rotation score: 39.41/100.",
+            "sector_performance": {
+                "XLK": {
+                    "sector": "Technology",
+                    "performance": -0.22
+                },
+                "XLF": {
+                    "sector": "Financials",
+                    "performance": 8.16
+                },
+                "XLY": {
+                    "sector": "Consumer Discretionary",
+                    "performance": 2.27
+                },
+                "XLI": {
+                    "sector": "Industrials",
+                    "performance": 7.0
+                },
+                "XLE": {
+                    "sector": "Energy",
+                    "performance": -7.99
+                },
+                "XLV": {
+                    "sector": "Healthcare",
+                    "performance": 6.76
+                },
+                "XLP": {
+                    "sector": "Consumer Staples",
+                    "performance": 1.62
+                },
+                "XLU": {
+                    "sector": "Utilities",
+                    "performance": 4.66
+                },
+                "XLB": {
+                    "sector": "Materials",
+                    "performance": 3.76
+                },
+                "XLRE": {
+                    "sector": "Real Estate",
+                    "performance": 1.28
+                },
+                "XLC": {
+                    "sector": "Communication Services",
+                    "performance": -0.77
+                }
+            }
+        },
+        "auction_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BALANCED AUCTION",
+            "score": 60,
+            "summary": "Auction behavior is balanced or undecided.",
+            "bullish_signals": [
+                "Price is trading above previous close."
+            ],
+            "bearish_signals": [],
+            "warnings": [
+                "VWAP unavailable for auction confirmation.",
+                "Price is near the middle of the daily range."
+            ]
+        }
+    },
+    "outcome": null
+}

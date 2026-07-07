@@ -1,0 +1,552 @@
+{
+    "timestamp": "2026-07-06 06:18:42",
+    "date": "2026-07-06",
+    "time": "06:18:42",
+    "ticker": "SPY",
+    "current_price": 744.78,
+    "decision": {
+        "bias": "Bullish",
+        "trade_grade": "A-",
+        "confidence": 79,
+        "risk": "Medium"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is only 59%. Failed checks: 1 Hour Confirmation; Auction Flow; Momentum; Volume; Smart Money; Liquidity; Market Breadth; Options Flow; Historical Similarity.",
+    "overall_score": 79,
+    "trade_grade": "B",
+    "confidence": "Medium",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 85,
+    "momentum_score": 50,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": false,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Risk-On",
+            "score": 85,
+            "reasons": [
+                "Higher-timeframe trend is bullish.",
+                "Low volatility supports risk assets."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V3",
+                "status": "LIVE",
+                "provider": "Finnhub Live News",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [
+                    "Iranian mourners call for vengeance on Trump during Khamenei funeral procession - Reuters",
+                    "Record heat, crowds drive offseason boom in international travel",
+                    "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks - Reuters",
+                    "Fleet of 10 Japan-related ships exit Hormuz, data shows - Reuters",
+                    "NATO Ankara summit: who's going and what to expect - Reuters",
+                    "Morning Bid: Samsung to serve chip taster for earnings feast - Reuters",
+                    "Alternative-fuel vehicles hit record market share in June after Iran war - Reuters",
+                    "Asian shares slip as earnings loom, oil weighed by supply - Reuters",
+                    "Oil falls after OPEC+ agrees to raise output targets - Reuters",
+                    "OPEC+ to boost crude output, but can it deliver and who will buy? - Reuters"
+                ],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Elevated",
+                "score": 42,
+                "confidence": 90,
+                "bullish_factors": [],
+                "bearish_factors": [
+                    "Geopolitical or crisis risk detected."
+                ],
+                "major_catalysts": [
+                    "Geopolitical Risk"
+                ],
+                "trade_warning": "Live Finnhub news connected.",
+                "recommendation": "Use caution. Market-moving news risk is elevated.",
+                "reason": "Live headlines analyzed successfully.",
+                "provider_errors": []
+            }
+        },
+        "confidence": 70,
+        "scenarios": {
+            "primary": {
+                "probability": 90,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 6,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 4,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 46,
+            "bearish_reversal": 4,
+            "range_consolidation": 32,
+            "pullback_reversal_risk": 18
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 46,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Short-term timeframe is weaker, so entry timing still matters.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 59,
+        "verdict": "LOW CONVICTION",
+        "action": "NO TRADE",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 85."
+        ],
+        "warnings": [
+            "1 Hour Confirmation needs improvement. Score 25, required 70.",
+            "Auction Flow needs improvement. Score 40, required 70.",
+            "Momentum needs improvement. Score 50, required 70.",
+            "Volume needs improvement. Score 30, required 70.",
+            "Smart Money needs improvement. Score 0, required 60.",
+            "Liquidity needs improvement. Score 0, required 60.",
+            "Market Breadth needs improvement. Score 0, required 55.",
+            "Options Flow needs improvement. Score 0, required 55.",
+            "Historical Similarity needs improvement. Score 0, required 55."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.92,
+        "reward_per_share": 13.21,
+        "shares_allowed": 1,
+        "win_probability": 46,
+        "expected_value": 1.8,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 744.84,
+        "entry_high": 744.84,
+        "distance": -0.06,
+        "message": "Wait for price to reclaim support before entering.",
+        "entry_price": 744.84,
+        "entry_type": "Reclaim Support",
+        "aggressive_entry": 744.84,
+        "conservative_entry": 744.84,
+        "stop_reference": 741.12,
+        "resistance_reference": 752.23,
+        "reason": "Wait for price to reclaim support before entering.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 744.84,
+        "stop_loss": 736.92,
+        "target_1": 752.76,
+        "target_2": 758.05,
+        "target_3": 765.97,
+        "risk": 7.92,
+        "reward": 13.21,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to reclaim support before entering."
+    },
+    "market_intelligence": {
+        "market_data": {
+            "connected": true,
+            "provider": "Yahoo Finance",
+            "spy": 744.78,
+            "current_price": 744.78,
+            "previous_close": 745.76,
+            "day_high": 751.31,
+            "day_low": 740.03,
+            "vix": 16.34,
+            "dxy": 101.08,
+            "treasury_10y": 4.49,
+            "fear_greed": null
+        },
+        "calendar": {
+            "connected": false,
+            "provider": "FRED + Finnhub Economic Provider",
+            "events": [],
+            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+        },
+        "news": {
+            "connected": true,
+            "provider": "Finnhub Live News",
+            "symbol": "SPY",
+            "headline_count": 20,
+            "headlines": [
+                "Iranian mourners call for vengeance on Trump during Khamenei funeral procession - Reuters",
+                "Record heat, crowds drive offseason boom in international travel",
+                "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks - Reuters",
+                "Fleet of 10 Japan-related ships exit Hormuz, data shows - Reuters",
+                "NATO Ankara summit: who's going and what to expect - Reuters",
+                "Morning Bid: Samsung to serve chip taster for earnings feast - Reuters",
+                "Alternative-fuel vehicles hit record market share in June after Iran war - Reuters",
+                "Asian shares slip as earnings loom, oil weighed by supply - Reuters",
+                "Oil falls after OPEC+ agrees to raise output targets - Reuters",
+                "OPEC+ to boost crude output, but can it deliver and who will buy? - Reuters"
+            ],
+            "articles": [
+                {
+                    "headline": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession - Reuters",
+                    "source": "Reuters",
+                    "summary": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYk1zeXpDeENmeEt5T2RZaHg1YUFWX1hOSmtZZnFWcnBlck02WDZNSk1QUUtRZTRfYkJuQmtvOW5iTkVZTEo0QzlUcHlIcmcybjZUUHJzWHBGWGd2aUxody1nMW9uSXRxTnRmbGd3WDVlaFVXSVBTazZ2eGtudk5YbUd2aXVJdXpjTjZXa1FDYUJpa2o4ZUNPUTVCMW1VMEtBWWFKRDVqXzlJUTJuS0VxaEdwdnZMNlNvOVczdXRCVmpsekJj?oc=5",
+                    "datetime": 1783333166,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Record heat, crowds drive offseason boom in international travel",
+                    "source": "CNBC",
+                    "summary": "Airlines are extending flight schedules to maximize on lucrative international travel.",
+                    "url": "https://www.cnbc.com/2026/07/06/travel-off-season-boom-in-flights-airlines-hotels.html",
+                    "datetime": 1783332001,
+                    "category": "business",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108328125-1782744966496-gettyimages-2282913457-AFP_B8FU8G4.jpeg?v=1783016379&w=1920&h=1080"
+                },
+                {
+                    "headline": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks - Reuters",
+                    "source": "Reuters",
+                    "summary": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWZSMXB6NXpuMkgtV3ZhdDlhTmFvS2gybVlDcWFqNzlJUk16QnFtUnVEMkFpY1hMcFJlNW42V2JHSGZ0Q1FpNWFycnR0YW9Xdy1lVVQ2Vm53V1liVDd2ZlRpWkdIMjQ4OW1LOWxfLWdmcUc1ck5VZlViSmdydGxtdllHUGpvckllVDZSLXpQcjlveVZNeEVQQTBiMzVVeW0wVjlLeGRCTjczd3B5NFQ2TUpMbGtBZHNHcUdNOXNtSG1uVFNLWHc?oc=5",
+                    "datetime": 1783324074,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Fleet of 10 Japan-related ships exit Hormuz, data shows - Reuters",
+                    "source": "Reuters",
+                    "summary": "Fleet of 10 Japan-related ships exit Hormuz, data shows\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSGZ1N2d5eXZEcHJkam5LekRkYzZRc2NZVHdwYmZ1WFBSY2JhWHd4cFY5RU5nU01Ib0xuLTJXVGdGNkoxWjJIaGxpbVo2TkV5a1BXeG92SHM4WDVlX2ZUY0EtdGRod29ENUVnZ1Z1X0RwZ0xxQ1I0Z1k4RUhxQkJMRjZidjB0R0lTc25WMzZORE5NdktXSVFFYU5lMG50ZlJ0VFhfNk9PNXBLZw?oc=5",
+                    "datetime": 1783322613,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "NATO Ankara summit: who's going and what to expect - Reuters",
+                    "source": "Reuters",
+                    "summary": "NATO Ankara summit: who's going and what to expect\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQamhtVERsemdOT1JMWlJJNHE2bXFzc1JlNmtCY1pEd0lsMHNGREtubDlkaTRJNFo4YTdpbEwtWlhUV0l5S1dPNDJEcFVhQ1g4WDdpakdFMktyNGpTYWdKcnBfelpOZ2wwek1qMkdGVk12R3ZrNWRVak1xeEZZR1kxWmN5Z1BGNHRBX1A5OHhWamY2TXNyYWs5WW5SWTAzUHFqVXJqQzRyYw?oc=5",
+                    "datetime": 1783320137,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Morning Bid: Samsung to serve chip taster for earnings feast - Reuters",
+                    "source": "Reuters",
+                    "summary": "Morning Bid: Samsung to serve chip taster for earnings feast\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RNjg0VnZqWVlQYUV1S1AwYWViU3poUWsyOE1laVlCdTIxWXN6SlRwQkZidkhWUHczUWhIaXF2c1B5eDV5eHA4bjNNNGpJN2dMVktGRWVaUFd2Sjkxb044VklZajVaREc0RUZZa0tJMXFBV2Fxdzlib0FkYVFfOUE?oc=5",
+                    "datetime": 1783312320,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Alternative-fuel vehicles hit record market share in June after Iran war - Reuters",
+                    "source": "Reuters",
+                    "summary": "Alternative-fuel vehicles hit record market share in June after Iran war\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVzNwUHFla2lyZGlPRmg2OFlfaVdZSWk3WS1CSkg2WWZSWTY3X29GRzNfLVhqR2ZWVWcwa240bEwzM1hndnFjT01GaVdIN0xWU09CN1llWlVHVEtOZ2FHWWJXenlEeldRdmtreDh0UTl1cmdvZkx6NUFlUUpGeFBrc0tMZnJ6QmhUbDg4LTRjcDgxYWtycFE?oc=5",
+                    "datetime": 1783309020,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Asian shares slip as earnings loom, oil weighed by supply - Reuters",
+                    "source": "Reuters",
+                    "summary": "Asian shares slip as earnings loom, oil weighed by supply\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlM2X2FVc0tycmNWVXBBYWRaMDZFYXk0dE9rQW5mV21DaXhXWEpXazNmbjRDeks1ZVFXZmJ5Ti1OeTd4bXpFQTVteFBXa285NTZSTm9RaVlfX2JMczIycm9TZEhyVDhZdkRDVVFPQWR1TER5STh6NXpBQ08xOHc5azRyYw?oc=5",
+                    "datetime": 1783299540,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Oil falls after OPEC+ agrees to raise output targets - Reuters",
+                    "source": "Reuters",
+                    "summary": "Oil falls after OPEC+ agrees to raise output targets\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
+                    "datetime": 1783298160,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "OPEC+ to boost crude output, but can it deliver and who will buy? - Reuters",
+                    "source": "Reuters",
+                    "summary": "OPEC+ to boost crude output, but can it deliver and who will buy?\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMWIzdmgwLXJUeU4xTWRyejJfNXdGY0JuU3o2Ulg1Q1lmZ0E2b044aGhsZjBkY0QzV0N0ZXBfTlkzc2c2MVVuYnI5S2EtR2VJYXFPUkc3VEZKTVhsSE1FY1l6SW1KX3psT2d3ZXlEYno2X1UyS1VvYnFSeGlWUzRpTm5ULUhUazAwanBoek5tQTdfcFB2N1JldERKRFprdjh4RFVvak9fLWZjQm02eXVGQjZfRFFFb1ViSFJrRw?oc=5",
+                    "datetime": 1783297560,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                }
+            ],
+            "errors": []
+        },
+        "fred_macro": {
+            "connected": true,
+            "provider": "FRED + Finnhub Economic Provider",
+            "data": {
+                "fed_funds_rate": {
+                    "series_id": "FEDFUNDS",
+                    "date": "2026-06-01",
+                    "value": 3.63
+                },
+                "cpi": {
+                    "series_id": "CPIAUCSL",
+                    "date": "2026-05-01",
+                    "value": 333.979
+                },
+                "unemployment_rate": {
+                    "series_id": "UNRATE",
+                    "date": "2026-06-01",
+                    "value": 4.2
+                },
+                "nonfarm_payrolls": {
+                    "series_id": "PAYEMS",
+                    "date": "2026-06-01",
+                    "value": 158984.0
+                },
+                "consumer_sentiment": {
+                    "series_id": "UMCSENT",
+                    "date": "2026-05-01",
+                    "value": 44.8
+                },
+                "yield_curve_10y_2y": {
+                    "series_id": "T10Y2Y",
+                    "date": "2026-07-02",
+                    "value": 0.35
+                }
+            }
+        },
+        "sentiment": {
+            "overall_sentiment": "Neutral",
+            "score": 60,
+            "vix": 16.34,
+            "dxy": 101.08,
+            "treasury_10y": 4.49,
+            "fear_greed": null,
+            "bullish_factors": [
+                "Dollar index is not pressuring equities.",
+                "10-year yield is not highly restrictive."
+            ],
+            "bearish_factors": [],
+            "warnings": [],
+            "provider_connected": true
+        },
+        "macro_score": {
+            "score": 60,
+            "reasons": [
+                "Weak dollar supports equities.",
+                "Treasury yields are supportive."
+            ]
+        },
+        "fear_greed": {
+            "connected": true,
+            "provider": "Athena Fear & Greed Estimate",
+            "value": 60,
+            "classification": "Greed",
+            "score": 60,
+            "reason": "Fear & Greed estimated from VIX. VIX is 16.34, estimated sentiment is Greed with a score of 60."
+        },
+        "breadth": {
+            "connected": false,
+            "status": "OFFLINE",
+            "breadth": "Unknown",
+            "score": 50,
+            "advancers": null,
+            "decliners": null,
+            "advance_decline_ratio": null,
+            "new_highs": null,
+            "new_lows": null,
+            "new_high_low_ratio": null,
+            "summary": "Live market breadth not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Athena is treating market breadth as neutral until live breadth is connected."
+            ]
+        },
+        "options_flow": {
+            "connected": false,
+            "status": "OFFLINE",
+            "bias": "NEUTRAL",
+            "bullish_flow": 0,
+            "bearish_flow": 0,
+            "call_premium": 0,
+            "put_premium": 0,
+            "call_ratio": 0,
+            "put_ratio": 0,
+            "score": 50,
+            "summary": "Live options flow not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Options flow provider is not connected yet.",
+                "Athena is treating options flow as neutral."
+            ]
+        },
+        "institutional_flow": {
+            "connected": true,
+            "provider": "Yahoo Finance Institutional Flow Proxy",
+            "symbol": "SPY",
+            "score": 40,
+            "bias": "Neutral / Mixed",
+            "price_change_percent": -0.13,
+            "volume_ratio": 0.89,
+            "latest_volume": 57447800,
+            "average_volume": 64642470,
+            "dollar_volume": 42785974167.04,
+            "summary": "Neutral / Mixed. SPY changed -0.13% with volume 0.89x its 20-day average. Institutional flow proxy score: 40/100."
+        },
+        "sector_rotation": {
+            "connected": true,
+            "provider": "Yahoo Finance Sector ETFs",
+            "leading_sector": "Healthcare",
+            "leading_ticker": "XLV",
+            "lagging_sector": "Energy",
+            "lagging_ticker": "XLE",
+            "score": 0,
+            "market_tone": "Risk-Off",
+            "summary": "Risk-Off sector rotation. Leading sector: Healthcare (XLV) at 11.46%. Lagging sector: Energy (XLE) at -8.7%. Sector rotation score: 0/100.",
+            "sector_performance": {
+                "XLK": {
+                    "sector": "Technology",
+                    "performance": -7.86
+                },
+                "XLF": {
+                    "sector": "Financials",
+                    "performance": 9.72
+                },
+                "XLY": {
+                    "sector": "Consumer Discretionary",
+                    "performance": 0.53
+                },
+                "XLI": {
+                    "sector": "Industrials",
+                    "performance": 5.93
+                },
+                "XLE": {
+                    "sector": "Energy",
+                    "performance": -8.7
+                },
+                "XLV": {
+                    "sector": "Healthcare",
+                    "performance": 11.46
+                },
+                "XLP": {
+                    "sector": "Consumer Staples",
+                    "performance": 4.16
+                },
+                "XLU": {
+                    "sector": "Utilities",
+                    "performance": 5.36
+                },
+                "XLB": {
+                    "sector": "Materials",
+                    "performance": 1.11
+                },
+                "XLRE": {
+                    "sector": "Real Estate",
+                    "performance": 3.59
+                },
+                "XLC": {
+                    "sector": "Communication Services",
+                    "performance": -1.96
+                }
+            }
+        },
+        "auction_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BALANCED AUCTION",
+            "score": 40,
+            "summary": "Auction behavior is balanced or undecided.",
+            "bullish_signals": [],
+            "bearish_signals": [
+                "Price is trading below previous close."
+            ],
+            "warnings": [
+                "VWAP unavailable for auction confirmation.",
+                "Price is near the middle of the daily range."
+            ]
+        }
+    },
+    "outcome": null
+}

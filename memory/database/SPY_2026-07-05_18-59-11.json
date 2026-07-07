@@ -1,0 +1,552 @@
+{
+    "timestamp": "2026-07-05 18:59:11",
+    "date": "2026-07-05",
+    "time": "18:59:11",
+    "ticker": "SPY",
+    "current_price": 744.78,
+    "decision": {
+        "bias": "Bullish",
+        "trade_grade": "A-",
+        "confidence": 79,
+        "risk": "Medium"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is 80%. Setup is promising, but Athena is waiting because: 1 Hour Confirmation is not ready; Momentum is not strong enough; Volume is not confirming the move.",
+    "overall_score": 79,
+    "trade_grade": "B",
+    "confidence": "Medium",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 85,
+    "momentum_score": 50,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": false,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Risk-On",
+            "score": 85,
+            "reasons": [
+                "Higher-timeframe trend is bullish.",
+                "Low volatility supports risk assets."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V3",
+                "status": "LIVE",
+                "provider": "Finnhub Live News",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [
+                    "Buying VOO Near All-Time Highs Could Still Be a Smart Move",
+                    "Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
+                    "JCE: Strong Total Returns With An Attractive Discount",
+                    "S&P500: Beware The Bull Flag (Technical Analysis)",
+                    "A $350 Billion Liquidity Drain Is Set To Hit Markets This Summer",
+                    "Sparks From The Warsh Fed",
+                    "The Millionaire Boom Is Real - But So Is The Market Trap",
+                    "Buy These 2 Durable Income Hedges Against The AI Sell-Off",
+                    "Mag 7 Stocks: Risk Or Opportunity In The Making?",
+                    "This Bull Market Should Charge Into 2027"
+                ],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Elevated",
+                "score": 62,
+                "confidence": 90,
+                "bullish_factors": [
+                    "Positive market momentum in headlines.",
+                    "Growth or earnings strength mentioned."
+                ],
+                "bearish_factors": [
+                    "Risk-off or selloff language detected.",
+                    "Geopolitical or crisis risk detected."
+                ],
+                "major_catalysts": [
+                    "Federal Reserve",
+                    "Geopolitical Risk"
+                ],
+                "trade_warning": "Live Finnhub news connected.",
+                "recommendation": "Use caution. Market-moving news risk is elevated.",
+                "reason": "Live headlines analyzed successfully.",
+                "provider_errors": []
+            }
+        },
+        "confidence": 70,
+        "scenarios": {
+            "primary": {
+                "probability": 90,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 6,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 4,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 46,
+            "bearish_reversal": 4,
+            "range_consolidation": 32,
+            "pullback_reversal_risk": 18
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 46,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Short-term timeframe is weaker, so entry timing still matters.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 80,
+        "verdict": "GOOD CONVICTION",
+        "action": "WAIT FOR ENTRY",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 85."
+        ],
+        "warnings": [
+            "1 Hour Confirmation needs improvement. Score 25, required 70.",
+            "Auction Flow needs improvement. Score 40, required 70.",
+            "Momentum needs improvement. Score 50, required 70.",
+            "Volume needs improvement. Score 30, required 70."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.92,
+        "reward_per_share": 13.21,
+        "shares_allowed": 1,
+        "win_probability": 46,
+        "expected_value": 1.8,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 744.84,
+        "entry_high": 744.84,
+        "distance": -0.06,
+        "message": "Wait for price to reclaim support before entering.",
+        "entry_price": 744.84,
+        "entry_type": "Reclaim Support",
+        "aggressive_entry": 744.84,
+        "conservative_entry": 744.84,
+        "stop_reference": 741.12,
+        "resistance_reference": 752.23,
+        "reason": "Wait for price to reclaim support before entering.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 744.84,
+        "stop_loss": 736.92,
+        "target_1": 752.76,
+        "target_2": 758.05,
+        "target_3": 765.97,
+        "risk": 7.92,
+        "reward": 13.21,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to reclaim support before entering."
+    },
+    "market_intelligence": {
+        "market_data": {
+            "connected": true,
+            "provider": "Yahoo Finance",
+            "spy": 744.78,
+            "current_price": 744.78,
+            "previous_close": 745.76,
+            "day_high": 751.31,
+            "day_low": 740.03,
+            "vix": 16.15,
+            "dxy": 100.87,
+            "treasury_10y": 4.49,
+            "fear_greed": null
+        },
+        "calendar": {
+            "connected": false,
+            "provider": "FRED + Finnhub Economic Provider",
+            "events": [],
+            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+        },
+        "news": {
+            "connected": true,
+            "provider": "Finnhub Live News",
+            "symbol": "SPY",
+            "headline_count": 10,
+            "headlines": [
+                "Buying VOO Near All-Time Highs Could Still Be a Smart Move",
+                "Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
+                "JCE: Strong Total Returns With An Attractive Discount",
+                "S&P500: Beware The Bull Flag (Technical Analysis)",
+                "A $350 Billion Liquidity Drain Is Set To Hit Markets This Summer",
+                "Sparks From The Warsh Fed",
+                "The Millionaire Boom Is Real - But So Is The Market Trap",
+                "Buy These 2 Durable Income Hedges Against The AI Sell-Off",
+                "Mag 7 Stocks: Risk Or Opportunity In The Making?",
+                "This Bull Market Should Charge Into 2027"
+            ],
+            "articles": [
+                {
+                    "headline": "Buying VOO Near All-Time Highs Could Still Be a Smart Move",
+                    "source": "Yahoo",
+                    "summary": "You can't know the one thing you need to know about timing the market.",
+                    "url": "https://finnhub.io/api/news?id=a400ec21265bec4199d9f1356d47572d0984bd178fadfdfa3cee057640c4b6ff",
+                    "datetime": 1783281000,
+                    "category": "company",
+                    "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+                },
+                {
+                    "headline": "Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
+                    "source": "Yahoo",
+                    "summary": "A 68-year-old who retired recently with most of his savings in a traditional 401(k) or IRA is watching his account statements with mixed feelings. Goldman Sachs strategists led by Ben Snider project S&P 500 Q2 earnings will jump roughly 22% year over year, powered by the AI investment boom and energy-sector gains. The S&P 500 ... Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
+                    "url": "https://finnhub.io/api/news?id=eb3c049ba154c596b399c758bd146b34160d1d3503fb02e493e73a28cfa26171",
+                    "datetime": 1783274607,
+                    "category": "company",
+                    "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png"
+                },
+                {
+                    "headline": "JCE: Strong Total Returns With An Attractive Discount",
+                    "source": "SeekingAlpha",
+                    "summary": "",
+                    "url": "https://finnhub.io/api/news?id=bd61e034eff9672a4778bed609952f03b336ca5a4b12070b61cdd2a88f6aeab4",
+                    "datetime": 1783273780,
+                    "category": "company",
+                    "image": ""
+                },
+                {
+                    "headline": "S&P500: Beware The Bull Flag (Technical Analysis)",
+                    "source": "SeekingAlpha",
+                    "summary": "June S&P 500 (SPY) recap: bullish quarterly bias but consolidation and reversal risk ahead.",
+                    "url": "https://finnhub.io/api/news?id=0d3f5cce74bf8142d86553ddd31a959a2dc9181f9f72d649893d3dbdc0ff03f3",
+                    "datetime": 1783267200,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2254337493/image_2254337493.jpg?io=getty-c-w1536"
+                },
+                {
+                    "headline": "A $350 Billion Liquidity Drain Is Set To Hit Markets This Summer",
+                    "source": "SeekingAlpha",
+                    "summary": "Rising T-bill issuance may drain $350B in liquidity by mid-Sept, lifting SOFR and pressuring Bitcoin and stocks. Here's what investors need to consider.",
+                    "url": "https://finnhub.io/api/news?id=77991d004265b9faa8337a7b1db8bb9c7a3d6cee24ea66b45857055f63db361c",
+                    "datetime": 1783245300,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2226989275/image_2226989275.jpg?io=getty-c-w1536"
+                },
+                {
+                    "headline": "Sparks From The Warsh Fed",
+                    "source": "SeekingAlpha",
+                    "summary": "U.S. equity markets advanced as softer employment data eased fears of a more aggressive Fed path. Read more on the real estate market here.",
+                    "url": "https://finnhub.io/api/news?id=47203a5b79d4633fdeabb048b7db0560379431b1de55320dada6bed819a29496",
+                    "datetime": 1783242000,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2276440765/image_2276440765.jpg?io=getty-c-w1536"
+                },
+                {
+                    "headline": "The Millionaire Boom Is Real - But So Is The Market Trap",
+                    "source": "SeekingAlpha",
+                    "summary": "Stocks and bonds now drive wealth, but S&P 500 AI megacap concentration adds risk. Read more macro analysis here.",
+                    "url": "https://finnhub.io/api/news?id=ff5715be45cdc0bfbe1947d7c1a3c128adcc04ba5050275048a871ec0c627c1f",
+                    "datetime": 1783236600,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1363872209/image_1363872209.jpg?io=getty-c-w1536"
+                },
+                {
+                    "headline": "Buy These 2 Durable Income Hedges Against The AI Sell-Off",
+                    "source": "SeekingAlpha",
+                    "summary": "JAAA and Realty Income serve as defensive alternatives to overvalued, AI-saturated equities, focusing on stable, non-cyclical cash flows. Learn more about O and JAAA ETFs here.",
+                    "url": "https://finnhub.io/api/news?id=da4e27bc322b2a01344d47b32dbeb18ac50845254701a31dabba8cd06b1c7707",
+                    "datetime": 1783235700,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2205585261/image_2205585261.jpg?io=getty-c-w1536"
+                },
+                {
+                    "headline": "Mag 7 Stocks: Risk Or Opportunity In The Making?",
+                    "source": "SeekingAlpha",
+                    "summary": "The S&P 500 still added about 2% to close near 7,483, capping its best quarter in six years. Read more here.",
+                    "url": "https://finnhub.io/api/news?id=74679567367a2e49618ffbdfbf7ef5444418d4d1138f4817c6f909ba2045ddab",
+                    "datetime": 1783234200,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1251185531/image_1251185531.jpg?io=getty-c-w1536"
+                },
+                {
+                    "headline": "This Bull Market Should Charge Into 2027",
+                    "source": "SeekingAlpha",
+                    "summary": "Economic data shows resilient growth and easing inflation as AI tech momentum extremes signal mean reversion risk. Read the full analysis here.",
+                    "url": "https://finnhub.io/api/news?id=65ff0a65638cbefae4c720962864ccc3a8462488e73575000042bdee28aebe22",
+                    "datetime": 1783222144,
+                    "category": "company",
+                    "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2245411719/image_2245411719.jpg?io=getty-c-w1536"
+                }
+            ],
+            "errors": []
+        },
+        "fred_macro": {
+            "connected": true,
+            "provider": "FRED + Finnhub Economic Provider",
+            "data": {
+                "fed_funds_rate": {
+                    "series_id": "FEDFUNDS",
+                    "date": "2026-06-01",
+                    "value": 3.63
+                },
+                "cpi": {
+                    "series_id": "CPIAUCSL",
+                    "date": "2026-05-01",
+                    "value": 333.979
+                },
+                "unemployment_rate": {
+                    "series_id": "UNRATE",
+                    "date": "2026-06-01",
+                    "value": 4.2
+                },
+                "nonfarm_payrolls": {
+                    "series_id": "PAYEMS",
+                    "date": "2026-06-01",
+                    "value": 158984.0
+                },
+                "consumer_sentiment": {
+                    "series_id": "UMCSENT",
+                    "date": "2026-05-01",
+                    "value": 44.8
+                },
+                "yield_curve_10y_2y": {
+                    "series_id": "T10Y2Y",
+                    "date": "2026-07-02",
+                    "value": 0.35
+                }
+            }
+        },
+        "sentiment": {
+            "overall_sentiment": "Neutral",
+            "score": 60,
+            "vix": 16.15,
+            "dxy": 100.87,
+            "treasury_10y": 4.49,
+            "fear_greed": null,
+            "bullish_factors": [
+                "Dollar index is not pressuring equities.",
+                "10-year yield is not highly restrictive."
+            ],
+            "bearish_factors": [],
+            "warnings": [],
+            "provider_connected": true
+        },
+        "macro_score": {
+            "score": 60,
+            "reasons": [
+                "Weak dollar supports equities.",
+                "Treasury yields are supportive."
+            ]
+        },
+        "fear_greed": {
+            "connected": true,
+            "provider": "Athena Fear & Greed Estimate",
+            "value": 60,
+            "classification": "Greed",
+            "score": 60,
+            "reason": "Fear & Greed estimated from VIX. VIX is 16.15, estimated sentiment is Greed with a score of 60."
+        },
+        "breadth": {
+            "connected": false,
+            "status": "OFFLINE",
+            "breadth": "Unknown",
+            "score": 50,
+            "advancers": null,
+            "decliners": null,
+            "advance_decline_ratio": null,
+            "new_highs": null,
+            "new_lows": null,
+            "new_high_low_ratio": null,
+            "summary": "Live market breadth not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Athena is treating market breadth as neutral until live breadth is connected."
+            ]
+        },
+        "options_flow": {
+            "connected": false,
+            "status": "OFFLINE",
+            "bias": "NEUTRAL",
+            "bullish_flow": 0,
+            "bearish_flow": 0,
+            "call_premium": 0,
+            "put_premium": 0,
+            "call_ratio": 0,
+            "put_ratio": 0,
+            "score": 50,
+            "summary": "Live options flow not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Options flow provider is not connected yet.",
+                "Athena is treating options flow as neutral."
+            ]
+        },
+        "institutional_flow": {
+            "connected": true,
+            "provider": "Yahoo Finance Institutional Flow Proxy",
+            "symbol": "SPY",
+            "score": 40,
+            "bias": "Neutral / Mixed",
+            "price_change_percent": -0.13,
+            "volume_ratio": 0.89,
+            "latest_volume": 57447800,
+            "average_volume": 64642470,
+            "dollar_volume": 42785974167.04,
+            "summary": "Neutral / Mixed. SPY changed -0.13% with volume 0.89x its 20-day average. Institutional flow proxy score: 40/100."
+        },
+        "sector_rotation": {
+            "connected": true,
+            "provider": "Yahoo Finance Sector ETFs",
+            "leading_sector": "Healthcare",
+            "leading_ticker": "XLV",
+            "lagging_sector": "Energy",
+            "lagging_ticker": "XLE",
+            "score": 0,
+            "market_tone": "Risk-Off",
+            "summary": "Risk-Off sector rotation. Leading sector: Healthcare (XLV) at 11.46%. Lagging sector: Energy (XLE) at -8.7%. Sector rotation score: 0/100.",
+            "sector_performance": {
+                "XLK": {
+                    "sector": "Technology",
+                    "performance": -7.86
+                },
+                "XLF": {
+                    "sector": "Financials",
+                    "performance": 9.72
+                },
+                "XLY": {
+                    "sector": "Consumer Discretionary",
+                    "performance": 0.53
+                },
+                "XLI": {
+                    "sector": "Industrials",
+                    "performance": 5.93
+                },
+                "XLE": {
+                    "sector": "Energy",
+                    "performance": -8.7
+                },
+                "XLV": {
+                    "sector": "Healthcare",
+                    "performance": 11.46
+                },
+                "XLP": {
+                    "sector": "Consumer Staples",
+                    "performance": 4.16
+                },
+                "XLU": {
+                    "sector": "Utilities",
+                    "performance": 5.36
+                },
+                "XLB": {
+                    "sector": "Materials",
+                    "performance": 1.11
+                },
+                "XLRE": {
+                    "sector": "Real Estate",
+                    "performance": 3.59
+                },
+                "XLC": {
+                    "sector": "Communication Services",
+                    "performance": -1.96
+                }
+            }
+        },
+        "auction_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BALANCED AUCTION",
+            "score": 40,
+            "summary": "Auction behavior is balanced or undecided.",
+            "bullish_signals": [],
+            "bearish_signals": [
+                "Price is trading below previous close."
+            ],
+            "warnings": [
+                "VWAP unavailable for auction confirmation.",
+                "Price is near the middle of the daily range."
+            ]
+        }
+    },
+    "outcome": null
+}

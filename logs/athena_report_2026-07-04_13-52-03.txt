@@ -1,0 +1,176 @@
+
+================ ATHENA MISSION BRIEF ================
+
+ATHENA INTELLIGENCE:
+Recommendation: WATCH FOR ENTRY
+Overall Score: 80
+Trade Grade: B+
+Confidence: Medium-High
+
+Why Athena Thinks This:
+- Strong trend detected.
+- Market structure remains healthy.
+- Price is trading above VWAP.
+- Price action is favorable.
+
+Strategy:
+Favor calls on pullbacks or clean breakout-retests.
+
+Forecast:
+Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet.
+
+DECISION MATRIX:
+Readiness: 80%
+Matrix Action: WAIT FOR ENTRY
+Earned Weight: 80 / 100
+
+PASS: Trend | Score: 100 | Required: 70 | Weight: 18%
+PASS: Market Structure | Score: 90 | Required: 70 | Weight: 16%
+PASS: Weekly Timeframe | Score: 100 | Required: 70 | Weight: 14%
+PASS: Daily Timeframe | Score: 100 | Required: 70 | Weight: 12%
+FAIL: 1 Hour Confirmation | Score: 25 | Required: 70 | Weight: 10%
+PASS: VWAP | Score: 100 | Required: 70 | Weight: 10%
+PASS: Price Action | Score: 85 | Required: 70 | Weight: 10%
+FAIL: Momentum | Score: 50 | Required: 70 | Weight: 6%
+FAIL: Volume | Score: 30 | Required: 70 | Weight: 4%
+
+CONVICTION ENGINE:
+Conviction Score: 87
+Verdict: HIGH CONVICTION
+Recommended Action: WAIT FOR ENTRY
+
+Strengths:
+- Trend supports the trade.
+- Market structure supports continuation.
+- Weekly timeframe is aligned.
+- Daily timeframe is aligned.
+- Price is above VWAP.
+- Price action is favorable.
+
+Warnings:
+- 1-hour timeframe has not confirmed yet.
+- Momentum is still weak.
+- Volume confirmation is missing.
+
+RISK MANAGER:
+Account Size: $1000
+Max Risk Percent: 1%
+Max Dollar Risk: $10.0
+Risk Per Share: $7.92
+Reward Per Share: $13.21
+Shares Allowed: 1
+Win Probability: 46%
+Expected Value: $1.8
+Risk Rating: ACCEPTABLE
+Risk Recommendation: APPROVED
+
+EXECUTION CHECKLIST:
+PASS: Weekly Trend Bullish
+PASS: Daily Trend Bullish
+PASS: Price Above VWAP
+PASS: Strong Trend
+PASS: Healthy Market Structure
+PASS: Good Price Action
+PASS: Bullish Probability Above 40%
+
+Checklist Result:
+WATCH FOR ENTRY
+
+Checks Passed:
+7 / 7
+
+PROBABILITY ENGINE:
+Bullish Continuation: 46%
+Bearish Reversal: 4%
+Range / Consolidation: 32%
+Pullback / Reversal Risk: 18%
+
+Most Likely Outcome:
+Bullish Continuation
+
+Probability Confidence:
+46%
+
+Why Probability Engine Thinks This:
+- Weekly timeframe supports bullish continuation.
+- Daily timeframe supports bullish continuation.
+- Trend score is strong.
+- Market structure is healthy.
+- Price is above VWAP.
+- Price action supports continuation.
+- Short-term timeframe is weaker, so entry timing still matters.
+- Volume is not strong enough yet, so confirmation matters.
+
+MARKET ENVIRONMENT:
+Bias: Bullish
+Trend: Strong Uptrend
+Condition: Trend Continuation
+Strategy: Favor calls on pullbacks or clean breakout-retests.
+
+FORECAST:
+Direction: Bullish
+Confidence: 70
+Summary: Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet.
+
+TREND ANALYSIS:
+Score: 100
+Direction: Bullish
+Strength: Very Strong
+Summary: Very Strong bullish trend. Trend score: 100/100.
+
+Trend Evidence:
+- Price is above the 20 SMA.
+- Price is above the 50 SMA.
+- Price is above the 200 SMA.
+- 20 SMA is above the 50 SMA.
+- 50 SMA is above the 200 SMA.
+
+BUY DECISION:
+Should Buy: False
+Reason: Buy readiness is 81%. Setup is promising, but Athena is waiting for: Momentum above 70, Above-average volume, 1-hour trend confirmation.
+
+ENTRY PLAN:
+Entry Price: 744.84
+Entry Type: Reclaim Support
+Aggressive Entry: 744.84
+Conservative Entry: 744.84
+Stop Reference: 741.12
+Expected Hold: 2–5 days
+Entry Reason: Wait for price to reclaim support before entering.
+
+TRADE PLAN:
+Stop Loss: 736.92
+Target 1: 752.76
+Target 2: 758.05
+Risk / Reward: 1.67
+Plan: Wait for price to reclaim support before entering.
+
+PRICE ACTION:
+Score: 85
+Summary: No price action summary available
+
+SUPPORT / RESISTANCE:
+Nearest Support: VWAP at 741.1
+Nearest Resistance: None found
+
+VWAP:
+Score: 100
+Status: Unknown
+
+MULTI-TIMEFRAME:
+Weekly Score: 100
+Daily Score: 100
+1 Hour Score: 25
+
+FAILED CHECKS:
+None
+
+WAITING FOR:
+Nothing
+
+OVERALL:
+Overall Score: 80
+Trade Grade: B+
+Confidence: Medium-High
+
+=======================================================

@@ -1,25 +1,16 @@
-from config.settings import APP_NAME
-from config.settings import VERSION
-from config.settings import DEFAULT_SYMBOL
+from data.market_data import get_market_data
+from decision.report import generate_mission_brief
 
-from data.market_data import get_market_snapshot
-from strategy.bias_engine import determine_bias
 
-market = get_market_snapshot(DEFAULT_SYMBOL)
-bias = determine_bias(market)
+def main():
+    print()
+    print("Connecting to market...")
+    print()
 
-print("=" * 40)
-print(APP_NAME)
-print(f"Version: {VERSION}")
-print("=" * 40)
+    market = get_market_data()
 
-print(f"Symbol: {market['symbol']}")
-print(f"Price: ${market['price']}")
-print(f"Trend: {market['trend']}")
-print(f"20 Day SMA: ${market['sma20']}")
-print(f"50 Day SMA: ${market['sma50']}")
-print(f"Source: {market['source']}")
+    generate_mission_brief(market)
 
-print(f"Athena Bias: {bias}")
 
-print("=" * 40)
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,93 @@
+
+============================================================
+                    ATHENA MISSION BRIEF
+============================================================
+
+MARKET ENVIRONMENT
+------------------------------------------------------------
+Environment : Strong Uptrend
+Strategy    : Buy pullbacks. Avoid chasing extended candles.
+
+Environment Reasons
+- Price is above the 20, 50, and 200 SMA
+- Moving averages are stacked bullish
+- Trend score is strong
+
+BUY NOW?
+------------------------------------------------------------
+Answer        : NO
+Action        : WAIT
+Buy Readiness : 75%
+
+ENTRY PLAN
+------------------------------------------------------------
+Status        : WAIT
+Buy Zone      : 735.91 - 740.12
+Distance      : 4.66
+Message       : Wait for a pullback into the buy zone.
+
+TRADE PLAN
+------------------------------------------------------------
+Direction     : CALL WATCHLIST
+Entry         : 740.12
+Stop Loss     : 730.63
+Target 1      : 748.04
+Target 2      : 753.33
+Target 3      : 761.25
+Risk          : 9.49
+Reward        : 13.21
+Risk/Reward   : 1.39 : 1
+
+SUPPORT / RESISTANCE
+------------------------------------------------------------
+Nearest Support    : VWAP at 741.1 (3.68 away)
+Nearest Resistance : None found
+
+VWAP ANALYSIS
+------------------------------------------------------------
+Current Price : 744.84
+VWAP          : 741.1
+Distance      : 3.74
+Status        : Above VWAP
+
+PASSED CHECKS
+------------------------------------------------------------
++ Weekly Trend
++ Daily Trend
++ Trend
++ Market Structure
++ VWAP
+
+FAILED CHECKS
+------------------------------------------------------------
+- Momentum
+- Volume
+- 1 Hour Trend
+
+ATHENA IS WAITING FOR
+------------------------------------------------------------
+- Momentum above 70
+- Above-average volume
+- 1-hour trend confirmation
+
+MULTI-TIMEFRAME ANALYSIS
+------------------------------------------------------------
+Weekly : Bullish (100/100)
+Daily  : Bullish (100/100)
+1 Hour : Neutral Bearish (25/100)
+
+INDIVIDUAL ANALYSIS
+------------------------------------------------------------
+Trend            : 100/100
+Momentum         : 50/100
+Volume           : 30/100
+Volatility       : 60/100
+Market Structure : 90/100
+
+------------------------------------------------------------
+OVERALL SCORE : 78/100
+BIAS          : Bullish
+TRADE GRADE   : A-
+CONFIDENCE    : 78%
+RISK          : Medium
+============================================================

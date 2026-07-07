@@ -1,0 +1,50 @@
+
+============================================================
+                    ATHENA MISSION BRIEF
+============================================================
+
+BUY NOW?
+------------------------------------------------------------
+Answer : NO
+Action : WAIT
+
+WAIT FOR
+------------------------------------------------------------
+- 1-hour trend confirmation
+- Stronger momentum confirmation
+- Above-average volume
+
+REASONS FOR
+------------------------------------------------------------
++ Trend is strong
++ Market structure is strong
++ Weekly timeframe supports the trade
++ Daily timeframe supports the trade
+
+REASONS AGAINST
+------------------------------------------------------------
+- 1-hour timeframe is not confirming the entry yet
+- Momentum is not strong enough yet
+- Volume is weak
+
+MULTI-TIMEFRAME ANALYSIS
+------------------------------------------------------------
+Weekly : Bullish (100/100)
+Daily  : Bullish (100/100)
+1 Hour : Neutral Bearish (25/100)
+
+INDIVIDUAL ANALYSIS
+------------------------------------------------------------
+Trend            : 100/100
+Momentum         : 50/100
+Volume           : 30/100
+Volatility       : 60/100
+Market Structure : 90/100
+
+------------------------------------------------------------
+OVERALL SCORE : 77/100
+BIAS          : Bullish
+TRADE GRADE   : A-
+CONFIDENCE    : 77%
+RISK          : Medium
+============================================================

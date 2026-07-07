@@ -1,0 +1,99 @@
+
+================ ATHENA MISSION BRIEF ================
+
+ATHENA INTELLIGENCE:
+Recommendation: WATCH FOR ENTRY
+Overall Score: 80
+Trade Grade: B+
+Confidence: Medium-High
+
+Why Athena Thinks This:
+- Strong trend detected.
+- Market structure remains healthy.
+- Price is trading above VWAP.
+- Price action is favorable.
+
+Strategy:
+Favor calls on pullbacks or clean breakout-retests.
+
+Forecast:
+No forecast available.
+
+PROBABILITY ENGINE:
+Bullish Continuation: 46%
+Bearish Reversal: 4%
+Range / Consolidation: 32%
+Pullback / Reversal Risk: 18%
+
+Most Likely Outcome:
+Bullish Continuation
+
+Probability Confidence:
+46%
+
+Why Probability Engine Thinks This:
+- Weekly timeframe supports bullish continuation.
+- Daily timeframe supports bullish continuation.
+- Trend score is strong.
+- Market structure is healthy.
+- Price is above VWAP.
+- Price action supports continuation.
+- Short-term timeframe is weaker, so entry timing still matters.
+- Volume is not strong enough yet, so confirmation matters.
+
+MARKET ENVIRONMENT:
+Bias: Bullish
+Trend: Strong Uptrend
+Condition: Trend Continuation
+Strategy: Favor calls on pullbacks or clean breakout-retests.
+
+FORECAST:
+Direction: Bullish
+Confidence: 70
+Summary: No forecast summary available
+
+BUY DECISION:
+Should Buy: False
+Reason: No reason given
+
+ENTRY PLAN:
+Entry Price: N/A
+Entry Type: N/A
+Entry Reason: No entry reason given
+
+TRADE PLAN:
+Stop Loss: 730.63
+Target 1: 748.04
+Target 2: 753.33
+Risk / Reward: 1.39
+Plan: No trade plan available
+
+PRICE ACTION:
+Score: 85
+Summary: No price action summary available
+
+SUPPORT / RESISTANCE:
+Nearest Support: VWAP at 741.1
+Nearest Resistance: None found
+
+VWAP:
+Score: 100
+Status: Unknown
+
+MULTI-TIMEFRAME:
+Weekly Score: 100
+Daily Score: 100
+1 Hour Score: 25
+
+FAILED CHECKS:
+None
+
+WAITING FOR:
+Nothing
+
+OVERALL:
+Overall Score: 80
+Trade Grade: B+
+Confidence: Medium-High
+
+=======================================================

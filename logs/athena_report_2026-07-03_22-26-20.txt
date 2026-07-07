@@ -1,0 +1,66 @@
+
+============================================================
+                    ATHENA MISSION BRIEF
+============================================================
+
+BUY NOW?
+------------------------------------------------------------
+Answer        : NO
+Action        : WAIT
+Buy Readiness : 75%
+
+ENTRY PLAN
+------------------------------------------------------------
+Status        : WAIT
+Buy Zone      : 735.91 - 740.12
+Distance      : 4.66
+Message       : Wait for a pullback into the buy zone.
+
+VWAP ANALYSIS
+------------------------------------------------------------
+Current Price : 744.84
+VWAP          : 741.1
+Distance      : 3.74
+Status        : Above VWAP
+
+PASSED CHECKS
+------------------------------------------------------------
++ Weekly Trend
++ Daily Trend
++ Trend
++ Market Structure
++ VWAP
+
+FAILED CHECKS
+------------------------------------------------------------
+- Momentum
+- Volume
+- 1 Hour Trend
+
+ATHENA IS WAITING FOR
+------------------------------------------------------------
+- Momentum above 70
+- Above-average volume
+- 1-hour trend confirmation
+
+MULTI-TIMEFRAME ANALYSIS
+------------------------------------------------------------
+Weekly : Bullish (100/100)
+Daily  : Bullish (100/100)
+1 Hour : Neutral Bearish (25/100)
+
+INDIVIDUAL ANALYSIS
+------------------------------------------------------------
+Trend            : 100/100
+Momentum         : 50/100
+Volume           : 30/100
+Volatility       : 60/100
+Market Structure : 90/100
+
+------------------------------------------------------------
+OVERALL SCORE : 78/100
+BIAS          : Bullish
+TRADE GRADE   : A-
+CONFIDENCE    : 78%
+RISK          : Medium
+============================================================

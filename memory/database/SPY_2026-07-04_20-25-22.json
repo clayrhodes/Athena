@@ -1,0 +1,208 @@
+{
+    "timestamp": "2026-07-04 20:25:22",
+    "date": "2026-07-04",
+    "time": "20:25:22",
+    "ticker": "SPY",
+    "current_price": 744.780029296875,
+    "decision": {
+        "bias": "Strong Bullish",
+        "trade_grade": "A",
+        "confidence": 80,
+        "risk": "Low"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is 80%. Setup is promising, but Athena is waiting for: 1 Hour Confirmation above 70, Momentum above 70, Volume above 70.",
+    "overall_score": 80,
+    "trade_grade": "B+",
+    "confidence": "Medium-High",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 85,
+    "momentum_score": 50,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": false,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Neutral",
+            "score": 70,
+            "reasons": [
+                "Higher-timeframe trend is bullish."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V2",
+                "status": "READY",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Low",
+                "score": 50,
+                "confidence": 0,
+                "bullish_factors": [],
+                "bearish_factors": [],
+                "major_catalysts": [],
+                "trade_warning": "No live news source connected.",
+                "recommendation": "Await live news integration.",
+                "reason": "News framework initialized."
+            }
+        },
+        "confidence": 70,
+        "scenarios": {
+            "primary": {
+                "probability": 90,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 6,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 4,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 46,
+            "bearish_reversal": 4,
+            "range_consolidation": 32,
+            "pullback_reversal_risk": 18
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 46,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Short-term timeframe is weaker, so entry timing still matters.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 80,
+        "verdict": "GOOD CONVICTION",
+        "action": "WAIT FOR ENTRY",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 85."
+        ],
+        "warnings": [
+            "1 Hour Confirmation needs improvement. Score 25, required 70.",
+            "Momentum needs improvement. Score 50, required 70.",
+            "Volume needs improvement. Score 30, required 70."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.92,
+        "reward_per_share": 13.21,
+        "shares_allowed": 1,
+        "win_probability": 46,
+        "expected_value": 1.8,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 744.84,
+        "entry_high": 744.84,
+        "distance": -0.06,
+        "message": "Wait for price to reclaim support before entering.",
+        "entry_price": 744.84,
+        "entry_type": "Reclaim Support",
+        "aggressive_entry": 744.84,
+        "conservative_entry": 744.84,
+        "stop_reference": 741.12,
+        "resistance_reference": 752.23,
+        "reason": "Wait for price to reclaim support before entering.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 744.84,
+        "stop_loss": 736.92,
+        "target_1": 752.76,
+        "target_2": 758.05,
+        "target_3": 765.97,
+        "risk": 7.92,
+        "reward": 13.21,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to reclaim support before entering."
+    },
+    "outcome": null
+}

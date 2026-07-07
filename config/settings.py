@@ -1,7 +1,33 @@
-APP_NAME = "Athena"
+"""
+Athena Global Settings
 
-VERSION = "0.1"
+Central location for configuration.
+"""
 
-DEFAULT_SYMBOL = "SPY"
+# ----------------------------------------------------
+# Trading Economics
+# ----------------------------------------------------
 
-PAPER_TRADING = True
+TRADING_ECONOMICS_API_KEY = ""
+
+# ----------------------------------------------------
+# Future Providers
+# ----------------------------------------------------
+
+NEWS_API_KEY = ""
+
+FRED_API_KEY = ""
+
+POLYGON_API_KEY = ""
+
+ALPHA_VANTAGE_API_KEY = ""
+
+FINNHUB_API_KEY = ""
+
+# ----------------------------------------------------
+# Athena
+# ----------------------------------------------------
+
+DEFAULT_TICKER = "SPY"
+
+DEBUG = True

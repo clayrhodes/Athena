@@ -1,0 +1,355 @@
+
+================ ATHENA EXECUTIVE SUMMARY ================
+
+Final Action:
+WATCH FOR ENTRY
+
+Decision Matrix:
+80% readiness
+
+Conviction:
+GOOD CONVICTION (80%)
+
+Risk:
+APPROVED / ACCEPTABLE
+
+Most Likely Scenario:
+Bullish Continuation (46% bullish continuation)
+
+Best Entry:
+744.84
+
+Stop:
+736.92
+
+Main Target:
+758.05
+
+Why Athena Is Waiting:
+- 1 Hour Confirmation is not ready.
+- Momentum is not strong enough.
+- Volume is not confirming the move.
+
+==========================================================
+ATHENA MARKET INTELLIGENCE
+------------------------------
+Provider Connected: True
+FRED Connected: True
+
+VIX: 16.15
+DXY: 100.86
+10Y Treasury Yield: 4.49
+Fear & Greed: 60
+
+FRED MACRO DATA:
+- Fed Funds Rate: 3.63 as of 2026-06-01
+- CPI: 333.979 as of 2026-05-01
+- Unemployment Rate: 4.2 as of 2026-06-01
+- Nonfarm Payrolls: 158984.0 as of 2026-06-01
+- Consumer Sentiment: 44.8 as of 2026-05-01
+- 10Y-2Y Yield Curve: 0.35 as of 2026-07-02
+
+Overall Sentiment: Neutral
+Sentiment Score: 60 / 100
+Macro Score: 60 / 100
+
+Auction Flow:
+- Status: ACTIVE
+- Bias: BALANCED AUCTION
+- Score: 50 / 100
+- Summary: Auction behavior is balanced or undecided.
+
+Auction Bullish Signals:
+- None
+
+Auction Bearish Signals:
+- None
+
+Auction Warnings:
+- VWAP unavailable for auction confirmation.
+- Daily high/low unavailable for auction range analysis.
+
+Market Breadth:
+- Status: OFFLINE
+- Breadth: Unknown
+- Score: 50 / 100
+- Summary: Live market breadth not connected.
+
+Breadth Bullish Signals:
+- None
+
+Breadth Bearish Signals:
+- None
+
+Breadth Warnings:
+- Athena is treating market breadth as neutral until live breadth is connected.
+
+Options Flow:
+- Status: OFFLINE
+- Bias: NEUTRAL
+- Score: 50 / 100
+- Summary: Live options flow not connected.
+
+Options Bullish Signals:
+- None
+
+Options Bearish Signals:
+- None
+
+Options Warnings:
+- Options flow provider is not connected yet.
+- Athena is treating options flow as neutral.
+
+Institutional Flow:
+- Score: 40 / 100
+- Summary: Neutral / Mixed. SPY changed -0.13% with volume 0.89x its 20-day average. Institutional flow proxy score: 40/100.
+
+Sector Rotation:
+- Leading Sector: Healthcare
+- Lagging Sector: Energy
+- Score: 0 / 100
+
+Macro Factors:
+- Weak dollar supports equities.
+- Treasury yields are supportive.
+
+Bullish Factors:
+- Dollar index is not pressuring equities.
+- 10-year yield is not highly restrictive.
+
+Bearish Factors:
+- None
+
+Warnings:
+- None
+
+
+================ ATHENA MISSION BRIEF ================
+
+ATHENA INTELLIGENCE:
+Recommendation: WATCH FOR ENTRY
+Overall Score: 80
+Trade Grade: B+
+Confidence: Medium-High
+
+Why Athena Thinks This:
+- Trend passed with a score of 100.
+- Market Structure passed with a score of 90.
+- Weekly Timeframe passed with a score of 100.
+- Daily Timeframe passed with a score of 100.
+- VWAP passed with a score of 100.
+- Price Action passed with a score of 85.
+
+Strategy:
+Favor calls on pullbacks or clean breakout-retests.
+
+Forecast:
+Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet.
+
+
+ATHENA NEWS INTELLIGENCE
+------------------------------
+Engine: Athena News Intelligence Engine V3
+Status: LIVE
+Provider: Finnhub Live News
+Sentiment: Neutral
+Bias: Neutral
+Risk Level: Low
+News Score: 50
+Confidence: 90%
+
+Headlines:
+- Three sons of Iran's slain leader Khamenei appear at funeral, not his successor - Reuters
+- World Cup fans spent anywhere from $2,500 to $150,000 to see matches—they say it was worth it
+- Here are the 3 big things we're watching in the stock market this week
+- Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'
+- French President Macron to visit Syria, Syrian presidency says - Reuters
+- Iran and Qatar resume maritime trade, Iranian state media reports - Reuters
+- Qatar says all maritime activities will resume immediately - Reuters
+- Trump offers to help Putin find deal with Ukraine, also speaks with Zelenskiy - Reuters
+- Zelenskiy denies Russian capture of key eastern city Kostiantynivka - Reuters
+- Photos of the week - Reuters
+
+Live Finnhub news connected.
+
+News backdrop is neutral. Let price action and confirmation lead.
+
+ATHENA ECONOMIC CALENDAR
+------------------------------
+Engine: Athena Economic Calendar Engine V4
+Status: OFFLINE
+Calendar Connected: False
+High Impact Event Today: False
+Highest Impact Level: NONE
+Confidence: 20%
+
+Events Today:
+- None available
+
+Economic calendar provider is currently unavailable.
+
+Do not rely on calendar data yet. Manually check for CPI, FOMC, jobs reports, Fed speakers, and major Treasury events before trading.
+
+
+DECISION MATRIX:
+Readiness: 80%
+Matrix Action: WAIT FOR ENTRY
+Earned Weight: 80 / 100
+
+PASS: Trend | Score: 100 | Required: 70 | Weight: 18%
+PASS: Market Structure | Score: 90 | Required: 70 | Weight: 16%
+PASS: Weekly Timeframe | Score: 100 | Required: 70 | Weight: 14%
+PASS: Daily Timeframe | Score: 100 | Required: 70 | Weight: 12%
+FAIL: 1 Hour Confirmation | Score: 25 | Required: 70 | Weight: 10%
+PASS: VWAP | Score: 100 | Required: 70 | Weight: 10%
+PASS: Price Action | Score: 85 | Required: 70 | Weight: 10%
+FAIL: Momentum | Score: 50 | Required: 70 | Weight: 6%
+FAIL: Volume | Score: 30 | Required: 70 | Weight: 4%
+
+HARD BLOCKS:
+- 1 Hour Confirmation is not ready.
+- Momentum is not strong enough.
+- Volume is not confirming the move.
+
+CONVICTION ENGINE:
+Conviction Score: 80
+Verdict: GOOD CONVICTION
+Recommended Action: WAIT FOR ENTRY
+
+Strengths:
+- Trend supports the setup with a score of 100.
+- Market Structure supports the setup with a score of 90.
+- Weekly Timeframe supports the setup with a score of 100.
+- Daily Timeframe supports the setup with a score of 100.
+- VWAP supports the setup with a score of 100.
+- Price Action supports the setup with a score of 85.
+
+Warnings:
+- 1 Hour Confirmation needs improvement. Score 25, required 70.
+- Momentum needs improvement. Score 50, required 70.
+- Volume needs improvement. Score 30, required 70.
+
+RISK MANAGER:
+Account Size: $1000
+Max Risk Percent: 1%
+Max Dollar Risk: $10.0
+Risk Per Share: $7.92
+Reward Per Share: $13.21
+Shares Allowed: 1
+Win Probability: 46%
+Expected Value: $1.8
+Risk Rating: ACCEPTABLE
+Risk Recommendation: APPROVED
+
+EXECUTION CHECKLIST:
+PASS: Trend
+PASS: Market Structure
+PASS: Weekly Timeframe
+PASS: Daily Timeframe
+FAIL: 1 Hour Confirmation
+PASS: VWAP
+PASS: Price Action
+FAIL: Momentum
+FAIL: Volume
+
+Checklist Result:
+WAIT FOR ENTRY
+
+Checks Passed:
+6 / 9
+
+PROBABILITY ENGINE:
+Bullish Continuation: 46%
+Bearish Reversal: 4%
+Range / Consolidation: 32%
+Pullback / Reversal Risk: 18%
+
+Most Likely Outcome:
+Bullish Continuation
+
+Probability Confidence:
+46%
+
+Why Probability Engine Thinks This:
+- Weekly timeframe supports bullish continuation.
+- Daily timeframe supports bullish continuation.
+- Trend score is strong.
+- Market structure is healthy.
+- Price is above VWAP.
+- Price action supports continuation.
+- Short-term timeframe is weaker, so entry timing still matters.
+- Volume is not strong enough yet, so confirmation matters.
+
+MARKET ENVIRONMENT:
+Bias: Bullish
+Trend: Strong Uptrend
+Condition: Trend Continuation
+Strategy: Favor calls on pullbacks or clean breakout-retests.
+
+FORECAST:
+Direction: Bullish
+Confidence: 70
+Summary: Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet.
+
+TREND ANALYSIS:
+Score: 100
+Direction: Bullish
+Strength: Very Strong
+Summary: Very Strong bullish trend. Trend score: 100/100.
+
+Trend Evidence:
+- Price is above the 20 SMA.
+- Price is above the 50 SMA.
+- Price is above the 200 SMA.
+- 20 SMA is above the 50 SMA.
+- 50 SMA is above the 200 SMA.
+
+BUY DECISION:
+Should Buy: False
+Reason: Decision Matrix readiness is 80%. Setup is promising, but Athena is waiting because: 1 Hour Confirmation is not ready; Momentum is not strong enough; Volume is not confirming the move.
+
+ENTRY PLAN:
+Entry Price: 744.84
+Entry Type: Reclaim Support
+Aggressive Entry: 744.84
+Conservative Entry: 744.84
+Stop Reference: 741.12
+Expected Hold: 2–5 days
+Entry Reason: Wait for price to reclaim support before entering.
+
+TRADE PLAN:
+Stop Loss: 736.92
+Target 1: 752.76
+Target 2: 758.05
+Risk / Reward: 1.67
+Plan: Wait for price to reclaim support before entering.
+
+PRICE ACTION:
+Score: 85
+Summary: No price action summary available
+
+SUPPORT / RESISTANCE:
+Nearest Support: VWAP at 741.1
+Nearest Resistance: None found
+
+VWAP:
+Score: 100
+Status: Unknown
+
+MULTI-TIMEFRAME:
+Weekly Score: 100
+Daily Score: 100
+1 Hour Score: 25
+
+FAILED CHECKS:
+None
+
+WAITING FOR:
+Nothing
+
+OVERALL:
+Overall Score: 80
+Trade Grade: B+
+Confidence: Medium-High
+
+=======================================================

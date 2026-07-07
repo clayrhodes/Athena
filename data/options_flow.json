@@ -1,0 +1,22 @@
+{
+    "trades": [
+        {
+            "type": "call",
+            "side": "ask",
+            "trade_type": "sweep",
+            "premium": 420000
+        },
+        {
+            "type": "call",
+            "side": "ask",
+            "trade_type": "sweep",
+            "premium": 360000
+        },
+        {
+            "type": "put",
+            "side": "ask",
+            "trade_type": "block",
+            "premium": 150000
+        }
+    ]
+}

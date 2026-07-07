@@ -1,0 +1,547 @@
+{
+    "timestamp": "2026-07-05 22:08:26",
+    "date": "2026-07-05",
+    "time": "22:08:26",
+    "ticker": "SPY",
+    "current_price": 744.78,
+    "decision": {
+        "bias": "Bullish",
+        "trade_grade": "A-",
+        "confidence": 79,
+        "risk": "Medium"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is only 64%. Failed checks: 1 Hour Confirmation; Auction Flow; Momentum; Volume; Smart Money; Liquidity; Market Breadth; Historical Similarity.",
+    "overall_score": 79,
+    "trade_grade": "B",
+    "confidence": "Medium",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 85,
+    "momentum_score": 50,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": false,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Risk-On",
+            "score": 85,
+            "reasons": [
+                "Higher-timeframe trend is bullish.",
+                "Low volatility supports risk assets."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V3",
+                "status": "LIVE",
+                "provider": "Finnhub Live News",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [
+                    "Oil slips after OPEC+ agrees to raise output targets - Reuters",
+                    "Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it",
+                    "More than 100 detained as leftist groups hold anti-NATO protests in Turkey - Reuters",
+                    "UK budget airline easyJet ready to accept $7.3 billion takeover bid from Castlelake - Reuters",
+                    "Israel government says it will defy Supreme Court ruling on media regulator - Reuters",
+                    "Israeli strike kills two people in Gaza, medics say - Reuters",
+                    "World Cup fans spent anywhere from $2,500 to $150,000 to see matches\u2014they say it was worth it",
+                    "Here are the 3 big things we're watching in the stock market this week",
+                    "Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'",
+                    "Most Gulf markets slip on caution over US-Iran talks - Reuters"
+                ],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Low",
+                "score": 50,
+                "confidence": 90,
+                "bullish_factors": [],
+                "bearish_factors": [],
+                "major_catalysts": [],
+                "trade_warning": "Live Finnhub news connected.",
+                "recommendation": "News backdrop is neutral. Let price action and confirmation lead.",
+                "reason": "Live headlines analyzed successfully.",
+                "provider_errors": []
+            }
+        },
+        "confidence": 70,
+        "scenarios": {
+            "primary": {
+                "probability": 90,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 6,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 4,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 46,
+            "bearish_reversal": 4,
+            "range_consolidation": 32,
+            "pullback_reversal_risk": 18
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 46,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Short-term timeframe is weaker, so entry timing still matters.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 64,
+        "verdict": "LOW CONVICTION",
+        "action": "NO TRADE",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 85."
+        ],
+        "warnings": [
+            "1 Hour Confirmation needs improvement. Score 25, required 70.",
+            "Auction Flow needs improvement. Score 40, required 70.",
+            "Momentum needs improvement. Score 50, required 70.",
+            "Volume needs improvement. Score 30, required 70.",
+            "Smart Money needs improvement. Score 0, required 60.",
+            "Liquidity needs improvement. Score 0, required 60.",
+            "Market Breadth needs improvement. Score 0, required 55.",
+            "Historical Similarity needs improvement. Score 0, required 55."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.92,
+        "reward_per_share": 13.21,
+        "shares_allowed": 1,
+        "win_probability": 46,
+        "expected_value": 1.8,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 744.84,
+        "entry_high": 744.84,
+        "distance": -0.06,
+        "message": "Wait for price to reclaim support before entering.",
+        "entry_price": 744.84,
+        "entry_type": "Reclaim Support",
+        "aggressive_entry": 744.84,
+        "conservative_entry": 744.84,
+        "stop_reference": 741.12,
+        "resistance_reference": 752.23,
+        "reason": "Wait for price to reclaim support before entering.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 744.84,
+        "stop_loss": 736.92,
+        "target_1": 752.76,
+        "target_2": 758.05,
+        "target_3": 765.97,
+        "risk": 7.92,
+        "reward": 13.21,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to reclaim support before entering."
+    },
+    "market_intelligence": {
+        "market_data": {
+            "connected": true,
+            "provider": "Yahoo Finance",
+            "spy": 744.78,
+            "current_price": 744.78,
+            "previous_close": 745.76,
+            "day_high": 751.31,
+            "day_low": 740.03,
+            "vix": 16.15,
+            "dxy": 100.92,
+            "treasury_10y": 4.49,
+            "fear_greed": null
+        },
+        "calendar": {
+            "connected": false,
+            "provider": "FRED + Finnhub Economic Provider",
+            "events": [],
+            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+        },
+        "news": {
+            "connected": true,
+            "provider": "Finnhub Live News",
+            "symbol": "SPY",
+            "headline_count": 20,
+            "headlines": [
+                "Oil slips after OPEC+ agrees to raise output targets - Reuters",
+                "Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it",
+                "More than 100 detained as leftist groups hold anti-NATO protests in Turkey - Reuters",
+                "UK budget airline easyJet ready to accept $7.3 billion takeover bid from Castlelake - Reuters",
+                "Israel government says it will defy Supreme Court ruling on media regulator - Reuters",
+                "Israeli strike kills two people in Gaza, medics say - Reuters",
+                "World Cup fans spent anywhere from $2,500 to $150,000 to see matches\u2014they say it was worth it",
+                "Here are the 3 big things we're watching in the stock market this week",
+                "Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'",
+                "Most Gulf markets slip on caution over US-Iran talks - Reuters"
+            ],
+            "articles": [
+                {
+                    "headline": "Oil slips after OPEC+ agrees to raise output targets - Reuters",
+                    "source": "Reuters",
+                    "summary": "Oil slips after OPEC+ agrees to raise output targets\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
+                    "datetime": 1783298160,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Jim Cramer: What caused the pre-holiday chip stock slump and what to do about it",
+                    "source": "CNBC",
+                    "summary": "The problem is that we have seen this horror movie before.",
+                    "url": "https://www.cnbc.com/2026/07/05/jim-cramer-what-caused-the-pre-holiday-chip-stock-slump-and-what-to-do-about-it.html",
+                    "datetime": 1783290370,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/107200468-1677528554271-NUP_200782_00153.jpg?v=1692298921&w=1920&h=1080"
+                },
+                {
+                    "headline": "More than 100 detained as leftist groups hold anti-NATO protests in Turkey - Reuters",
+                    "source": "Reuters",
+                    "summary": "More than 100 detained as leftist groups hold anti-NATO protests in Turkey\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMzNUeFRFeEliSTIzZnAyUFNLMGo0Q0RaSVZpY2pxZDNjOTdsbU5jSGM0c2tnamsxa3MwblNfTjhVVGc5NTFrWVJoNC14aXFsT3VqQXlVNlNOTlFHck5hNnpHMl9OSHRGWkVwQmZMbUJuNlJsVlNYb2x3T21aUzg2ODhWQ3RUalpxS0RkeDJvLXNFdG1YY3ZrZERKTTJtUFJ5SHdSZVo4TVJiYjdVaF82UjcyUHVLdXRCMER2Ul9Waw?oc=5",
+                    "datetime": 1783286740,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "UK budget airline easyJet ready to accept $7.3 billion takeover bid from Castlelake - Reuters",
+                    "source": "Reuters",
+                    "summary": "UK budget airline easyJet ready to accept $7.3 billion takeover bid from Castlelake\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR1JMWENOamFoZXFCNzhqazBKbnE1T3QxeWswYnlyMkgzTWRNQ0lhYmdRNVVTOE9RTU1GNTZaNXQyV0xORmZGLUFhaEF4UlkwWElaRGZnS0xlR0ZOdG1QUmtWUDZKODFtVnliUDJ1TkViQUhiQUt4UE1HcjV0TnpjQWRENV8wTTQ5UHF3dV9vRGFiTG9HMnNuZkxMOXc4V0Q2YUUta2xGZzZzeDlWSHc?oc=5",
+                    "datetime": 1783280885,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Israel government says it will defy Supreme Court ruling on media regulator - Reuters",
+                    "source": "Reuters",
+                    "summary": "Israel government says it will defy Supreme Court ruling on media regulator\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd0R1Sy1OdjVoUGg2c1p0Um1BLUk0dy1pLV8wVURGTXpfOVV6R3F0Q1VGV3h6LUhfVXVURVJmZkMzdDQ4enZ2azhScUNfM3lGbG9FUWFuVEhERDNHUGpKZTBqbnNuMDNGN01MRVBNM1QyTlBXSXcxS0RSLTZwb2NlT0Rlcmh4VHdueThQc05heVBDcEQ2djROZk5YNTJNSTMxRm5Eb2pZZVgwWC1iWGJiNkZBSUtIZHhvVTRwRlBZUXV0a1dxR3FaNnFCNA?oc=5",
+                    "datetime": 1783274470,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Israeli strike kills two people in Gaza, medics say - Reuters",
+                    "source": "Reuters",
+                    "summary": "Israeli strike kills two people in Gaza, medics say\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU4yZ1ZfdTNacnktZXFFTkVZV0ZKdGRNVy04cTBHQS1hb29UMEs2QXZUS3NIUndYUWZET2EtSHJPTXA2SW9KZXpGOExQdGMxMFJYRFZlMXJuLUNQWFhRYU9tTXg4SkcxMHJ3X0kxbFd5SGZPY09HSlBVNk03YVNfY1VUN09DMGJLSk9qQjRVaEJCUzBTMTAzOHRseVdSd3JJQllj?oc=5",
+                    "datetime": 1783270395,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "World Cup fans spent anywhere from $2,500 to $150,000 to see matches\u2014they say it was worth it",
+                    "source": "CNBC",
+                    "summary": "Soccer fans heading to World Cup matches at MetLife Stadium shared how much they expected to spend with CNBC Make It outside New York's Penn Station.",
+                    "url": "https://www.cnbc.com/2026/07/05/world-cup-fans-spent-anywhere-from-2500-to-150000-to-see-matches.html",
+                    "datetime": 1783262558,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108330251-1783024013473-gettyimages-2283530371-AFP_B8V32VK.jpeg?v=1783024401&w=1920&h=1080"
+                },
+                {
+                    "headline": "Here are the 3 big things we're watching in the stock market this week",
+                    "source": "CNBC",
+                    "summary": "Delta is the biggest earnings report of the week.",
+                    "url": "https://www.cnbc.com/2026/07/05/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+                    "datetime": 1783260061,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108289522-1775773975018-gettyimages-2270634628-_73a8259_j2z9rqz6.jpeg?v=1775774072&w=1920&h=1080"
+                },
+                {
+                    "headline": "Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'",
+                    "source": "CNBC",
+                    "summary": "Before they ballooned into multi-day destination getaways, bachelorette parties tended to be one night of raucous fun. Some brides are bringing it back.",
+                    "url": "https://www.cnbc.com/2026/07/05/brides-are-bringing-back-the-one-night-only-bachelorette-party.html",
+                    "datetime": 1783260001,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108327704-1782505856892-kate_newcomb_bach2.JPG?v=1783022233&w=1920&h=1080"
+                },
+                {
+                    "headline": "Most Gulf markets slip on caution over US-Iran talks - Reuters",
+                    "source": "Reuters",
+                    "summary": "Most Gulf markets slip on caution over US-Iran talks\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHRNN1o1bEhzLTFWRXpHRjVQV2Q1anA2MWRPTFpMWUZoRUlLYm9LZnR6QktwSE9xRGRhM1kxR1dpUjRWU3RTSW9FVFNoU3h6MDExa2NsRm5GQU1TXzZpRzF3LTRDbVFEdDNFQ0UwNTNQclh0UlY0SjBObm9BZzVBNk1POFpVSFRQZ2haZGFJQ2pOUy02MW04S1kwQnRROUo3SDFiUUh3?oc=5",
+                    "datetime": 1783258572,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                }
+            ],
+            "errors": []
+        },
+        "fred_macro": {
+            "connected": true,
+            "provider": "FRED + Finnhub Economic Provider",
+            "data": {
+                "fed_funds_rate": {
+                    "series_id": "FEDFUNDS",
+                    "date": "2026-06-01",
+                    "value": 3.63
+                },
+                "cpi": {
+                    "series_id": "CPIAUCSL",
+                    "date": "2026-05-01",
+                    "value": 333.979
+                },
+                "unemployment_rate": {
+                    "series_id": "UNRATE",
+                    "date": "2026-06-01",
+                    "value": 4.2
+                },
+                "nonfarm_payrolls": {
+                    "series_id": "PAYEMS",
+                    "date": "2026-06-01",
+                    "value": 158984.0
+                },
+                "consumer_sentiment": {
+                    "series_id": "UMCSENT",
+                    "date": "2026-05-01",
+                    "value": 44.8
+                },
+                "yield_curve_10y_2y": {
+                    "series_id": "T10Y2Y",
+                    "date": "2026-07-02",
+                    "value": 0.35
+                }
+            }
+        },
+        "sentiment": {
+            "overall_sentiment": "Neutral",
+            "score": 60,
+            "vix": 16.15,
+            "dxy": 100.92,
+            "treasury_10y": 4.49,
+            "fear_greed": null,
+            "bullish_factors": [
+                "Dollar index is not pressuring equities.",
+                "10-year yield is not highly restrictive."
+            ],
+            "bearish_factors": [],
+            "warnings": [],
+            "provider_connected": true
+        },
+        "macro_score": {
+            "score": 60,
+            "reasons": [
+                "Weak dollar supports equities.",
+                "Treasury yields are supportive."
+            ]
+        },
+        "fear_greed": {
+            "connected": true,
+            "provider": "Athena Fear & Greed Estimate",
+            "value": 60,
+            "classification": "Greed",
+            "score": 60,
+            "reason": "Fear & Greed estimated from VIX. VIX is 16.15, estimated sentiment is Greed with a score of 60."
+        },
+        "breadth": {
+            "connected": false,
+            "status": "OFFLINE",
+            "breadth": "Unknown",
+            "score": 50,
+            "advancers": null,
+            "decliners": null,
+            "advance_decline_ratio": null,
+            "new_highs": null,
+            "new_lows": null,
+            "new_high_low_ratio": null,
+            "summary": "Live market breadth not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Athena is treating market breadth as neutral until live breadth is connected."
+            ]
+        },
+        "options_flow": {
+            "connected": false,
+            "status": "OFFLINE",
+            "bias": "NEUTRAL",
+            "bullish_flow": 0,
+            "bearish_flow": 0,
+            "call_premium": 0,
+            "put_premium": 0,
+            "call_ratio": 0,
+            "put_ratio": 0,
+            "score": 50,
+            "summary": "Live options flow not connected.",
+            "bullish_signals": [],
+            "bearish_signals": [],
+            "warnings": [
+                "Options flow provider is not connected yet.",
+                "Athena is treating options flow as neutral."
+            ]
+        },
+        "institutional_flow": {
+            "connected": true,
+            "provider": "Yahoo Finance Institutional Flow Proxy",
+            "symbol": "SPY",
+            "score": 40,
+            "bias": "Neutral / Mixed",
+            "price_change_percent": -0.13,
+            "volume_ratio": 0.89,
+            "latest_volume": 57447800,
+            "average_volume": 64642470,
+            "dollar_volume": 42785974167.04,
+            "summary": "Neutral / Mixed. SPY changed -0.13% with volume 0.89x its 20-day average. Institutional flow proxy score: 40/100."
+        },
+        "sector_rotation": {
+            "connected": true,
+            "provider": "Yahoo Finance Sector ETFs",
+            "leading_sector": "Healthcare",
+            "leading_ticker": "XLV",
+            "lagging_sector": "Energy",
+            "lagging_ticker": "XLE",
+            "score": 0,
+            "market_tone": "Risk-Off",
+            "summary": "Risk-Off sector rotation. Leading sector: Healthcare (XLV) at 11.46%. Lagging sector: Energy (XLE) at -8.7%. Sector rotation score: 0/100.",
+            "sector_performance": {
+                "XLK": {
+                    "sector": "Technology",
+                    "performance": -7.86
+                },
+                "XLF": {
+                    "sector": "Financials",
+                    "performance": 9.72
+                },
+                "XLY": {
+                    "sector": "Consumer Discretionary",
+                    "performance": 0.53
+                },
+                "XLI": {
+                    "sector": "Industrials",
+                    "performance": 5.93
+                },
+                "XLE": {
+                    "sector": "Energy",
+                    "performance": -8.7
+                },
+                "XLV": {
+                    "sector": "Healthcare",
+                    "performance": 11.46
+                },
+                "XLP": {
+                    "sector": "Consumer Staples",
+                    "performance": 4.16
+                },
+                "XLU": {
+                    "sector": "Utilities",
+                    "performance": 5.36
+                },
+                "XLB": {
+                    "sector": "Materials",
+                    "performance": 1.11
+                },
+                "XLRE": {
+                    "sector": "Real Estate",
+                    "performance": 3.59
+                },
+                "XLC": {
+                    "sector": "Communication Services",
+                    "performance": -1.96
+                }
+            }
+        },
+        "auction_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BALANCED AUCTION",
+            "score": 40,
+            "summary": "Auction behavior is balanced or undecided.",
+            "bullish_signals": [],
+            "bearish_signals": [
+                "Price is trading below previous close."
+            ],
+            "warnings": [
+                "VWAP unavailable for auction confirmation.",
+                "Price is near the middle of the daily range."
+            ]
+        }
+    },
+    "outcome": null
+}
