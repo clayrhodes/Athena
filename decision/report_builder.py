@@ -21,6 +21,7 @@ def build_report(sections):
         "conviction",
         "risk",
         "execution",
+        "position",
         "trade_management",
         "checklist",
         "probability",
@@ -36,8 +37,11 @@ def build_report(sections):
     report = []
 
     for section_name in order:
+        print(f"Building section: {section_name}")
 
         section = sections.get(section_name)
+
+        print(f"Exists? {section is not None}")
 
         if section:
             report.append(section)

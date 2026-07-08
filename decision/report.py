@@ -12,6 +12,7 @@ from decision.conviction_engine import build_conviction_engine
 from decision.execution_checklist import build_execution_checklist
 from decision.execution_engine import build_execution_report
 from decision.trade_management_engine import build_trade_management_report
+from decision.position_engine import build_position_report
 from decision.risk_manager import build_risk_report
 from decision.decision_matrix import evaluate_decision_matrix
 from decision.institutional_engine import build_institutional_report
@@ -184,10 +185,11 @@ def generate_mission_brief(market):
         price_action=price_action,
     )
 
-    active_trade = market.get("active_trade", {})
+    raw_position = market.get("position", {})
+    position = build_position_report(raw_position)
 
     trade_management = build_trade_management_report(
-        active_trade=active_trade,
+        active_trade=position,
         market_structure=market_structure,
         smart_money=smart_money,
         liquidity=liquidity,
@@ -221,6 +223,7 @@ def generate_mission_brief(market):
         conviction=conviction,
         risk=risk,
         execution=execution,
+        position=position,
         trade_management=trade_management,
         probability=probability,
         similarity=similarity,
