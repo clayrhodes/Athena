@@ -10,6 +10,7 @@ from decision.intelligence_engine import build_intelligence_report
 from decision.probability_engine import build_probability_report
 from decision.conviction_engine import build_conviction_engine
 from decision.execution_checklist import build_execution_checklist
+from decision.execution_engine import build_execution_report
 from decision.risk_manager import build_risk_report
 from decision.decision_matrix import evaluate_decision_matrix
 from decision.institutional_engine import build_institutional_report
@@ -18,8 +19,6 @@ from decision.narrative_engine import build_market_narrative
 from decision.historical_similarity_engine import (
     build_historical_similarity_report,
 )
-from decision.smart_money_engine import build_smart_money_report
-from decision.liquidity_engine import build_liquidity_report
 from decision.market_breadth_engine import build_market_breadth_report
 from decision.options_flow_engine import build_options_flow_report
 from decision.section_builder import build_sections
@@ -100,20 +99,8 @@ def generate_mission_brief(market):
         market_regime=market_regime,
     )
 
-    smart_money = build_smart_money_report(
-        market_structure,
-        volume,
-        price_action,
-    )
-
-    liquidity = build_liquidity_report(
-        price_action,
-        market_structure,
-        volume,
-    )
-
-    scores["smart_money"] = smart_money
-    scores["liquidity"] = liquidity
+    smart_money = scores.get("smart_money", {})
+    liquidity = scores.get("liquidity", {})
 
     first_decision_matrix = evaluate_decision_matrix(scores)
 
@@ -142,10 +129,10 @@ def generate_mission_brief(market):
 
     if not market_breadth:
         market_breadth = build_market_breadth_report(
-        market,
-        thesis,
-        market_regime,
-    )
+            market,
+            thesis,
+            market_regime,
+        )
 
     options_flow = market_report.get("options_flow", {})
 
@@ -188,6 +175,14 @@ def generate_mission_brief(market):
         max_risk_percent=1,
     )
 
+    execution = build_execution_report(
+        market_structure=market_structure,
+        liquidity=liquidity,
+        smart_money=smart_money,
+        volume=volume,
+        price_action=price_action,
+    )
+
     intelligence = build_intelligence_report(
         scores,
         forecast,
@@ -212,6 +207,7 @@ def generate_mission_brief(market):
         decision_matrix=decision_matrix,
         conviction=conviction,
         risk=risk,
+        execution=execution,
         probability=probability,
         similarity=similarity,
         smart_money=smart_money,

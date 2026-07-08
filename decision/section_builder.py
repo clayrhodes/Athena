@@ -10,6 +10,7 @@ from decision.report_sections.intelligence_section import build_intelligence_sec
 from decision.report_sections.decision_matrix_section import build_decision_matrix_section
 from decision.report_sections.conviction_section import build_conviction_section
 from decision.report_sections.risk_section import build_risk_section
+from decision.report_sections.execution_section import build_execution_section
 from decision.report_sections.checklist_section import build_checklist_section
 from decision.report_sections.probability_section import build_probability_section
 from decision.report_sections.forecast_section import build_forecast_section
@@ -53,6 +54,7 @@ def build_sections(
     decision_matrix,
     conviction,
     risk,
+    execution,
     probability,
     similarity,
     smart_money,
@@ -127,6 +129,9 @@ def build_sections(
         ),
         "risk": build_risk_section(
             risk
+        ),
+        "execution": build_execution_section(
+            execution
         ),
         "checklist": build_checklist_section(
             checklist
