@@ -1,7 +1,14 @@
 """
-Athena Smart Money Engine
+Athena Smart Money Engine V4
 
-Advanced institutional behavior detection.
+Institutional behavior engine.
+
+Uses:
+- Market structure
+- Price action
+- Volume
+- Liquidity
+- Order blocks
 
 Detects:
 - Accumulation
@@ -9,8 +16,8 @@ Detects:
 - Absorption
 - Stop hunts
 - Liquidity sweeps
-- Trapped buyers/sellers
-- Smart money directional bias
+- Trapped traders
+- Order block support/resistance
 """
 
 
@@ -33,7 +40,7 @@ def _text(value):
 
 
 def _clamp(value, low=0, high=100):
-    return max(low, min(high, value))
+    return max(low, min(high, int(value)))
 
 
 def build_smart_money_report(
@@ -63,11 +70,17 @@ def build_smart_money_report(
     price_bias = _text(price_action.get("bias"))
     liquidity_bias = _text(liquidity.get("bias"))
 
+    order_block_score = _num(price_action.get("order_block_score"), 50)
+    order_block_bias = _text(price_action.get("order_block_bias"))
+
+    bullish_ob = price_action.get("nearest_bullish_order_block")
+    bearish_ob = price_action.get("nearest_bearish_order_block")
+
     near_support = _bool(price_action.get("near_support"))
     near_resistance = _bool(price_action.get("near_resistance"))
 
-    high_volume = _bool(volume.get("high_volume"))
-    low_volume = _bool(volume.get("low_volume"))
+    high_volume = _bool(volume.get("high_volume")) or volume_score >= 70
+    low_volume = _bool(volume.get("low_volume")) or volume_score < 45
 
     long_lower_wick = _bool(price_action.get("long_lower_wick"))
     long_upper_wick = _bool(price_action.get("long_upper_wick"))
@@ -84,8 +97,61 @@ def build_smart_money_report(
     reclaimed_lows = _bool(liquidity.get("reclaimed_lows"))
     rejected_highs = _bool(liquidity.get("rejected_highs"))
 
-    below_vwap = _bool(price_action.get("below_vwap"))
     above_vwap = _bool(price_action.get("above_vwap"))
+    below_vwap = _bool(price_action.get("below_vwap"))
+
+    bos_bullish = _bool(price_action.get("bos_bullish"))
+    bos_bearish = _bool(price_action.get("bos_bearish"))
+    choch_bullish = _bool(price_action.get("choch_bullish"))
+    choch_bearish = _bool(price_action.get("choch_bearish"))
+
+    # ----------------------------
+    # Order block behavior
+    # ----------------------------
+
+    if order_block_bias == "bullish":
+        score += 10
+        signals.append("Order block engine favors bullish institutional support.")
+
+    if order_block_bias == "bearish":
+        score -= 10
+        signals.append("Order block engine favors bearish institutional resistance.")
+
+    if bullish_ob:
+        score += 8
+        signals.append("Bullish order block exists below/near current price.")
+
+    if bearish_ob:
+        score -= 8
+        signals.append("Bearish order block exists above/near current price.")
+
+    if order_block_score >= 65:
+        score += 5
+        signals.append("Order block score supports bullish smart money bias.")
+
+    if order_block_score <= 35:
+        score -= 5
+        signals.append("Order block score supports bearish smart money bias.")
+
+    # ----------------------------
+    # Market structure behavior
+    # ----------------------------
+
+    if bos_bullish:
+        score += 10
+        signals.append("Bullish break of structure supports institutional continuation.")
+
+    if bos_bearish:
+        score -= 10
+        signals.append("Bearish break of structure warns of institutional downside.")
+
+    if choch_bullish:
+        score += 12
+        signals.append("Bullish change of character detected.")
+
+    if choch_bearish:
+        score -= 12
+        signals.append("Bearish change of character detected.")
 
     # ----------------------------
     # Bullish institutional behavior
@@ -93,27 +159,27 @@ def build_smart_money_report(
 
     if near_support and high_volume and long_lower_wick:
         score += 15
-        signals.append("Accumulation possible near support")
+        signals.append("Accumulation possible near support.")
 
     if broke_support and reclaimed_support and high_volume:
         score += 18
-        signals.append("Bullish stop hunt detected below support")
+        signals.append("Bullish stop hunt detected below support.")
 
     if swept_lows and reclaimed_lows:
         score += 18
-        signals.append("Bullish liquidity sweep detected")
+        signals.append("Bullish liquidity sweep detected.")
 
     if high_volume and price_score >= 55 and structure_score < 50:
         score += 10
-        signals.append("Bullish absorption detected")
+        signals.append("Bullish absorption detected.")
 
     if trend in ["bearish", "downtrend"] and price_bias in ["bullish", "reversal"] and high_volume:
         score += 8
-        signals.append("Possible accumulation after bearish move")
+        signals.append("Possible accumulation after bearish move.")
 
     if broke_support and reclaimed_support:
         score += 8
-        signals.append("Bear trap possible: sellers may be trapped")
+        signals.append("Bear trap possible: sellers may be trapped.")
 
     # ----------------------------
     # Bearish institutional behavior
@@ -121,27 +187,27 @@ def build_smart_money_report(
 
     if near_resistance and high_volume and long_upper_wick:
         score -= 15
-        signals.append("Distribution possible near resistance")
+        signals.append("Distribution possible near resistance.")
 
     if broke_resistance and rejected_resistance and high_volume:
         score -= 18
-        signals.append("Bearish stop hunt detected above resistance")
+        signals.append("Bearish stop hunt detected above resistance.")
 
     if swept_highs and rejected_highs:
         score -= 18
-        signals.append("Bearish liquidity sweep detected")
+        signals.append("Bearish liquidity sweep detected.")
 
     if high_volume and price_score <= 45 and structure_score > 50:
         score -= 10
-        signals.append("Bearish absorption detected")
+        signals.append("Bearish absorption detected.")
 
     if trend in ["bullish", "uptrend"] and price_bias in ["bearish", "reversal"] and high_volume:
         score -= 8
-        signals.append("Possible distribution after bullish move")
+        signals.append("Possible distribution after bullish move.")
 
     if broke_resistance and rejected_resistance:
         score -= 8
-        signals.append("Bull trap possible: buyers may be trapped")
+        signals.append("Bull trap possible: buyers may be trapped.")
 
     # ----------------------------
     # Bias confirmation
@@ -173,31 +239,31 @@ def build_smart_money_report(
 
     if above_vwap and score >= 55:
         score += 4
-        signals.append("Price holding above VWAP supports bullish smart money bias")
+        signals.append("Price holding above VWAP supports bullish smart money bias.")
 
     if below_vwap and score <= 45:
         score -= 4
-        signals.append("Price holding below VWAP supports bearish smart money bias")
+        signals.append("Price holding below VWAP supports bearish smart money bias.")
 
     # ----------------------------
     # Warnings / confidence reducers
     # ----------------------------
 
     if low_volume:
-        warnings.append("Low volume reduces smart money confidence")
+        warnings.append("Low volume reduces smart money confidence.")
         score -= 5
 
     if volume_score < 45:
-        warnings.append("Volume is not confirming smart money activity")
-        failed_reasons.append("Volume is not confirming the move")
+        warnings.append("Volume is not confirming smart money activity.")
+        failed_reasons.append("Volume is not confirming the move.")
 
     if liquidity_score < 45:
-        warnings.append("Liquidity does not confirm institutional activity")
-        failed_reasons.append("Liquidity does not confirm the setup")
+        warnings.append("Liquidity does not confirm institutional activity.")
+        failed_reasons.append("Liquidity does not confirm the setup.")
 
     if not signals:
-        signals.append("No strong institutional smart money footprint detected")
-        failed_reasons.append("No strong smart money footprint detected")
+        signals.append("No strong institutional smart money footprint detected.")
+        failed_reasons.append("No strong smart money footprint detected.")
 
     score = _clamp(score)
 
@@ -225,6 +291,12 @@ def build_smart_money_report(
         "stop_hunt": any("stop hunt" in s.lower() for s in signals),
         "liquidity_sweep": any("liquidity sweep" in s.lower() for s in signals),
         "trapped_traders": any("trap" in s.lower() for s in signals),
+        "order_block_supported": any("order block" in s.lower() for s in signals),
+        "summary": (
+            f"Smart Money Bias: {bias}. "
+            f"Score: {score}/100. "
+            f"Signals detected: {len(signals)}."
+        ),
     }
 
 
@@ -255,36 +327,3 @@ def format_smart_money_report(report):
             lines.append(f"- {reason}")
 
     return "\n".join(lines)
-
-
-if __name__ == "__main__":
-    test_report = build_smart_money_report(
-        market_structure={
-            "score": 55,
-            "trend": "bearish",
-            "bias": "neutral",
-        },
-        volume={
-            "score": 70,
-            "bias": "bullish",
-            "high_volume": True,
-            "low_volume": False,
-        },
-        price_action={
-            "score": 60,
-            "bias": "bullish",
-            "near_support": True,
-            "long_lower_wick": True,
-            "broke_support": True,
-            "reclaimed_support": True,
-            "above_vwap": True,
-        },
-        liquidity={
-            "score": 75,
-            "bias": "bullish",
-            "swept_lows": True,
-            "reclaimed_lows": True,
-        },
-    )
-
-    print(format_smart_money_report(test_report))
