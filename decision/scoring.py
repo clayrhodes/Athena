@@ -8,6 +8,7 @@ from analysis.market_environment import detect_market_environment
 from analysis.price_action import analyze_price_action
 from analysis.institutional_structure import analyze_institutional_structure
 from analysis.market_structure_v2 import analyze_market_structure_v2
+from analysis.order_block_engine import analyze_order_blocks
 
 from decision.smart_money_engine import build_smart_money_report
 from decision.liquidity_engine import build_liquidity_report
@@ -41,7 +42,7 @@ def get_confidence(score):
     return "Very Low"
 
 
-def _merge_price_action(price_action, institutional_structure, structure_v2):
+def _merge_price_action(price_action, institutional_structure, structure_v2, order_blocks):
     merged = dict(price_action)
 
     keys_to_copy = [
@@ -64,8 +65,14 @@ def _merge_price_action(price_action, institutional_structure, structure_v2):
     merged["bos_bearish"] = structure_v2.get("bos_bearish", False)
     merged["choch_bullish"] = structure_v2.get("choch_bullish", False)
     merged["choch_bearish"] = structure_v2.get("choch_bearish", False)
+
     merged["last_swing_high"] = structure_v2.get("last_swing_high")
     merged["last_swing_low"] = structure_v2.get("last_swing_low")
+
+    merged["order_block_score"] = order_blocks.get("score", 50)
+    merged["order_block_bias"] = order_blocks.get("bias", "neutral")
+    merged["nearest_bullish_order_block"] = order_blocks.get("nearest_bullish_block")
+    merged["nearest_bearish_order_block"] = order_blocks.get("nearest_bearish_block")
 
     merged["institutional_structure_score"] = institutional_structure.get("score", 50)
     merged["institutional_structure_bias"] = institutional_structure.get("bias", "neutral")
@@ -78,20 +85,27 @@ def _merge_price_action(price_action, institutional_structure, structure_v2):
     return merged
 
 
-def _merge_structure(structure, structure_v2):
+def _merge_structure(structure, structure_v2, order_blocks):
     merged = dict(structure)
 
     merged["structure_v2_score"] = structure_v2.get("score", 50)
     merged["structure_v2_bias"] = structure_v2.get("bias", "neutral")
     merged["structure_v2_trend"] = structure_v2.get("trend", "neutral")
+
     merged["bos_bullish"] = structure_v2.get("bos_bullish", False)
     merged["bos_bearish"] = structure_v2.get("bos_bearish", False)
     merged["choch_bullish"] = structure_v2.get("choch_bullish", False)
     merged["choch_bearish"] = structure_v2.get("choch_bearish", False)
+
     merged["last_swing_high"] = structure_v2.get("last_swing_high")
     merged["last_swing_low"] = structure_v2.get("last_swing_low")
     merged["buy_side_liquidity"] = structure_v2.get("buy_side_liquidity")
     merged["sell_side_liquidity"] = structure_v2.get("sell_side_liquidity")
+
+    merged["order_block_score"] = order_blocks.get("score", 50)
+    merged["order_block_bias"] = order_blocks.get("bias", "neutral")
+    merged["nearest_bullish_order_block"] = order_blocks.get("nearest_bullish_block")
+    merged["nearest_bearish_order_block"] = order_blocks.get("nearest_bearish_block")
 
     return merged
 
@@ -104,17 +118,25 @@ def calculate_scores(market):
 
     structure_base = analyze_market_structure(market)
     structure_v2 = analyze_market_structure_v2(market)
-    structure = _merge_structure(structure_base, structure_v2)
+    order_blocks = analyze_order_blocks(market)
+
+    structure = _merge_structure(
+        structure_base,
+        structure_v2,
+        order_blocks,
+    )
 
     multi_timeframe = analyze_multi_timeframe()
     vwap = market["vwap"]
 
     price_action_base = analyze_price_action(market)
     institutional_structure = analyze_institutional_structure(market)
+
     price_action = _merge_price_action(
         price_action_base,
         institutional_structure,
         structure_v2,
+        order_blocks,
     )
 
     auction_flow = market.get("auction_flow", {
@@ -155,6 +177,7 @@ def calculate_scores(market):
         "volatility": volatility,
         "structure": structure,
         "structure_v2": structure_v2,
+        "order_blocks": order_blocks,
         "vwap": vwap,
         "multi_timeframe": multi_timeframe,
         "price_action": price_action,
@@ -168,15 +191,16 @@ def calculate_scores(market):
     environment = detect_market_environment(market, scores_so_far)
 
     overall_score = (
-        trend["score"] * 0.14 +
+        trend["score"] * 0.13 +
         momentum["score"] * 0.09 +
         volume["score"] * 0.07 +
         volatility["score"] * 0.05 +
-        structure["score"] * 0.10 +
+        structure["score"] * 0.09 +
         structure_v2["score"] * 0.06 +
+        order_blocks["score"] * 0.05 +
         vwap["score"] * 0.07 +
         price_action["score"] * 0.08 +
-        institutional_structure["score"] * 0.06 +
+        institutional_structure["score"] * 0.05 +
         smart_money["score"] * 0.10 +
         liquidity["score"] * 0.06 +
         historical_similarity["score"] * 0.04 +
@@ -197,6 +221,7 @@ def calculate_scores(market):
         "volatility": volatility,
         "structure": structure,
         "structure_v2": structure_v2,
+        "order_blocks": order_blocks,
         "vwap": vwap,
         "price_action": price_action,
         "institutional_structure": institutional_structure,
