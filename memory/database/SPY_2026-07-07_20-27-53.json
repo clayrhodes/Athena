@@ -1,0 +1,946 @@
+{
+    "timestamp": "2026-07-07 20:27:53",
+    "date": "2026-07-07",
+    "time": "20:27:53",
+    "ticker": "SPY",
+    "current_price": 747.7100219726562,
+    "decision": {
+        "bias": "Strong Bullish",
+        "trade_grade": "A",
+        "confidence": 85,
+        "risk": "Low"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is 74%. Setup is promising, but Athena is waiting because: Volume is not confirming the move.",
+    "overall_score": 85,
+    "trade_grade": "A",
+    "confidence": "High",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 95,
+    "momentum_score": 75,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": false,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Risk-On",
+            "score": 85,
+            "reasons": [
+                "Higher-timeframe trend is bullish.",
+                "Low volatility supports risk assets."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V3",
+                "status": "LIVE",
+                "provider": "Finnhub Live News",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [
+                    "US oil prices jump after US military launches strikes against Iran - Reuters",
+                    "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                    "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                    "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                    "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                    "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                    "US military launches strikes against Iran, Central Command says - Reuters",
+                    "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                    "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                    "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters"
+                ],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Elevated",
+                "score": 46,
+                "confidence": 90,
+                "bullish_factors": [
+                    "Positive market momentum in headlines."
+                ],
+                "bearish_factors": [
+                    "Inflation or rate-hike pressure detected."
+                ],
+                "major_catalysts": [
+                    "Inflation"
+                ],
+                "trade_warning": "Live Finnhub news connected.",
+                "recommendation": "Use caution. Market-moving news risk is elevated.",
+                "reason": "Live headlines analyzed successfully.",
+                "provider_errors": []
+            }
+        },
+        "confidence": 70,
+        "scenarios": {
+            "primary": {
+                "probability": 90,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 6,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 4,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 56,
+            "bearish_reversal": 4,
+            "range_consolidation": 34,
+            "pullback_reversal_risk": 6
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 56,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 85,
+        "verdict": "GOOD CONVICTION",
+        "action": "WAIT FOR ENTRY",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "1 Hour Confirmation supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 95.",
+            "Momentum supports the setup with a score of 75.",
+            "Liquidity supports the setup with a score of 83.",
+            "Market Breadth supports the setup with a score of 98.",
+            "Options Flow supports the setup with a score of 80."
+        ],
+        "warnings": [
+            "Auction Flow needs improvement. Score 40, required 70.",
+            "Volume needs improvement. Score 30, required 70.",
+            "Smart Money needs improvement. Score 45, required 60.",
+            "Historical Similarity needs improvement. Score 0, required 55."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.36,
+        "reward_per_share": 12.26,
+        "shares_allowed": 1,
+        "win_probability": 56,
+        "expected_value": 3.63,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 747.7,
+        "entry_high": 747.71,
+        "distance": 0.0,
+        "message": "Price is extended above VWAP. Wait for a pullback.",
+        "entry_price": 747.7,
+        "entry_type": "Pullback to VWAP",
+        "aggressive_entry": 747.71,
+        "conservative_entry": 747.7,
+        "stop_reference": 747.7,
+        "resistance_reference": 755.19,
+        "reason": "Price is extended above VWAP. Wait for a pullback.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 747.7,
+        "stop_loss": 740.34,
+        "target_1": 755.19,
+        "target_2": 759.96,
+        "target_3": 767.32,
+        "risk": 7.36,
+        "reward": 12.26,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to pull back toward VWAP before entering."
+    },
+    "market_intelligence": {
+        "market_data": {
+            "connected": true,
+            "provider": "Yahoo Finance",
+            "spy": 747.71,
+            "current_price": 747.71,
+            "previous_close": 751.28,
+            "day_high": 750.96,
+            "day_low": 745.21,
+            "vix": 16.13,
+            "dxy": 101.15,
+            "treasury_10y": 4.53,
+            "fear_greed": null
+        },
+        "calendar": {
+            "connected": false,
+            "provider": "FRED + Finnhub Economic Provider",
+            "events": [],
+            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+        },
+        "news": {
+            "connected": true,
+            "provider": "Finnhub Live News",
+            "symbol": "SPY",
+            "headline_count": 20,
+            "headlines": [
+                "US oil prices jump after US military launches strikes against Iran - Reuters",
+                "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                "US military launches strikes against Iran, Central Command says - Reuters",
+                "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters"
+            ],
+            "articles": [
+                {
+                    "headline": "US oil prices jump after US military launches strikes against Iran - Reuters",
+                    "source": "Reuters",
+                    "summary": "US oil prices jump after US military launches strikes against Iran\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcW1oQmNkNnFFdEdYaTI4SDJwR0FpbHZjaVZCYnAzdTEyanppYjZTNFlOeE1KODQ5SmtVNC1hOWVhNHh6d3dVNGJ4enNEYkdPZFlEamVaXzRtN3RKME5Od2VKR0dUbUFRWDJ0b0xMcy1TUThmaF9Tem5YNHZUZlZpMGw0Uzc4TzRTT3p2aFhNZU8xT3Fsa2xld2pBRDFvTE5QS3RORTQ5TkowYjB5X2JaVUtQVUU5c2owcXc?oc=5",
+                    "datetime": 1783464959,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                    "source": "Reuters",
+                    "summary": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFdpVXUyLVpFVkxwaGJ2MGhSbTYtV0N4QkFNOVdyRVJCaThBY1hiQTBvdDBhc2dwYWFRM052NlVOTFk3QVZuZlRkdWYtMUNTNHQ2RTdJMXNfelFnQUJoSUNkSWYyMUFOR1lWMmZJSTVnV2thbktTQ1Y3QlRLWUZfdldjYnMyd2ZVM1MtNnZORnNGclE2Ti1EdmlqWHdOVmRzeEdFUFZPak1RblZmbVQ0NlJsYmJuUkxBQnNVbjBWTGdwRWRheGtRQldXcGNCN1U?oc=5",
+                    "datetime": 1783462947,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                    "source": "Reuters",
+                    "summary": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdF9zUXUxcDJXUnNtR19PdDFuVGN0XzVmcDVjV2M5X2NaRXBxalRHRXNZRC1DbF9vT1BSUWFtX2NqdE1KZTItYkNSVnZKcEtyVlo0ZXdTTTlyVzN0Rk1iaGRmRy0zeVhVbzZUUTl6TUNwUkpvWFRDZWlpdnZVWERlNmp0OWFLcWgzMDlJdURtWHBsb21qRFI2cHY3dDdhOTFxTmd2SjkxeFBxenZMNlgxR0VVNEhxaG03Rm14Ny1iajhnYTNkd2lmcQ?oc=5",
+                    "datetime": 1783462663,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                    "source": "Reuters",
+                    "summary": "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVXczTVVOaENGOFlRSkgybnk5S3c2QUcyU1kwbEhiM3dja081TFFWbFJSV2lQS0ZtVUhNVDJ0Z2k1NlpISGlVTFdzWWhfdVNyMWNnbzJBLW5lbm42bHhKaWUtcGlHMm5icnJNUEdJeFRRX1gtZlJ1TE5TaXhEX1A2TGRMNGJaMmxtbVRXNW0zZFZaYjJGQllKM1M0VWkyQ3JlWTMwUU1TR2ZYelFjVHlfcWFkVGp5NmJ6SGFvZE9DSC1tUQ?oc=5",
+                    "datetime": 1783461469,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                    "source": "Reuters",
+                    "summary": "Exxon signals Q2 profit windfall as higher oil prices boost bottom line\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXlvX2Y4cVBldFJ5ajRsRVpOZkcyd2g0NVV1c3RmOVBPSHAwWkI4Wmt6dWZ3djBUVDNtQ0ZlYjJ1aTZ1akZJMjg4WHprbmxGUmtmdktuelg1eURDY0ctRlBURV8xY1ZKVjB6dGEwMENPdnFXTzlEYnZoTnVMOWxoUVN4cUl3Q1FpR1ZITzJvdEZxOGJBT1pVa3VudjNnT0kyYkVzTA?oc=5",
+                    "datetime": 1783461000,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                    "source": "Reuters",
+                    "summary": "Columns in Manhattan high-rise buckle, prompting evacuations\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDlDVDBiVGRoeEh1WWlpU0IzUnJ3aWZyYldFdkVRRGVBZkI3YzJLVkhScWhsbHZmcEhFLXhpTXlwdHVWRXdaUUVVQ3ZVQ3NrX01qVUJJdlVLcVAtQ0o0VEtVQXRDTzRJV210RGFXcDNwWWNEY09IUkJfLVdBd2dHa0xZeFRGdWgtelNwa24xNFIzMGRVVHlFRlM1MDdWa0U?oc=5",
+                    "datetime": 1783460821,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "US military launches strikes against Iran, Central Command says - Reuters",
+                    "source": "Reuters",
+                    "summary": "US military launches strikes against Iran, Central Command says\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVV9wZ2FzeG9JZjdYeVFsay04cWxoUzB1dzRnQ3RwczlRc01vZ0tNUG5aa2JYVUFlRG5vRy1mTnNsLUs2TXk3dzFKTVliRUh2ckJuWkVzQTQtUHpzT0Q4OFFILUFydHlsdUsxaTlhak1hWXViVGZNZDFkNkZSVklSUjZXRV9uLW12X3VOcUlZbmpGQnZUR3gyc3M4WVItZXdjWEpBd01GWjdvRGVzaFc4emZBY0p5YlU?oc=5",
+                    "datetime": 1783460752,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                    "source": "Reuters",
+                    "summary": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+                    "datetime": 1783460552,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                    "source": "Reuters",
+                    "summary": "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWNlVG5HdDVrSEJEdlRuTHhDZ3dYUlBmb09WRlBqN1hoTjZQQVpmcEM0Mmg3VUpzWk4xU2hycVRDSmVpeHlkVDFsS3kyNDNwMjFRYzhGanpjVDg4RENPQktFSDdsWnhRS0xXaFFyNDZLak5WWG5fODNrWkxLTWU5M2tuTnhlakVUX3drcXVPVTFnWmlyalVlU3JoNHNfNU5adkdmR25jck1XRnJnYWwxNGVDMDd4LVUxODVkYzZ3WENTQUw4Wmo4QQ?oc=5",
+                    "datetime": 1783460263,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters",
+                    "source": "Reuters",
+                    "summary": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+                    "datetime": 1783459847,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                }
+            ],
+            "errors": []
+        },
+        "fred_macro": {
+            "connected": true,
+            "provider": "FRED + Finnhub Economic Provider",
+            "data": {
+                "fed_funds_rate": {
+                    "series_id": "FEDFUNDS",
+                    "date": "2026-06-01",
+                    "value": 3.63
+                },
+                "cpi": {
+                    "series_id": "CPIAUCSL",
+                    "date": "2026-05-01",
+                    "value": 333.979
+                },
+                "unemployment_rate": {
+                    "series_id": "UNRATE",
+                    "date": "2026-06-01",
+                    "value": 4.2
+                },
+                "nonfarm_payrolls": {
+                    "series_id": "PAYEMS",
+                    "date": "2026-06-01",
+                    "value": 158984.0
+                },
+                "consumer_sentiment": {
+                    "series_id": "UMCSENT",
+                    "date": "2026-05-01",
+                    "value": 44.8
+                },
+                "yield_curve_10y_2y": {
+                    "series_id": "T10Y2Y",
+                    "date": "2026-07-07",
+                    "value": 0.36
+                }
+            }
+        },
+        "sentiment": {
+            "overall_sentiment": "Neutral",
+            "score": 60,
+            "vix": 16.13,
+            "dxy": 101.15,
+            "treasury_10y": 4.53,
+            "fear_greed": null,
+            "bullish_factors": [
+                "Dollar index is not pressuring equities.",
+                "10-year yield is not highly restrictive."
+            ],
+            "bearish_factors": [],
+            "warnings": [],
+            "provider_connected": true
+        },
+        "macro_score": {
+            "score": 60,
+            "reasons": [
+                "Weak dollar supports equities.",
+                "Treasury yields are supportive."
+            ]
+        },
+        "fear_greed": {
+            "connected": true,
+            "provider": "Athena Fear & Greed Estimate",
+            "value": 60,
+            "classification": "Greed",
+            "score": 60,
+            "reason": "Fear & Greed estimated from VIX. VIX is 16.13, estimated sentiment is Greed with a score of 60."
+        },
+        "breadth": {
+            "connected": true,
+            "status": "ACTIVE",
+            "breadth": "Strong Bullish",
+            "score": 98,
+            "advancers": 3200,
+            "decliners": 1200,
+            "advance_decline_ratio": 0.7272727272727273,
+            "new_highs": 180,
+            "new_lows": 45,
+            "new_high_low_ratio": 0.8,
+            "percent_above_20_sma": 68,
+            "percent_above_50_sma": 64,
+            "percent_above_200_sma": 59,
+            "summary": "Market breadth shows strong broad participation.",
+            "bullish_signals": [
+                "Strong breadth thrust: 73% of tracked stocks are advancing.",
+                "New highs strongly lead new lows: 80% positive high/low ratio.",
+                "68% of stocks are above the 20-day SMA."
+            ],
+            "bearish_signals": [],
+            "warnings": []
+        },
+        "options_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BULLISH",
+            "bullish_flow": 2,
+            "bearish_flow": 1,
+            "call_premium": 780000.0,
+            "put_premium": 150000.0,
+            "call_ratio": 0.8387096774193549,
+            "put_ratio": 0.16129032258064516,
+            "score": 80,
+            "summary": "Options flow is leaning bullish.",
+            "bullish_signals": [
+                "Call premium controls 84% of total detected premium.",
+                "More bullish ask-side call activity detected: 2 bullish trades.",
+                "2 sweep order(s) detected. Sweeps can show urgency."
+            ],
+            "bearish_signals": [],
+            "warnings": [
+                "1 block trade(s) detected. Blocks may be hedges, not pure direction."
+            ]
+        },
+        "institutional_flow": {
+            "connected": true,
+            "provider": "Yahoo Finance Institutional Flow Proxy",
+            "symbol": "SPY",
+            "score": 35,
+            "bias": "Neutral / Mixed",
+            "price_change_percent": -0.48,
+            "volume_ratio": 0.69,
+            "latest_volume": 42575783,
+            "average_volume": 62109304,
+            "dollar_volume": 31834339642.43,
+            "summary": "Neutral / Mixed. SPY changed -0.48% with volume 0.69x its 20-day average. Institutional flow proxy score: 35/100."
+        },
+        "sector_rotation": {
+            "connected": true,
+            "provider": "Yahoo Finance Sector ETFs",
+            "leading_sector": "Financials",
+            "leading_ticker": "XLF",
+            "lagging_sector": "Energy",
+            "lagging_ticker": "XLE",
+            "score": 20.34,
+            "market_tone": "Risk-Off",
+            "summary": "Risk-Off sector rotation. Leading sector: Financials (XLF) at 8.23%. Lagging sector: Energy (XLE) at -5.65%. Sector rotation score: 20.34/100.",
+            "sector_performance": {
+                "XLK": {
+                    "sector": "Technology",
+                    "performance": -2.6
+                },
+                "XLF": {
+                    "sector": "Financials",
+                    "performance": 8.23
+                },
+                "XLY": {
+                    "sector": "Consumer Discretionary",
+                    "performance": 1.94
+                },
+                "XLI": {
+                    "sector": "Industrials",
+                    "performance": 5.3
+                },
+                "XLE": {
+                    "sector": "Energy",
+                    "performance": -5.65
+                },
+                "XLV": {
+                    "sector": "Healthcare",
+                    "performance": 8.2
+                },
+                "XLP": {
+                    "sector": "Consumer Staples",
+                    "performance": 2.86
+                },
+                "XLU": {
+                    "sector": "Utilities",
+                    "performance": 5.68
+                },
+                "XLB": {
+                    "sector": "Materials",
+                    "performance": 3.49
+                },
+                "XLRE": {
+                    "sector": "Real Estate",
+                    "performance": 2.85
+                },
+                "XLC": {
+                    "sector": "Communication Services",
+                    "performance": 0.2
+                }
+            }
+        },
+        "auction_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BALANCED AUCTION",
+            "score": 40,
+            "summary": "Auction behavior is balanced or undecided.",
+            "bullish_signals": [],
+            "bearish_signals": [
+                "Price is trading below previous close."
+            ],
+            "warnings": [
+                "VWAP unavailable for auction confirmation.",
+                "Price is near the middle of the daily range."
+            ]
+        },
+        "data_hub": {
+            "market": {
+                "connected": true,
+                "provider": "Yahoo Finance",
+                "spy": 747.71,
+                "current_price": 747.71,
+                "previous_close": 751.28,
+                "day_high": 750.96,
+                "day_low": 745.21,
+                "vix": 16.13,
+                "dxy": 101.15,
+                "treasury_10y": 4.53,
+                "fear_greed": null
+            },
+            "news": {
+                "connected": true,
+                "provider": "Finnhub Live News",
+                "symbol": "SPY",
+                "headline_count": 20,
+                "headlines": [
+                    "US oil prices jump after US military launches strikes against Iran - Reuters",
+                    "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                    "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                    "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                    "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                    "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                    "US military launches strikes against Iran, Central Command says - Reuters",
+                    "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                    "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                    "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters"
+                ],
+                "articles": [
+                    {
+                        "headline": "US oil prices jump after US military launches strikes against Iran - Reuters",
+                        "source": "Reuters",
+                        "summary": "US oil prices jump after US military launches strikes against Iran\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcW1oQmNkNnFFdEdYaTI4SDJwR0FpbHZjaVZCYnAzdTEyanppYjZTNFlOeE1KODQ5SmtVNC1hOWVhNHh6d3dVNGJ4enNEYkdPZFlEamVaXzRtN3RKME5Od2VKR0dUbUFRWDJ0b0xMcy1TUThmaF9Tem5YNHZUZlZpMGw0Uzc4TzRTT3p2aFhNZU8xT3Fsa2xld2pBRDFvTE5QS3RORTQ5TkowYjB5X2JaVUtQVUU5c2owcXc?oc=5",
+                        "datetime": 1783464959,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                        "source": "Reuters",
+                        "summary": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFdpVXUyLVpFVkxwaGJ2MGhSbTYtV0N4QkFNOVdyRVJCaThBY1hiQTBvdDBhc2dwYWFRM052NlVOTFk3QVZuZlRkdWYtMUNTNHQ2RTdJMXNfelFnQUJoSUNkSWYyMUFOR1lWMmZJSTVnV2thbktTQ1Y3QlRLWUZfdldjYnMyd2ZVM1MtNnZORnNGclE2Ti1EdmlqWHdOVmRzeEdFUFZPak1RblZmbVQ0NlJsYmJuUkxBQnNVbjBWTGdwRWRheGtRQldXcGNCN1U?oc=5",
+                        "datetime": 1783462947,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                        "source": "Reuters",
+                        "summary": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdF9zUXUxcDJXUnNtR19PdDFuVGN0XzVmcDVjV2M5X2NaRXBxalRHRXNZRC1DbF9vT1BSUWFtX2NqdE1KZTItYkNSVnZKcEtyVlo0ZXdTTTlyVzN0Rk1iaGRmRy0zeVhVbzZUUTl6TUNwUkpvWFRDZWlpdnZVWERlNmp0OWFLcWgzMDlJdURtWHBsb21qRFI2cHY3dDdhOTFxTmd2SjkxeFBxenZMNlgxR0VVNEhxaG03Rm14Ny1iajhnYTNkd2lmcQ?oc=5",
+                        "datetime": 1783462663,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                        "source": "Reuters",
+                        "summary": "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVXczTVVOaENGOFlRSkgybnk5S3c2QUcyU1kwbEhiM3dja081TFFWbFJSV2lQS0ZtVUhNVDJ0Z2k1NlpISGlVTFdzWWhfdVNyMWNnbzJBLW5lbm42bHhKaWUtcGlHMm5icnJNUEdJeFRRX1gtZlJ1TE5TaXhEX1A2TGRMNGJaMmxtbVRXNW0zZFZaYjJGQllKM1M0VWkyQ3JlWTMwUU1TR2ZYelFjVHlfcWFkVGp5NmJ6SGFvZE9DSC1tUQ?oc=5",
+                        "datetime": 1783461469,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                        "source": "Reuters",
+                        "summary": "Exxon signals Q2 profit windfall as higher oil prices boost bottom line\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXlvX2Y4cVBldFJ5ajRsRVpOZkcyd2g0NVV1c3RmOVBPSHAwWkI4Wmt6dWZ3djBUVDNtQ0ZlYjJ1aTZ1akZJMjg4WHprbmxGUmtmdktuelg1eURDY0ctRlBURV8xY1ZKVjB6dGEwMENPdnFXTzlEYnZoTnVMOWxoUVN4cUl3Q1FpR1ZITzJvdEZxOGJBT1pVa3VudjNnT0kyYkVzTA?oc=5",
+                        "datetime": 1783461000,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                        "source": "Reuters",
+                        "summary": "Columns in Manhattan high-rise buckle, prompting evacuations\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDlDVDBiVGRoeEh1WWlpU0IzUnJ3aWZyYldFdkVRRGVBZkI3YzJLVkhScWhsbHZmcEhFLXhpTXlwdHVWRXdaUUVVQ3ZVQ3NrX01qVUJJdlVLcVAtQ0o0VEtVQXRDTzRJV210RGFXcDNwWWNEY09IUkJfLVdBd2dHa0xZeFRGdWgtelNwa24xNFIzMGRVVHlFRlM1MDdWa0U?oc=5",
+                        "datetime": 1783460821,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "US military launches strikes against Iran, Central Command says - Reuters",
+                        "source": "Reuters",
+                        "summary": "US military launches strikes against Iran, Central Command says\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVV9wZ2FzeG9JZjdYeVFsay04cWxoUzB1dzRnQ3RwczlRc01vZ0tNUG5aa2JYVUFlRG5vRy1mTnNsLUs2TXk3dzFKTVliRUh2ckJuWkVzQTQtUHpzT0Q4OFFILUFydHlsdUsxaTlhak1hWXViVGZNZDFkNkZSVklSUjZXRV9uLW12X3VOcUlZbmpGQnZUR3gyc3M4WVItZXdjWEpBd01GWjdvRGVzaFc4emZBY0p5YlU?oc=5",
+                        "datetime": 1783460752,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                        "source": "Reuters",
+                        "summary": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+                        "datetime": 1783460552,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                        "source": "Reuters",
+                        "summary": "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWNlVG5HdDVrSEJEdlRuTHhDZ3dYUlBmb09WRlBqN1hoTjZQQVpmcEM0Mmg3VUpzWk4xU2hycVRDSmVpeHlkVDFsS3kyNDNwMjFRYzhGanpjVDg4RENPQktFSDdsWnhRS0xXaFFyNDZLak5WWG5fODNrWkxLTWU5M2tuTnhlakVUX3drcXVPVTFnWmlyalVlU3JoNHNfNU5adkdmR25jck1XRnJnYWwxNGVDMDd4LVUxODVkYzZ3WENTQUw4Wmo4QQ?oc=5",
+                        "datetime": 1783460263,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters",
+                        "source": "Reuters",
+                        "summary": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+                        "datetime": 1783459847,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    }
+                ],
+                "errors": []
+            },
+            "calendar": {
+                "connected": false,
+                "provider": "FRED + Finnhub Economic Provider",
+                "events": [],
+                "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+            },
+            "breadth": {
+                "connected": true,
+                "provider": "Manual Breadth File",
+                "advancers": 3200,
+                "decliners": 1200,
+                "new_highs": 180,
+                "new_lows": 45,
+                "percent_above_20_sma": 68,
+                "percent_above_50_sma": 64,
+                "percent_above_200_sma": 59,
+                "status": "LIVE",
+                "message": "Market breadth loaded from local breadth file."
+            },
+            "options_flow": {
+                "connected": true,
+                "provider": "Manual Options Flow",
+                "status": "ACTIVE",
+                "message": "Loaded from options_flow.json",
+                "trades": [
+                    {
+                        "type": "call",
+                        "side": "ask",
+                        "trade_type": "sweep",
+                        "premium": 420000
+                    },
+                    {
+                        "type": "call",
+                        "side": "ask",
+                        "trade_type": "sweep",
+                        "premium": 360000
+                    },
+                    {
+                        "type": "put",
+                        "side": "ask",
+                        "trade_type": "block",
+                        "premium": 150000
+                    }
+                ]
+            },
+            "meta": {
+                "timestamp": "2026-07-07T20:27:46",
+                "providers": {
+                    "market": {
+                        "name": "market",
+                        "connected": true,
+                        "status": "ACTIVE",
+                        "provider": "Yahoo Finance",
+                        "timestamp": "2026-07-07T20:27:46",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Yahoo Finance",
+                            "spy": 747.71,
+                            "current_price": 747.71,
+                            "previous_close": 751.28,
+                            "day_high": 750.96,
+                            "day_low": 745.21,
+                            "vix": 16.13,
+                            "dxy": 101.15,
+                            "treasury_10y": 4.53,
+                            "fear_greed": null
+                        }
+                    },
+                    "news": {
+                        "name": "news",
+                        "connected": true,
+                        "status": "ACTIVE",
+                        "provider": "Finnhub Live News",
+                        "timestamp": "2026-07-07T20:27:46",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Finnhub Live News",
+                            "symbol": "SPY",
+                            "headline_count": 20,
+                            "headlines": [
+                                "US oil prices jump after US military launches strikes against Iran - Reuters",
+                                "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                                "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                                "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                                "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                                "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                                "US military launches strikes against Iran, Central Command says - Reuters",
+                                "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                                "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                                "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters"
+                            ],
+                            "articles": [
+                                {
+                                    "headline": "US oil prices jump after US military launches strikes against Iran - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "US oil prices jump after US military launches strikes against Iran\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcW1oQmNkNnFFdEdYaTI4SDJwR0FpbHZjaVZCYnAzdTEyanppYjZTNFlOeE1KODQ5SmtVNC1hOWVhNHh6d3dVNGJ4enNEYkdPZFlEamVaXzRtN3RKME5Od2VKR0dUbUFRWDJ0b0xMcy1TUThmaF9Tem5YNHZUZlZpMGw0Uzc4TzRTT3p2aFhNZU8xT3Fsa2xld2pBRDFvTE5QS3RORTQ5TkowYjB5X2JaVUtQVUU5c2owcXc?oc=5",
+                                    "datetime": 1783464959,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFdpVXUyLVpFVkxwaGJ2MGhSbTYtV0N4QkFNOVdyRVJCaThBY1hiQTBvdDBhc2dwYWFRM052NlVOTFk3QVZuZlRkdWYtMUNTNHQ2RTdJMXNfelFnQUJoSUNkSWYyMUFOR1lWMmZJSTVnV2thbktTQ1Y3QlRLWUZfdldjYnMyd2ZVM1MtNnZORnNGclE2Ti1EdmlqWHdOVmRzeEdFUFZPak1RblZmbVQ0NlJsYmJuUkxBQnNVbjBWTGdwRWRheGtRQldXcGNCN1U?oc=5",
+                                    "datetime": 1783462947,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdF9zUXUxcDJXUnNtR19PdDFuVGN0XzVmcDVjV2M5X2NaRXBxalRHRXNZRC1DbF9vT1BSUWFtX2NqdE1KZTItYkNSVnZKcEtyVlo0ZXdTTTlyVzN0Rk1iaGRmRy0zeVhVbzZUUTl6TUNwUkpvWFRDZWlpdnZVWERlNmp0OWFLcWgzMDlJdURtWHBsb21qRFI2cHY3dDdhOTFxTmd2SjkxeFBxenZMNlgxR0VVNEhxaG03Rm14Ny1iajhnYTNkd2lmcQ?oc=5",
+                                    "datetime": 1783462663,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVXczTVVOaENGOFlRSkgybnk5S3c2QUcyU1kwbEhiM3dja081TFFWbFJSV2lQS0ZtVUhNVDJ0Z2k1NlpISGlVTFdzWWhfdVNyMWNnbzJBLW5lbm42bHhKaWUtcGlHMm5icnJNUEdJeFRRX1gtZlJ1TE5TaXhEX1A2TGRMNGJaMmxtbVRXNW0zZFZaYjJGQllKM1M0VWkyQ3JlWTMwUU1TR2ZYelFjVHlfcWFkVGp5NmJ6SGFvZE9DSC1tUQ?oc=5",
+                                    "datetime": 1783461469,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Exxon signals Q2 profit windfall as higher oil prices boost bottom line\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXlvX2Y4cVBldFJ5ajRsRVpOZkcyd2g0NVV1c3RmOVBPSHAwWkI4Wmt6dWZ3djBUVDNtQ0ZlYjJ1aTZ1akZJMjg4WHprbmxGUmtmdktuelg1eURDY0ctRlBURV8xY1ZKVjB6dGEwMENPdnFXTzlEYnZoTnVMOWxoUVN4cUl3Q1FpR1ZITzJvdEZxOGJBT1pVa3VudjNnT0kyYkVzTA?oc=5",
+                                    "datetime": 1783461000,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Columns in Manhattan high-rise buckle, prompting evacuations - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Columns in Manhattan high-rise buckle, prompting evacuations\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDlDVDBiVGRoeEh1WWlpU0IzUnJ3aWZyYldFdkVRRGVBZkI3YzJLVkhScWhsbHZmcEhFLXhpTXlwdHVWRXdaUUVVQ3ZVQ3NrX01qVUJJdlVLcVAtQ0o0VEtVQXRDTzRJV210RGFXcDNwWWNEY09IUkJfLVdBd2dHa0xZeFRGdWgtelNwa24xNFIzMGRVVHlFRlM1MDdWa0U?oc=5",
+                                    "datetime": 1783460821,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "US military launches strikes against Iran, Central Command says - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "US military launches strikes against Iran, Central Command says\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVV9wZ2FzeG9JZjdYeVFsay04cWxoUzB1dzRnQ3RwczlRc01vZ0tNUG5aa2JYVUFlRG5vRy1mTnNsLUs2TXk3dzFKTVliRUh2ckJuWkVzQTQtUHpzT0Q4OFFILUFydHlsdUsxaTlhak1hWXViVGZNZDFkNkZSVklSUjZXRV9uLW12X3VOcUlZbmpGQnZUR3gyc3M4WVItZXdjWEpBd01GWjdvRGVzaFc4emZBY0p5YlU?oc=5",
+                                    "datetime": 1783460752,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+                                    "datetime": 1783460552,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWNlVG5HdDVrSEJEdlRuTHhDZ3dYUlBmb09WRlBqN1hoTjZQQVpmcEM0Mmg3VUpzWk4xU2hycVRDSmVpeHlkVDFsS3kyNDNwMjFRYzhGanpjVDg4RENPQktFSDdsWnhRS0xXaFFyNDZLak5WWG5fODNrWkxLTWU5M2tuTnhlakVUX3drcXVPVTFnWmlyalVlU3JoNHNfNU5adkdmR25jck1XRnJnYWwxNGVDMDd4LVUxODVkYzZ3WENTQUw4Wmo4QQ?oc=5",
+                                    "datetime": 1783460263,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+                                    "datetime": 1783459847,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                }
+                            ],
+                            "errors": []
+                        }
+                    },
+                    "calendar": {
+                        "name": "calendar",
+                        "connected": false,
+                        "status": "ACTIVE",
+                        "provider": "FRED + Finnhub Economic Provider",
+                        "timestamp": "2026-07-07T20:27:46",
+                        "error": null,
+                        "data": {
+                            "connected": false,
+                            "provider": "FRED + Finnhub Economic Provider",
+                            "events": [],
+                            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+                        }
+                    },
+                    "breadth": {
+                        "name": "breadth",
+                        "connected": true,
+                        "status": "LIVE",
+                        "provider": "Manual Breadth File",
+                        "timestamp": "2026-07-07T20:27:46",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Manual Breadth File",
+                            "advancers": 3200,
+                            "decliners": 1200,
+                            "new_highs": 180,
+                            "new_lows": 45,
+                            "percent_above_20_sma": 68,
+                            "percent_above_50_sma": 64,
+                            "percent_above_200_sma": 59,
+                            "status": "LIVE",
+                            "message": "Market breadth loaded from local breadth file."
+                        }
+                    },
+                    "options_flow": {
+                        "name": "options_flow",
+                        "connected": true,
+                        "status": "ACTIVE",
+                        "provider": "Manual Options Flow",
+                        "timestamp": "2026-07-07T20:27:46",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Manual Options Flow",
+                            "status": "ACTIVE",
+                            "message": "Loaded from options_flow.json",
+                            "trades": [
+                                {
+                                    "type": "call",
+                                    "side": "ask",
+                                    "trade_type": "sweep",
+                                    "premium": 420000
+                                },
+                                {
+                                    "type": "call",
+                                    "side": "ask",
+                                    "trade_type": "sweep",
+                                    "premium": 360000
+                                },
+                                {
+                                    "type": "put",
+                                    "side": "ask",
+                                    "trade_type": "block",
+                                    "premium": 150000
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "outcome": null
+}

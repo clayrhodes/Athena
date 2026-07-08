@@ -1,0 +1,940 @@
+{
+    "timestamp": "2026-07-07 12:25:54",
+    "date": "2026-07-07",
+    "time": "12:25:54",
+    "ticker": "SPY",
+    "current_price": 748.969970703125,
+    "decision": {
+        "bias": "Strong Bullish",
+        "trade_grade": "A",
+        "confidence": 82,
+        "risk": "Low"
+    },
+    "should_buy": false,
+    "buy_reason": "Decision Matrix readiness is 70%. Setup is promising, but Athena is waiting because: Volume is not confirming the move.",
+    "overall_score": 82,
+    "trade_grade": "B+",
+    "confidence": "Medium-High",
+    "trend_score": 100,
+    "market_structure_score": null,
+    "weekly_score": null,
+    "daily_score": null,
+    "one_hour_score": null,
+    "vwap_score": 100,
+    "price_action_score": 95,
+    "momentum_score": 75,
+    "volume_score": 30,
+    "forecast": {
+        "market_regime": "Bull Trend",
+        "direction": "Bullish",
+        "above20": true,
+        "above50": true,
+        "above200": true,
+        "bullish_stack": true,
+        "bearish_stack": false,
+        "bullish_momentum": false,
+        "bearish_momentum": false,
+        "strong_volume": false,
+        "weekly_bull": true,
+        "daily_bull": true,
+        "hour_bull": true,
+        "macro": {
+            "environment": "Risk-On",
+            "score": 85,
+            "reasons": [
+                "Higher-timeframe trend is bullish.",
+                "Low volatility supports risk assets."
+            ],
+            "news": {
+                "engine": "Athena News Intelligence Engine V3",
+                "status": "LIVE",
+                "provider": "Finnhub Live News",
+                "sources": [
+                    {
+                        "name": "Federal Reserve",
+                        "enabled": true,
+                        "priority": 10
+                    },
+                    {
+                        "name": "U.S. Treasury",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Labor Statistics",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Bureau of Economic Analysis",
+                        "enabled": true,
+                        "priority": 9
+                    },
+                    {
+                        "name": "Yahoo Finance",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reuters",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "Bloomberg",
+                        "enabled": true,
+                        "priority": 8
+                    },
+                    {
+                        "name": "MarketWatch",
+                        "enabled": true,
+                        "priority": 7
+                    },
+                    {
+                        "name": "CNBC",
+                        "enabled": true,
+                        "priority": 7
+                    }
+                ],
+                "headlines": [
+                    "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                    "Israeli fire kills four people in Gaza, medics say - Reuters",
+                    "We're trimming a rotation winner and adding to an exciting new stock",
+                    "Bomb attack rocks Damascus during Macron visit - Reuters",
+                    "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                    "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                    "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                    "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                    "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters"
+                ],
+                "sentiment": "Neutral",
+                "market_news_bias": "Neutral",
+                "news_risk_level": "Low",
+                "score": 46,
+                "confidence": 90,
+                "bullish_factors": [],
+                "bearish_factors": [],
+                "major_catalysts": [],
+                "trade_warning": "Live Finnhub news connected.",
+                "recommendation": "News backdrop is neutral. Let price action and confirmation lead.",
+                "reason": "Live headlines analyzed successfully.",
+                "provider_errors": []
+            }
+        },
+        "confidence": 70,
+        "scenarios": {
+            "primary": {
+                "probability": 90,
+                "description": "Bull trend continues."
+            },
+            "secondary": {
+                "probability": 6,
+                "description": "Temporary pullback."
+            },
+            "failure": {
+                "probability": 4,
+                "description": "Trend reverses bearish."
+            }
+        },
+        "summary": "Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet."
+    },
+    "probability": {
+        "probabilities": {
+            "bullish_continuation": 56,
+            "bearish_reversal": 4,
+            "range_consolidation": 34,
+            "pullback_reversal_risk": 6
+        },
+        "most_likely": "bullish_continuation",
+        "confidence": 56,
+        "reasons": [
+            "Weekly timeframe supports bullish continuation.",
+            "Daily timeframe supports bullish continuation.",
+            "Trend score is strong.",
+            "Market structure is healthy.",
+            "Price is above VWAP.",
+            "Price action supports continuation.",
+            "Volume is not strong enough yet, so confirmation matters."
+        ]
+    },
+    "conviction": {
+        "conviction": 81,
+        "verdict": "GOOD CONVICTION",
+        "action": "WAIT FOR ENTRY",
+        "strengths": [
+            "Trend supports the setup with a score of 100.",
+            "Market Structure supports the setup with a score of 90.",
+            "Weekly Timeframe supports the setup with a score of 100.",
+            "Daily Timeframe supports the setup with a score of 100.",
+            "1 Hour Confirmation supports the setup with a score of 100.",
+            "VWAP supports the setup with a score of 100.",
+            "Price Action supports the setup with a score of 95.",
+            "Momentum supports the setup with a score of 75.",
+            "Market Breadth supports the setup with a score of 98.",
+            "Options Flow supports the setup with a score of 80."
+        ],
+        "warnings": [
+            "Auction Flow needs improvement. Score 40, required 70.",
+            "Volume needs improvement. Score 30, required 70.",
+            "Smart Money needs improvement. Score 50, required 60.",
+            "Liquidity needs improvement. Score 45, required 60.",
+            "Historical Similarity needs improvement. Score 0, required 55."
+        ]
+    },
+    "risk": {
+        "account_size": 1000,
+        "max_risk_percent": 1,
+        "max_dollar_risk": 10.0,
+        "risk_per_share": 7.36,
+        "reward_per_share": 12.26,
+        "shares_allowed": 1,
+        "win_probability": 56,
+        "expected_value": 3.63,
+        "risk_rating": "ACCEPTABLE",
+        "recommendation": "APPROVED"
+    },
+    "entry": {
+        "status": "WAIT",
+        "entry_low": 748.97,
+        "entry_high": 748.97,
+        "distance": -0.0,
+        "message": "Wait for price to reclaim support before entering.",
+        "entry_price": 748.97,
+        "entry_type": "Reclaim Support",
+        "aggressive_entry": 748.97,
+        "conservative_entry": 748.97,
+        "stop_reference": 745.23,
+        "resistance_reference": 756.46,
+        "reason": "Wait for price to reclaim support before entering.",
+        "expected_hold": "2\u20135 days"
+    },
+    "trade_plan": {
+        "direction": "CALL WATCHLIST",
+        "action": "WAIT",
+        "planned_entry": 748.97,
+        "stop_loss": 741.61,
+        "target_1": 756.46,
+        "target_2": 761.23,
+        "target_3": 768.59,
+        "risk": 7.36,
+        "reward": 12.26,
+        "risk_reward": 1.67,
+        "quality": "Acceptable",
+        "plan": "Wait for price to reclaim support before entering."
+    },
+    "market_intelligence": {
+        "market_data": {
+            "connected": true,
+            "provider": "Yahoo Finance",
+            "spy": 748.97,
+            "current_price": 748.97,
+            "previous_close": 751.28,
+            "day_high": 750.96,
+            "day_low": 745.21,
+            "vix": 15.68,
+            "dxy": 100.99,
+            "treasury_10y": 4.52,
+            "fear_greed": null
+        },
+        "calendar": {
+            "connected": false,
+            "provider": "FRED + Finnhub Economic Provider",
+            "events": [],
+            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+        },
+        "news": {
+            "connected": true,
+            "provider": "Finnhub Live News",
+            "symbol": "SPY",
+            "headline_count": 20,
+            "headlines": [
+                "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                "Israeli fire kills four people in Gaza, medics say - Reuters",
+                "We're trimming a rotation winner and adding to an exciting new stock",
+                "Bomb attack rocks Damascus during Macron visit - Reuters",
+                "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters"
+            ],
+            "articles": [
+                {
+                    "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                    "source": "Reuters",
+                    "summary": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+                    "datetime": 1783436747,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Israeli fire kills four people in Gaza, medics say - Reuters",
+                    "source": "Reuters",
+                    "summary": "Israeli fire kills four people in Gaza, medics say\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzh3VzVzcXhfUlBHYjBBd3BQdnE3YW42VHctOVVGWmFNVXVEXzVYX1JPMWN1ZnhRREN5Q3ZlZk1uV3lkZWV3RVBtR1dfWGEtUkxfY2pFZlhvRGVDSTgtcGZkU1pWWUJ3bWY5ZlV1VDlDWVlsV1dNNmpfZDhhTWE1TmstNVBXLWtjOVFLSGFmNk12WEZfQlBvc3dUNnlJVllHSFBz?oc=5",
+                    "datetime": 1783436264,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "We're trimming a rotation winner and adding to an exciting new stock",
+                    "source": "CNBC",
+                    "summary": "A late-day reversal in one of our newest stocks gives us an opportunity to buy more shares.",
+                    "url": "https://www.cnbc.com/2026/07/07/were-trimming-a-rotation-winner-and-adding-to-an-exciting-new-stock-.html",
+                    "datetime": 1783435381,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108127872-17440536252025-04-07t191548z_1897652394_rc27tdafs9qc_rtrmadp_0_usa-stocks.jpeg?v=1744053733&w=1920&h=1080"
+                },
+                {
+                    "headline": "Bomb attack rocks Damascus during Macron visit - Reuters",
+                    "source": "Reuters",
+                    "summary": "Bomb attack rocks Damascus during Macron visit\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWRETjVnbTljM3FIcDF1U0tESGJmVnVQSTBqemxJOUhKMUgtalFLcFVTOE9WSXB0SmJJSjZnSnhSOTBWajhqV0trX3dNSnlHdnVZNEh1ZVpFTnhlZXdSWWhGUTgyNHJ2Tm1pd05zQ1JOeFlFYXFkQlB6N2h0WkV0N0x2cEtjLVdTeXBHVEttY2o1aEZlRmFsaHlsUkNsUlZXMVFRM2g2X2FvOC02?oc=5",
+                    "datetime": 1783435052,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                    "source": "Reuters",
+                    "summary": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3BJZDBWYkMwckg2UDRLQ0pkclZiRjNPeUIwZ253X21aQkJLYUlRTWdVaklnRlpfMGxLQ2RkYUhHZ1EzZVRrWWdzVXUtVmpaQ0QwT0UtdEJPWi1vV1hjOG03LXREOUtZN05mTlF1VWc3Z1E5SXhHaHkzWjFGZGFuTjU0RjctZ1VEMDhfbDZkTVUtdFBkZ0lhbDlfeUotWVU3bnhiZk5DSExrdGt1RkZpX3Fsdw?oc=5",
+                    "datetime": 1783434781,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                    "source": "Reuters",
+                    "summary": "Saudi Arabia slices crude oil prices, but is it enough?\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekFPUU1Sd0FkaW9fa2UyYi1yT3hVSERZczVuVWVCcEpRQWowc0d3ZXp5LW5FbW1uLWhDYjRtMk0xcU0tdGo3OXV3NXB6WlZILXVPdFBUTVd0TXhEWU9Nd2ZOWHRpS3QyckhzMGlVeWN2amFySVhXR2N3eUFkSW0tNjUwWC1jQjJCbGJ5aU1ZcG1zb1BTSFhyQ2NoNXNkZldGNFd3SlNKdEhkOG9JSUhVd0tiVGpEQ05GelE?oc=5",
+                    "datetime": 1783433877,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                    "source": "Reuters",
+                    "summary": "Trump says he will lift Turkey sanctions, decide on selling F-35s\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSnZfOE9xZ1c4MDlKOGw2UW1aZW96Wi1BeThtUXZOYmQzNjRTQTF1MnJvMmNXOXZudDAwYkFhbm9MTkhrYS1oc2YxSHgxajhMdVdURTVkck1FV3Z3bDlxdXpNUHdvOHl4eDhmOHJtbmxZNXQwcWt4UnlfSjhMM0JndnBpZHBCTkxlWTZBQlpXT1lEd0VCTGV1NHowY2VWTFFkYWh3MHQ5U09ZMnBEeXlKbWtn?oc=5",
+                    "datetime": 1783431765,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                    "source": "Reuters",
+                    "summary": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+                    "datetime": 1783429774,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                },
+                {
+                    "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                    "source": "CNBC",
+                    "summary": "SpaceX joins the Nasdaq 100, and Samsung falls after preliminary second-quarter results.",
+                    "url": "https://www.cnbc.com/2026/07/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+                    "datetime": 1783428519,
+                    "category": "top news",
+                    "image": "https://image.cnbcfm.com/api/v1/image/108321535-1781310783695-gettyimages-2280560635-SPACEX_IPO.jpeg?v=1781310835&w=1920&h=1080"
+                },
+                {
+                    "headline": "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters",
+                    "source": "Reuters",
+                    "summary": "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles\u00a0\u00a0Reuters",
+                    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUEtqV3VWcTkxS09KZ3hrWm9WWUpQVGRFSkE0SHBoSFZWc2cyeFpKemRzb3psYmItd3NIbHlTZlRvYy1hcmtyU3BQV19pS0RCMVkxTDljWm9KM0JfUVI3NFBrSUVhMW53d0JrZ3FBOVRPb0dZNHJkZkU0R1RWd0pQQ21iMklYWE9uU3VZbm9LbjBZMFJUU29zOV91NzZBa3RXWFBZQ1doZDRQeTJoNUh4a0VKY3ZYNlRCcnYzVTlpZTFWeDdhMlNON2hjUGdTdTVTeWxvV2stNVI1QQ?oc=5",
+                    "datetime": 1783428486,
+                    "category": "business",
+                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                }
+            ],
+            "errors": []
+        },
+        "fred_macro": {
+            "connected": true,
+            "provider": "FRED + Finnhub Economic Provider",
+            "data": {
+                "fed_funds_rate": {
+                    "series_id": "FEDFUNDS",
+                    "date": "2026-06-01",
+                    "value": 3.63
+                },
+                "cpi": {
+                    "series_id": "CPIAUCSL",
+                    "date": "2026-05-01",
+                    "value": 333.979
+                },
+                "unemployment_rate": {
+                    "series_id": "UNRATE",
+                    "date": "2026-06-01",
+                    "value": 4.2
+                },
+                "nonfarm_payrolls": {
+                    "series_id": "PAYEMS",
+                    "date": "2026-06-01",
+                    "value": 158984.0
+                },
+                "consumer_sentiment": {
+                    "series_id": "UMCSENT",
+                    "date": "2026-05-01",
+                    "value": 44.8
+                },
+                "yield_curve_10y_2y": {
+                    "series_id": "T10Y2Y",
+                    "date": "2026-07-06",
+                    "value": 0.35
+                }
+            }
+        },
+        "sentiment": {
+            "overall_sentiment": "Neutral",
+            "score": 60,
+            "vix": 15.68,
+            "dxy": 100.99,
+            "treasury_10y": 4.52,
+            "fear_greed": null,
+            "bullish_factors": [
+                "Dollar index is not pressuring equities.",
+                "10-year yield is not highly restrictive."
+            ],
+            "bearish_factors": [],
+            "warnings": [],
+            "provider_connected": true
+        },
+        "macro_score": {
+            "score": 60,
+            "reasons": [
+                "Weak dollar supports equities.",
+                "Treasury yields are supportive."
+            ]
+        },
+        "fear_greed": {
+            "connected": true,
+            "provider": "Athena Fear & Greed Estimate",
+            "value": 70,
+            "classification": "Greed",
+            "score": 70,
+            "reason": "Fear & Greed estimated from VIX. VIX is 15.68, estimated sentiment is Greed with a score of 70."
+        },
+        "breadth": {
+            "connected": true,
+            "status": "ACTIVE",
+            "breadth": "Strong Bullish",
+            "score": 98,
+            "advancers": 3200,
+            "decliners": 1200,
+            "advance_decline_ratio": 0.7272727272727273,
+            "new_highs": 180,
+            "new_lows": 45,
+            "new_high_low_ratio": 0.8,
+            "percent_above_20_sma": 68,
+            "percent_above_50_sma": 64,
+            "percent_above_200_sma": 59,
+            "summary": "Market breadth shows strong broad participation.",
+            "bullish_signals": [
+                "Strong breadth thrust: 73% of tracked stocks are advancing.",
+                "New highs strongly lead new lows: 80% positive high/low ratio.",
+                "68% of stocks are above the 20-day SMA."
+            ],
+            "bearish_signals": [],
+            "warnings": []
+        },
+        "options_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BULLISH",
+            "bullish_flow": 2,
+            "bearish_flow": 1,
+            "call_premium": 780000.0,
+            "put_premium": 150000.0,
+            "call_ratio": 0.8387096774193549,
+            "put_ratio": 0.16129032258064516,
+            "score": 80,
+            "summary": "Options flow is leaning bullish.",
+            "bullish_signals": [
+                "Call premium controls 84% of total detected premium.",
+                "More bullish ask-side call activity detected: 2 bullish trades.",
+                "2 sweep order(s) detected. Sweeps can show urgency."
+            ],
+            "bearish_signals": [],
+            "warnings": [
+                "1 block trade(s) detected. Blocks may be hedges, not pure direction."
+            ]
+        },
+        "institutional_flow": {
+            "connected": true,
+            "provider": "Yahoo Finance Institutional Flow Proxy",
+            "symbol": "SPY",
+            "score": 35,
+            "bias": "Neutral / Mixed",
+            "price_change_percent": -0.31,
+            "volume_ratio": 0.36,
+            "latest_volume": 21910262,
+            "average_volume": 61072413,
+            "dollar_volume": 16410019967.24,
+            "summary": "Neutral / Mixed. SPY changed -0.31% with volume 0.36x its 20-day average. Institutional flow proxy score: 35/100."
+        },
+        "sector_rotation": {
+            "connected": true,
+            "provider": "Yahoo Finance Sector ETFs",
+            "leading_sector": "Financials",
+            "leading_ticker": "XLF",
+            "lagging_sector": "Energy",
+            "lagging_ticker": "XLE",
+            "score": 22.41,
+            "market_tone": "Risk-Off",
+            "summary": "Risk-Off sector rotation. Leading sector: Financials (XLF) at 8.41%. Lagging sector: Energy (XLE) at -6.82%. Sector rotation score: 22.41/100.",
+            "sector_performance": {
+                "XLK": {
+                    "sector": "Technology",
+                    "performance": -1.95
+                },
+                "XLF": {
+                    "sector": "Financials",
+                    "performance": 8.41
+                },
+                "XLY": {
+                    "sector": "Consumer Discretionary",
+                    "performance": 1.98
+                },
+                "XLI": {
+                    "sector": "Industrials",
+                    "performance": 4.73
+                },
+                "XLE": {
+                    "sector": "Energy",
+                    "performance": -6.82
+                },
+                "XLV": {
+                    "sector": "Healthcare",
+                    "performance": 7.98
+                },
+                "XLP": {
+                    "sector": "Consumer Staples",
+                    "performance": 2.57
+                },
+                "XLU": {
+                    "sector": "Utilities",
+                    "performance": 5.93
+                },
+                "XLB": {
+                    "sector": "Materials",
+                    "performance": 3.44
+                },
+                "XLRE": {
+                    "sector": "Real Estate",
+                    "performance": 3.02
+                },
+                "XLC": {
+                    "sector": "Communication Services",
+                    "performance": 0.5
+                }
+            }
+        },
+        "auction_flow": {
+            "connected": true,
+            "status": "ACTIVE",
+            "bias": "BALANCED AUCTION",
+            "score": 40,
+            "summary": "Auction behavior is balanced or undecided.",
+            "bullish_signals": [],
+            "bearish_signals": [
+                "Price is trading below previous close."
+            ],
+            "warnings": [
+                "VWAP unavailable for auction confirmation.",
+                "Price is near the middle of the daily range."
+            ]
+        },
+        "data_hub": {
+            "market": {
+                "connected": true,
+                "provider": "Yahoo Finance",
+                "spy": 748.97,
+                "current_price": 748.97,
+                "previous_close": 751.28,
+                "day_high": 750.96,
+                "day_low": 745.21,
+                "vix": 15.68,
+                "dxy": 100.99,
+                "treasury_10y": 4.52,
+                "fear_greed": null
+            },
+            "news": {
+                "connected": true,
+                "provider": "Finnhub Live News",
+                "symbol": "SPY",
+                "headline_count": 20,
+                "headlines": [
+                    "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                    "Israeli fire kills four people in Gaza, medics say - Reuters",
+                    "We're trimming a rotation winner and adding to an exciting new stock",
+                    "Bomb attack rocks Damascus during Macron visit - Reuters",
+                    "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                    "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                    "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                    "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                    "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters"
+                ],
+                "articles": [
+                    {
+                        "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                        "source": "Reuters",
+                        "summary": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+                        "datetime": 1783436747,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Israeli fire kills four people in Gaza, medics say - Reuters",
+                        "source": "Reuters",
+                        "summary": "Israeli fire kills four people in Gaza, medics say\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzh3VzVzcXhfUlBHYjBBd3BQdnE3YW42VHctOVVGWmFNVXVEXzVYX1JPMWN1ZnhRREN5Q3ZlZk1uV3lkZWV3RVBtR1dfWGEtUkxfY2pFZlhvRGVDSTgtcGZkU1pWWUJ3bWY5ZlV1VDlDWVlsV1dNNmpfZDhhTWE1TmstNVBXLWtjOVFLSGFmNk12WEZfQlBvc3dUNnlJVllHSFBz?oc=5",
+                        "datetime": 1783436264,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "We're trimming a rotation winner and adding to an exciting new stock",
+                        "source": "CNBC",
+                        "summary": "A late-day reversal in one of our newest stocks gives us an opportunity to buy more shares.",
+                        "url": "https://www.cnbc.com/2026/07/07/were-trimming-a-rotation-winner-and-adding-to-an-exciting-new-stock-.html",
+                        "datetime": 1783435381,
+                        "category": "top news",
+                        "image": "https://image.cnbcfm.com/api/v1/image/108127872-17440536252025-04-07t191548z_1897652394_rc27tdafs9qc_rtrmadp_0_usa-stocks.jpeg?v=1744053733&w=1920&h=1080"
+                    },
+                    {
+                        "headline": "Bomb attack rocks Damascus during Macron visit - Reuters",
+                        "source": "Reuters",
+                        "summary": "Bomb attack rocks Damascus during Macron visit\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWRETjVnbTljM3FIcDF1U0tESGJmVnVQSTBqemxJOUhKMUgtalFLcFVTOE9WSXB0SmJJSjZnSnhSOTBWajhqV0trX3dNSnlHdnVZNEh1ZVpFTnhlZXdSWWhGUTgyNHJ2Tm1pd05zQ1JOeFlFYXFkQlB6N2h0WkV0N0x2cEtjLVdTeXBHVEttY2o1aEZlRmFsaHlsUkNsUlZXMVFRM2g2X2FvOC02?oc=5",
+                        "datetime": 1783435052,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                        "source": "Reuters",
+                        "summary": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3BJZDBWYkMwckg2UDRLQ0pkclZiRjNPeUIwZ253X21aQkJLYUlRTWdVaklnRlpfMGxLQ2RkYUhHZ1EzZVRrWWdzVXUtVmpaQ0QwT0UtdEJPWi1vV1hjOG03LXREOUtZN05mTlF1VWc3Z1E5SXhHaHkzWjFGZGFuTjU0RjctZ1VEMDhfbDZkTVUtdFBkZ0lhbDlfeUotWVU3bnhiZk5DSExrdGt1RkZpX3Fsdw?oc=5",
+                        "datetime": 1783434781,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                        "source": "Reuters",
+                        "summary": "Saudi Arabia slices crude oil prices, but is it enough?\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekFPUU1Sd0FkaW9fa2UyYi1yT3hVSERZczVuVWVCcEpRQWowc0d3ZXp5LW5FbW1uLWhDYjRtMk0xcU0tdGo3OXV3NXB6WlZILXVPdFBUTVd0TXhEWU9Nd2ZOWHRpS3QyckhzMGlVeWN2amFySVhXR2N3eUFkSW0tNjUwWC1jQjJCbGJ5aU1ZcG1zb1BTSFhyQ2NoNXNkZldGNFd3SlNKdEhkOG9JSUhVd0tiVGpEQ05GelE?oc=5",
+                        "datetime": 1783433877,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                        "source": "Reuters",
+                        "summary": "Trump says he will lift Turkey sanctions, decide on selling F-35s\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSnZfOE9xZ1c4MDlKOGw2UW1aZW96Wi1BeThtUXZOYmQzNjRTQTF1MnJvMmNXOXZudDAwYkFhbm9MTkhrYS1oc2YxSHgxajhMdVdURTVkck1FV3Z3bDlxdXpNUHdvOHl4eDhmOHJtbmxZNXQwcWt4UnlfSjhMM0JndnBpZHBCTkxlWTZBQlpXT1lEd0VCTGV1NHowY2VWTFFkYWh3MHQ5U09ZMnBEeXlKbWtn?oc=5",
+                        "datetime": 1783431765,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                        "source": "Reuters",
+                        "summary": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+                        "datetime": 1783429774,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    },
+                    {
+                        "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                        "source": "CNBC",
+                        "summary": "SpaceX joins the Nasdaq 100, and Samsung falls after preliminary second-quarter results.",
+                        "url": "https://www.cnbc.com/2026/07/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+                        "datetime": 1783428519,
+                        "category": "top news",
+                        "image": "https://image.cnbcfm.com/api/v1/image/108321535-1781310783695-gettyimages-2280560635-SPACEX_IPO.jpeg?v=1781310835&w=1920&h=1080"
+                    },
+                    {
+                        "headline": "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters",
+                        "source": "Reuters",
+                        "summary": "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles\u00a0\u00a0Reuters",
+                        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUEtqV3VWcTkxS09KZ3hrWm9WWUpQVGRFSkE0SHBoSFZWc2cyeFpKemRzb3psYmItd3NIbHlTZlRvYy1hcmtyU3BQV19pS0RCMVkxTDljWm9KM0JfUVI3NFBrSUVhMW53d0JrZ3FBOVRPb0dZNHJkZkU0R1RWd0pQQ21iMklYWE9uU3VZbm9LbjBZMFJUU29zOV91NzZBa3RXWFBZQ1doZDRQeTJoNUh4a0VKY3ZYNlRCcnYzVTlpZTFWeDdhMlNON2hjUGdTdTVTeWxvV2stNVI1QQ?oc=5",
+                        "datetime": 1783428486,
+                        "category": "business",
+                        "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                    }
+                ],
+                "errors": []
+            },
+            "calendar": {
+                "connected": false,
+                "provider": "FRED + Finnhub Economic Provider",
+                "events": [],
+                "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+            },
+            "breadth": {
+                "connected": true,
+                "provider": "Manual Breadth File",
+                "advancers": 3200,
+                "decliners": 1200,
+                "new_highs": 180,
+                "new_lows": 45,
+                "percent_above_20_sma": 68,
+                "percent_above_50_sma": 64,
+                "percent_above_200_sma": 59,
+                "status": "LIVE",
+                "message": "Market breadth loaded from local breadth file."
+            },
+            "options_flow": {
+                "connected": true,
+                "provider": "Manual Options Flow",
+                "status": "ACTIVE",
+                "message": "Loaded from options_flow.json",
+                "trades": [
+                    {
+                        "type": "call",
+                        "side": "ask",
+                        "trade_type": "sweep",
+                        "premium": 420000
+                    },
+                    {
+                        "type": "call",
+                        "side": "ask",
+                        "trade_type": "sweep",
+                        "premium": 360000
+                    },
+                    {
+                        "type": "put",
+                        "side": "ask",
+                        "trade_type": "block",
+                        "premium": 150000
+                    }
+                ]
+            },
+            "meta": {
+                "timestamp": "2026-07-07T12:25:47",
+                "providers": {
+                    "market": {
+                        "name": "market",
+                        "connected": true,
+                        "status": "ACTIVE",
+                        "provider": "Yahoo Finance",
+                        "timestamp": "2026-07-07T12:25:47",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Yahoo Finance",
+                            "spy": 748.97,
+                            "current_price": 748.97,
+                            "previous_close": 751.28,
+                            "day_high": 750.96,
+                            "day_low": 745.21,
+                            "vix": 15.68,
+                            "dxy": 100.99,
+                            "treasury_10y": 4.52,
+                            "fear_greed": null
+                        }
+                    },
+                    "news": {
+                        "name": "news",
+                        "connected": true,
+                        "status": "ACTIVE",
+                        "provider": "Finnhub Live News",
+                        "timestamp": "2026-07-07T12:25:47",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Finnhub Live News",
+                            "symbol": "SPY",
+                            "headline_count": 20,
+                            "headlines": [
+                                "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                                "Israeli fire kills four people in Gaza, medics say - Reuters",
+                                "We're trimming a rotation winner and adding to an exciting new stock",
+                                "Bomb attack rocks Damascus during Macron visit - Reuters",
+                                "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                                "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                                "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                                "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                                "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                                "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters"
+                            ],
+                            "articles": [
+                                {
+                                    "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+                                    "datetime": 1783436747,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Israeli fire kills four people in Gaza, medics say - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Israeli fire kills four people in Gaza, medics say\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzh3VzVzcXhfUlBHYjBBd3BQdnE3YW42VHctOVVGWmFNVXVEXzVYX1JPMWN1ZnhRREN5Q3ZlZk1uV3lkZWV3RVBtR1dfWGEtUkxfY2pFZlhvRGVDSTgtcGZkU1pWWUJ3bWY5ZlV1VDlDWVlsV1dNNmpfZDhhTWE1TmstNVBXLWtjOVFLSGFmNk12WEZfQlBvc3dUNnlJVllHSFBz?oc=5",
+                                    "datetime": 1783436264,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "We're trimming a rotation winner and adding to an exciting new stock",
+                                    "source": "CNBC",
+                                    "summary": "A late-day reversal in one of our newest stocks gives us an opportunity to buy more shares.",
+                                    "url": "https://www.cnbc.com/2026/07/07/were-trimming-a-rotation-winner-and-adding-to-an-exciting-new-stock-.html",
+                                    "datetime": 1783435381,
+                                    "category": "top news",
+                                    "image": "https://image.cnbcfm.com/api/v1/image/108127872-17440536252025-04-07t191548z_1897652394_rc27tdafs9qc_rtrmadp_0_usa-stocks.jpeg?v=1744053733&w=1920&h=1080"
+                                },
+                                {
+                                    "headline": "Bomb attack rocks Damascus during Macron visit - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Bomb attack rocks Damascus during Macron visit\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWRETjVnbTljM3FIcDF1U0tESGJmVnVQSTBqemxJOUhKMUgtalFLcFVTOE9WSXB0SmJJSjZnSnhSOTBWajhqV0trX3dNSnlHdnVZNEh1ZVpFTnhlZXdSWWhGUTgyNHJ2Tm1pd05zQ1JOeFlFYXFkQlB6N2h0WkV0N0x2cEtjLVdTeXBHVEttY2o1aEZlRmFsaHlsUkNsUlZXMVFRM2g2X2FvOC02?oc=5",
+                                    "datetime": 1783435052,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3BJZDBWYkMwckg2UDRLQ0pkclZiRjNPeUIwZ253X21aQkJLYUlRTWdVaklnRlpfMGxLQ2RkYUhHZ1EzZVRrWWdzVXUtVmpaQ0QwT0UtdEJPWi1vV1hjOG03LXREOUtZN05mTlF1VWc3Z1E5SXhHaHkzWjFGZGFuTjU0RjctZ1VEMDhfbDZkTVUtdFBkZ0lhbDlfeUotWVU3bnhiZk5DSExrdGt1RkZpX3Fsdw?oc=5",
+                                    "datetime": 1783434781,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Saudi Arabia slices crude oil prices, but is it enough?\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekFPUU1Sd0FkaW9fa2UyYi1yT3hVSERZczVuVWVCcEpRQWowc0d3ZXp5LW5FbW1uLWhDYjRtMk0xcU0tdGo3OXV3NXB6WlZILXVPdFBUTVd0TXhEWU9Nd2ZOWHRpS3QyckhzMGlVeWN2amFySVhXR2N3eUFkSW0tNjUwWC1jQjJCbGJ5aU1ZcG1zb1BTSFhyQ2NoNXNkZldGNFd3SlNKdEhkOG9JSUhVd0tiVGpEQ05GelE?oc=5",
+                                    "datetime": 1783433877,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Trump says he will lift Turkey sanctions, decide on selling F-35s - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Trump says he will lift Turkey sanctions, decide on selling F-35s\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSnZfOE9xZ1c4MDlKOGw2UW1aZW96Wi1BeThtUXZOYmQzNjRTQTF1MnJvMmNXOXZudDAwYkFhbm9MTkhrYS1oc2YxSHgxajhMdVdURTVkck1FV3Z3bDlxdXpNUHdvOHl4eDhmOHJtbmxZNXQwcWt4UnlfSjhMM0JndnBpZHBCTkxlWTZBQlpXT1lEd0VCTGV1NHowY2VWTFFkYWh3MHQ5U09ZMnBEeXlKbWtn?oc=5",
+                                    "datetime": 1783431765,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+                                    "datetime": 1783429774,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                },
+                                {
+                                    "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+                                    "source": "CNBC",
+                                    "summary": "SpaceX joins the Nasdaq 100, and Samsung falls after preliminary second-quarter results.",
+                                    "url": "https://www.cnbc.com/2026/07/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+                                    "datetime": 1783428519,
+                                    "category": "top news",
+                                    "image": "https://image.cnbcfm.com/api/v1/image/108321535-1781310783695-gettyimages-2280560635-SPACEX_IPO.jpeg?v=1781310835&w=1920&h=1080"
+                                },
+                                {
+                                    "headline": "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles - Reuters",
+                                    "source": "Reuters",
+                                    "summary": "Diehl Defence says new version of IRIS-T system could reduce need for Patriot missiles\u00a0\u00a0Reuters",
+                                    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUEtqV3VWcTkxS09KZ3hrWm9WWUpQVGRFSkE0SHBoSFZWc2cyeFpKemRzb3psYmItd3NIbHlTZlRvYy1hcmtyU3BQV19pS0RCMVkxTDljWm9KM0JfUVI3NFBrSUVhMW53d0JrZ3FBOVRPb0dZNHJkZkU0R1RWd0pQQ21iMklYWE9uU3VZbm9LbjBZMFJUU29zOV91NzZBa3RXWFBZQ1doZDRQeTJoNUh4a0VKY3ZYNlRCcnYzVTlpZTFWeDdhMlNON2hjUGdTdTVTeWxvV2stNVI1QQ?oc=5",
+                                    "datetime": 1783428486,
+                                    "category": "business",
+                                    "image": "https://static2.finnhub.io/file/finnhub/logo/reuters_logo.jpeg"
+                                }
+                            ],
+                            "errors": []
+                        }
+                    },
+                    "calendar": {
+                        "name": "calendar",
+                        "connected": false,
+                        "status": "ACTIVE",
+                        "provider": "FRED + Finnhub Economic Provider",
+                        "timestamp": "2026-07-07T12:25:47",
+                        "error": null,
+                        "data": {
+                            "connected": false,
+                            "provider": "FRED + Finnhub Economic Provider",
+                            "events": [],
+                            "error": "403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d94s8p9r01qq8ms64060d94s8p9r01qq8ms6406g"
+                        }
+                    },
+                    "breadth": {
+                        "name": "breadth",
+                        "connected": true,
+                        "status": "LIVE",
+                        "provider": "Manual Breadth File",
+                        "timestamp": "2026-07-07T12:25:47",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Manual Breadth File",
+                            "advancers": 3200,
+                            "decliners": 1200,
+                            "new_highs": 180,
+                            "new_lows": 45,
+                            "percent_above_20_sma": 68,
+                            "percent_above_50_sma": 64,
+                            "percent_above_200_sma": 59,
+                            "status": "LIVE",
+                            "message": "Market breadth loaded from local breadth file."
+                        }
+                    },
+                    "options_flow": {
+                        "name": "options_flow",
+                        "connected": true,
+                        "status": "ACTIVE",
+                        "provider": "Manual Options Flow",
+                        "timestamp": "2026-07-07T12:25:47",
+                        "error": null,
+                        "data": {
+                            "connected": true,
+                            "provider": "Manual Options Flow",
+                            "status": "ACTIVE",
+                            "message": "Loaded from options_flow.json",
+                            "trades": [
+                                {
+                                    "type": "call",
+                                    "side": "ask",
+                                    "trade_type": "sweep",
+                                    "premium": 420000
+                                },
+                                {
+                                    "type": "call",
+                                    "side": "ask",
+                                    "trade_type": "sweep",
+                                    "premium": 360000
+                                },
+                                {
+                                    "type": "put",
+                                    "side": "ask",
+                                    "trade_type": "block",
+                                    "premium": 150000
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "outcome": null
+}

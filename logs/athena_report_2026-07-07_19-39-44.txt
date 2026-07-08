@@ -1,0 +1,537 @@
+
+================ ATHENA EXECUTIVE SUMMARY ================
+
+Final Action:
+WATCH FOR ENTRY
+
+Decision Matrix:
+81% readiness
+
+Conviction:
+GOOD CONVICTION (81%)
+
+Risk:
+APPROVED / ACCEPTABLE
+
+Most Likely Scenario:
+Bullish Continuation (56% bullish continuation)
+
+Best Entry:
+747.7
+
+Stop:
+740.34
+
+Main Target:
+759.96
+
+Why Athena Is Waiting:
+- Volume is not confirming the move.
+
+==========================================================
+
+
+ATHENA MARKET INTELLIGENCE
+------------------------------
+Provider Connected: True
+FRED Connected: True
+
+VIX: 16.13
+DXY: 101.15
+10Y Treasury Yield: 4.53
+Fear & Greed: 60
+
+FRED MACRO DATA:
+- Fed Funds Rate: 3.63 as of 2026-06-01
+- CPI: 333.979 as of 2026-05-01
+- Unemployment Rate: 4.2 as of 2026-06-01
+- Nonfarm Payrolls: 158984.0 as of 2026-06-01
+- Consumer Sentiment: 44.8 as of 2026-05-01
+- 10Y-2Y Yield Curve: 0.36 as of 2026-07-07
+
+Overall Sentiment: Neutral
+Sentiment Score: 60 / 100
+Macro Score: 60 / 100
+
+Auction Flow:
+- Status: ACTIVE
+- Bias: BALANCED AUCTION
+- Score: 40 / 100
+- Summary: Auction behavior is balanced or undecided.
+
+Auction Bullish Signals:
+- None
+
+Auction Bearish Signals:
+- Price is trading below previous close.
+
+Auction Warnings:
+- VWAP unavailable for auction confirmation.
+- Price is near the middle of the daily range.
+
+Market Breadth:
+- Status: ACTIVE
+- Breadth: Strong Bullish
+- Score: 98 / 100
+- Summary: Market breadth shows strong broad participation.
+
+Breadth Bullish Signals:
+- Strong breadth thrust: 73% of tracked stocks are advancing.
+- New highs strongly lead new lows: 80% positive high/low ratio.
+- 68% of stocks are above the 20-day SMA.
+
+Breadth Bearish Signals:
+- None
+
+Breadth Warnings:
+- None
+
+Options Flow:
+- Status: ACTIVE
+- Bias: BULLISH
+- Score: 80 / 100
+- Summary: Options flow is leaning bullish.
+
+Options Bullish Signals:
+- Call premium controls 84% of total detected premium.
+- More bullish ask-side call activity detected: 2 bullish trades.
+- 2 sweep order(s) detected. Sweeps can show urgency.
+
+Options Bearish Signals:
+- None
+
+Options Warnings:
+- 1 block trade(s) detected. Blocks may be hedges, not pure direction.
+
+Institutional Flow:
+- Score: 35 / 100
+- Summary: Neutral / Mixed. SPY changed -0.48% with volume 0.69x its 20-day average. Institutional flow proxy score: 35/100.
+
+Sector Rotation:
+- Leading Sector: Financials
+- Lagging Sector: Energy
+- Score: 20.34 / 100
+
+Macro Factors:
+- Weak dollar supports equities.
+- Treasury yields are supportive.
+
+Bullish Factors:
+- Dollar index is not pressuring equities.
+- 10-year yield is not highly restrictive.
+
+Bearish Factors:
+- None
+
+Warnings:
+- None
+
+
+================ ATHENA MISSION BRIEF ================
+
+ATHENA INTELLIGENCE:
+Recommendation: WATCH FOR ENTRY
+Overall Score: 83
+Trade Grade: B+
+Confidence: Medium-High
+
+Why Athena Thinks This:
+- Trend passed with a score of 100.
+- Market Structure passed with a score of 90.
+- Weekly Timeframe passed with a score of 100.
+- Daily Timeframe passed with a score of 100.
+- 1 Hour Confirmation passed with a score of 100.
+- VWAP passed with a score of 100.
+- Price Action passed with a score of 95.
+- Momentum passed with a score of 75.
+- Market Breadth passed with a score of 98.
+- Options Flow passed with a score of 80.
+
+Strategy:
+Favor calls on pullbacks or clean breakout-retests.
+
+Forecast:
+Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet.
+
+
+
+=======================================================
+ATHENA MARKET NARRATIVE
+=======================================================
+
+Higher timeframes remain in a confirmed uptrend. Institutional participation is mixed. The institutional thesis currently supports maintaining a bullish bias.
+
+=======================================================
+
+
+=======================================================
+ATHENA HISTORICAL SIMILARITY
+=======================================================
+
+Matches Found: 0
+Best Match Score: 0%
+Estimated Win Rate: 0%
+Quality: NO REAL HISTORY FOUND YET
+
+Summary:
+Athena did not find enough similar saved market setups yet. Historical similarity will improve as Athena records more completed analyses.
+
+=======================================================
+
+
+=======================================================
+ATHENA SMART MONEY
+=======================================================
+
+Score: 45/100
+Bias: NEUTRAL / UNCLEAR SMART MONEY
+
+Evidence:
+- No strong smart money evidence detected yet.
+
+Summary:
+Smart Money Bias: NEUTRAL / UNCLEAR SMART MONEY. Score: 45/100. Signals detected: 2.
+
+=======================================================
+
+
+=======================================================
+ATHENA LIQUIDITY
+=======================================================
+
+Liquidity Score: 45/100
+Condition: BALANCED
+
+Evidence:
+- No liquidity evidence available.
+
+Summary:
+Liquidity Condition: BALANCED. Bias: neutral. Liquidity score: 45/100.
+
+=======================================================
+
+=======================================================
+ATHENA MARKET BREADTH
+-------------------------------------------------------
+Condition: Strong Bullish
+Score: 98/100
+Advancers: 73%
+Decliners: 27%
+New Highs: 180
+New Lows: 45
+
+Signals:
+- Strong breadth thrust: 73% of tracked stocks are advancing.
+- New highs strongly lead new lows: 80% positive high/low ratio.
+- 68% of stocks are above the 20-day SMA.
+
+Market breadth shows strong broad participation.
+
+ATHENA NEWS INTELLIGENCE
+------------------------------
+Engine: Athena News Intelligence Engine V3
+Status: LIVE
+Provider: Finnhub Live News
+Sentiment: Neutral
+Bias: Neutral
+Risk Level: Elevated
+News Score: 46
+Confidence: 90%
+
+Headlines:
+- US oil prices jump after US military launches strikes against Iran - Reuters
+- Pakistan-registered cargo plane missing off Karachi coast after navigation problem - Reuters
+- Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters
+- ICE agent fatally shoots Mexican motorist in Texas during vehicle stop, agency says - Reuters
+- Exxon signals Q2 profit windfall as higher oil prices boost bottom line - Reuters
+- Columns in Manhattan high-rise buckle, prompting evacuations - Reuters
+- US military launches strikes against Iran, Central Command says - Reuters
+- Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters
+- EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before backing rate hike - Reuters
+- US revokes Iran oil sale license in a threat to fragile truce after ships attacked - Reuters
+
+Bullish News Factors:
+- Positive market momentum in headlines.
+
+Bearish News Factors:
+- Inflation or rate-hike pressure detected.
+
+Major Catalysts Detected:
+- Inflation
+
+Live Finnhub news connected.
+
+Use caution. Market-moving news risk is elevated.
+
+ATHENA ECONOMIC CALENDAR
+------------------------------
+Engine: Athena Economic Calendar Engine V4
+Status: OFFLINE
+Calendar Connected: False
+High Impact Event Today: False
+Highest Impact Level: NONE
+Confidence: 20%
+
+Events Today:
+- None available
+
+Economic calendar provider is currently unavailable.
+
+Do not rely on calendar data yet. Manually check for CPI, FOMC, jobs reports, Fed speakers, and major Treasury events before trading.
+
+
+DECISION MATRIX:
+Readiness: 81%
+Matrix Action: WAIT FOR ENTRY
+Earned Weight: 79 / 98
+
+PASS: Trend | Score: 100 | Required: 70 | Weight: 14%
+PASS: Market Structure | Score: 90 | Required: 70 | Weight: 12%
+PASS: Weekly Timeframe | Score: 100 | Required: 70 | Weight: 10%
+PASS: Daily Timeframe | Score: 100 | Required: 70 | Weight: 8%
+PASS: 1 Hour Confirmation | Score: 100 | Required: 70 | Weight: 8%
+PASS: VWAP | Score: 100 | Required: 70 | Weight: 7%
+PASS: Price Action | Score: 95 | Required: 70 | Weight: 7%
+FAIL: Auction Flow | Score: 40 | Required: 70 | Weight: 5%
+PASS: Momentum | Score: 75 | Required: 70 | Weight: 3%
+FAIL: Volume | Score: 30 | Required: 70 | Weight: 2%
+FAIL: Smart Money | Score: 45 | Required: 60 | Weight: 5%
+FAIL: Liquidity | Score: 45 | Required: 60 | Weight: 4%
+PASS: Market Breadth | Score: 98 | Required: 55 | Weight: 5%
+PASS: Options Flow | Score: 80 | Required: 55 | Weight: 5%
+FAIL: Historical Similarity | Score: 0 | Required: 55 | Weight: 3%
+
+HARD BLOCKS:
+- Volume is not confirming the move.
+
+
+
+CONVICTION ENGINE:
+Conviction Score: 81
+Verdict: GOOD CONVICTION
+Recommended Action: WAIT FOR ENTRY
+
+Strengths:
+- Trend supports the setup with a score of 100.
+- Market Structure supports the setup with a score of 90.
+- Weekly Timeframe supports the setup with a score of 100.
+- Daily Timeframe supports the setup with a score of 100.
+- 1 Hour Confirmation supports the setup with a score of 100.
+- VWAP supports the setup with a score of 100.
+- Price Action supports the setup with a score of 95.
+- Momentum supports the setup with a score of 75.
+- Market Breadth supports the setup with a score of 98.
+- Options Flow supports the setup with a score of 80.
+
+Warnings:
+- Auction Flow needs improvement. Score 40, required 70.
+- Volume needs improvement. Score 30, required 70.
+- Smart Money needs improvement. Score 45, required 60.
+- Liquidity needs improvement. Score 45, required 60.
+- Historical Similarity needs improvement. Score 0, required 55.
+
+
+
+RISK MANAGER:
+Account Size: $1000
+Max Risk Percent: 1%
+Max Dollar Risk: $10.0
+Risk Per Share: $7.36
+Reward Per Share: $12.26
+Shares Allowed: 1
+Win Probability: 56%
+Expected Value: $3.63
+Risk Rating: ACCEPTABLE
+Risk Recommendation: APPROVED
+
+
+
+EXECUTION CHECKLIST:
+PASS: Trend
+PASS: Market Structure
+PASS: Weekly Timeframe
+PASS: Daily Timeframe
+PASS: 1 Hour Confirmation
+PASS: VWAP
+PASS: Price Action
+FAIL: Auction Flow
+PASS: Momentum
+FAIL: Volume
+FAIL: Smart Money
+FAIL: Liquidity
+PASS: Market Breadth
+PASS: Options Flow
+FAIL: Historical Similarity
+
+Checklist Result:
+WAIT FOR ENTRY
+
+Checks Passed:
+10 / 15
+
+
+
+PROBABILITY ENGINE:
+Bullish Continuation: 56%
+Bearish Reversal: 4%
+Range / Consolidation: 34%
+Pullback / Reversal Risk: 6%
+
+Most Likely Outcome:
+Bullish Continuation
+
+Probability Confidence:
+56%
+
+Why Probability Engine Thinks This:
+- Weekly timeframe supports bullish continuation.
+- Daily timeframe supports bullish continuation.
+- Trend score is strong.
+- Market structure is healthy.
+- Price is above VWAP.
+- Price action supports continuation.
+- Volume is not strong enough yet, so confirmation matters.
+
+
+
+MARKET REGIME:
+Regime: Bull Trend
+Confidence: 85%
+
+Bull Score: 85
+Bear Score: 0
+Chop Score: 30
+Danger Score: 0
+
+Summary:
+Market Regime: Bull Trend. Behavior: Balanced Auction. Confidence: 85%.
+
+Regime Evidence:
+- Trend is strongly bullish.
+- Weekly and daily timeframes are bullish.
+- VWAP supports bullish control.
+- Momentum confirms participation.
+- Price action supports continuation.
+
+
+
+=======================================================
+ATHENA INSTITUTIONAL INTELLIGENCE
+=======================================================
+
+Institutional Score: 68/100
+Institutional Bias: ACCUMULATION
+Confidence: GOOD
+
+Evidence:
+- Higher timeframe trend favors institutions.
+- Price remains above value.
+- Momentum confirms participation.
+- Market regime supports continuation.
+
+
+
+
+=======================================================
+ATHENA INSTITUTIONAL THESIS
+=======================================================
+
+Market Regime: Bull Trend
+Institutional Bias: Neutral
+Forecast: Bullish
+Primary Scenario: bullish_continuation
+
+Confidence: 52%
+Conviction: MEDIUM CONVICTION
+Trade Grade: B
+
+Summary:
+Higher timeframes remain in a confirmed bull trend. Institutional participation remains mixed. Decision Matrix still requires additional confirmation.
+
+=======================================================
+
+
+MARKET ENVIRONMENT:
+Bias: Bullish
+Trend: Strong Uptrend
+Condition: Trend Continuation
+Strategy: Favor calls on pullbacks or clean breakout-retests.
+
+FORECAST:
+Direction: Bullish
+Confidence: 70
+Summary: Bull Trend. Direction: Bullish. Key reasons: weekly trend is bullish; daily trend is bullish; price is above the 20, 50, and 200 SMA; moving averages are stacked bullish; volume is not confirming yet.
+
+
+
+TREND ANALYSIS:
+Score: 100
+Direction: Bullish
+Strength: Very Strong
+Summary: Very Strong bullish trend. Trend score: 100/100.
+
+Trend Evidence:
+- Price is above the 20 SMA.
+- Price is above the 50 SMA.
+- Price is above the 200 SMA.
+- 20 SMA is above the 50 SMA.
+- 50 SMA is above the 200 SMA.
+
+
+
+BUY DECISION:
+Should Buy: False
+Reason: Decision Matrix readiness is 70%. Setup is promising, but Athena is waiting because: Volume is not confirming the move.
+
+ENTRY PLAN:
+Entry Price: 747.7
+Entry Type: Pullback to VWAP
+Aggressive Entry: 747.71
+Conservative Entry: 747.7
+Stop Reference: 747.7
+Expected Hold: 2–5 days
+Entry Reason: Price is extended above VWAP. Wait for a pullback.
+
+TRADE PLAN:
+Stop Loss: 740.34
+Target 1: 755.19
+Target 2: 759.96
+Risk / Reward: 1.67
+Plan: Wait for price to pull back toward VWAP before entering.
+
+
+
+PRICE ACTION:
+Score: 95
+Summary: No price action summary available
+
+SUPPORT / RESISTANCE:
+Nearest Support: VWAP at 747.05
+Nearest Resistance: None found
+
+VWAP:
+Score: 100
+Status: Unknown
+
+MULTI-TIMEFRAME:
+Weekly Score: 100
+Daily Score: 100
+1 Hour Score: 100
+
+FAILED CHECKS:
+- Auction Flow
+- Volume
+- Smart Money
+- Liquidity
+- Historical Similarity
+
+WAITING FOR:
+- Volume is not confirming the move.
+
+OVERALL:
+Overall Score: 83
+Trade Grade: B+
+Confidence: Medium-High
+
+
+=======================================================
