@@ -1,13 +1,20 @@
 """
-Athena Liquidity Engine V3
+Athena Liquidity Engine V4
 
 Institutional liquidity analysis.
 
+Uses:
+- Price action
+- Market structure
+- Volume
+- BOS / CHoCH
+- Swing highs / swing lows
+- Order blocks
+
 Detects:
-- Equal highs
-- Equal lows
 - Buy-side liquidity
 - Sell-side liquidity
+- Equal highs / equal lows
 - Liquidity pools
 - Liquidity sweeps
 - Reclaimed lows
@@ -27,6 +34,10 @@ def _text(value):
         return str(value).lower()
     except Exception:
         return ""
+
+
+def _bool(value):
+    return bool(value)
 
 
 def _clamp(value, low=0, high=100):
@@ -49,24 +60,38 @@ def build_liquidity_report(price_action=None, market_structure=None, volume=None
     bullish = _num(price_action.get("bullish_score"))
     bearish = _num(price_action.get("bearish_score"))
 
-    trend = _text(market_structure.get("trend"))
     price_bias = _text(price_action.get("bias"))
     volume_bias = _text(volume.get("bias"))
+    structure_bias = _text(market_structure.get("bias"))
 
-    high_volume = volume_score >= 70 or bool(volume.get("high_volume"))
-    low_volume = volume_score < 45 or bool(volume.get("low_volume"))
+    high_volume = volume_score >= 70 or _bool(volume.get("high_volume"))
+    low_volume = volume_score < 45 or _bool(volume.get("low_volume"))
 
-    near_support = bool(price_action.get("near_support"))
-    near_resistance = bool(price_action.get("near_resistance"))
+    near_support = _bool(price_action.get("near_support"))
+    near_resistance = _bool(price_action.get("near_resistance"))
 
-    long_lower_wick = bool(price_action.get("long_lower_wick"))
-    long_upper_wick = bool(price_action.get("long_upper_wick"))
+    long_lower_wick = _bool(price_action.get("long_lower_wick"))
+    long_upper_wick = _bool(price_action.get("long_upper_wick"))
 
-    broke_support = bool(price_action.get("broke_support"))
-    reclaimed_support = bool(price_action.get("reclaimed_support"))
+    broke_support = _bool(price_action.get("broke_support"))
+    reclaimed_support = _bool(price_action.get("reclaimed_support"))
 
-    broke_resistance = bool(price_action.get("broke_resistance"))
-    rejected_resistance = bool(price_action.get("rejected_resistance"))
+    broke_resistance = _bool(price_action.get("broke_resistance"))
+    rejected_resistance = _bool(price_action.get("rejected_resistance"))
+
+    bos_bullish = _bool(price_action.get("bos_bullish"))
+    bos_bearish = _bool(price_action.get("bos_bearish"))
+    choch_bullish = _bool(price_action.get("choch_bullish"))
+    choch_bearish = _bool(price_action.get("choch_bearish"))
+
+    last_swing_high = price_action.get("last_swing_high")
+    last_swing_low = price_action.get("last_swing_low")
+
+    bullish_ob = price_action.get("nearest_bullish_order_block")
+    bearish_ob = price_action.get("nearest_bearish_order_block")
+
+    order_block_bias = _text(price_action.get("order_block_bias"))
+    order_block_score = _num(price_action.get("order_block_score"), 50)
 
     equal_highs = False
     equal_lows = False
@@ -79,27 +104,102 @@ def build_liquidity_report(price_action=None, market_structure=None, volume=None
     reclaimed_lows = False
     rejected_highs = False
 
-    # Equal highs / buy-side liquidity
+    # ----------------------------
+    # Swing-based liquidity
+    # ----------------------------
+
+    if last_swing_high:
+        buy_side_liquidity = True
+        score += 6
+        signals.append(
+            f"Buy-side liquidity exists above last swing high at {last_swing_high}."
+        )
+
+    if last_swing_low:
+        sell_side_liquidity = True
+        score += 6
+        signals.append(
+            f"Sell-side liquidity exists below last swing low at {last_swing_low}."
+        )
+
+    # ----------------------------
+    # Equal high / equal low proxies
+    # ----------------------------
+
     if bearish >= bullish and structure_score >= 65:
         equal_highs = True
         buy_side_liquidity = True
-        score += 6
+        score += 5
         signals.append("Possible equal highs creating buy-side liquidity.")
 
-    # Equal lows / sell-side liquidity
     if bullish >= bearish and structure_score >= 65:
         equal_lows = True
         sell_side_liquidity = True
-        score += 6
+        score += 5
         signals.append("Possible equal lows creating sell-side liquidity.")
 
-    # Liquidity pool
-    if high_volume and structure_score >= 65:
-        liquidity_pool = True
-        score += 10
-        signals.append("Institutional liquidity pool possible.")
+    # ----------------------------
+    # Order block liquidity zones
+    # ----------------------------
 
-    # Bullish sweep
+    if bullish_ob:
+        sell_side_liquidity = True
+        liquidity_pool = True
+        score += 8
+        signals.append("Bullish order block below price may act as sell-side liquidity / demand.")
+
+    if bearish_ob:
+        buy_side_liquidity = True
+        liquidity_pool = True
+        score += 8
+        signals.append("Bearish order block above price may act as buy-side liquidity / supply.")
+
+    if order_block_bias == "bullish":
+        score += 5
+        signals.append("Order block bias supports bullish liquidity response.")
+
+    if order_block_bias == "bearish":
+        score -= 5
+        signals.append("Order block bias warns of bearish liquidity response.")
+
+    if order_block_score >= 65:
+        score += 4
+
+    if order_block_score <= 35:
+        score -= 4
+
+    # ----------------------------
+    # BOS / CHoCH liquidity behavior
+    # ----------------------------
+
+    if bos_bullish:
+        buy_side_liquidity = True
+        score += 8
+        signals.append("Bullish BOS suggests buy-side liquidity is being targeted.")
+
+    if bos_bearish:
+        sell_side_liquidity = True
+        score -= 8
+        signals.append("Bearish BOS suggests sell-side liquidity is being targeted.")
+
+    if choch_bullish:
+        swept_lows = True
+        reclaimed_lows = True
+        liquidity_sweep = True
+        score += 12
+        signals.append("Bullish CHoCH suggests sell-side liquidity may have been swept.")
+
+    if choch_bearish:
+        swept_highs = True
+        rejected_highs = True
+        liquidity_sweep = True
+        score -= 12
+        signals.append("Bearish CHoCH suggests buy-side liquidity may have been swept.")
+
+    # ----------------------------
+    # Classic sweep behavior
+    # ----------------------------
+
     if broke_support and reclaimed_support:
         liquidity_sweep = True
         swept_lows = True
@@ -114,32 +214,47 @@ def build_liquidity_report(price_action=None, market_structure=None, volume=None
         score += 12
         signals.append("Sell-side liquidity may have been swept near support.")
 
-    # Bearish sweep
     if broke_resistance and rejected_resistance:
         liquidity_sweep = True
         swept_highs = True
         rejected_highs = True
-        score += 18
+        score -= 18
         signals.append("Bearish liquidity sweep: highs were taken and rejected.")
 
     if near_resistance and long_upper_wick and high_volume:
         liquidity_sweep = True
         swept_highs = True
         rejected_highs = True
-        score += 12
+        score -= 12
         signals.append("Buy-side liquidity may have been swept near resistance.")
 
+    # ----------------------------
+    # General pool detection
+    # ----------------------------
+
+    if high_volume and structure_score >= 65:
+        liquidity_pool = True
+        score += 8
+        signals.append("Institutional liquidity pool possible.")
+
+    # ----------------------------
     # Bias
+    # ----------------------------
+
     if swept_lows and reclaimed_lows:
         bias = "bullish"
         score += 5
     elif swept_highs and rejected_highs:
         bias = "bearish"
         score -= 5
+    elif order_block_bias in ["bullish", "bearish"]:
+        bias = order_block_bias
     elif volume_bias in ["bullish", "bearish"]:
         bias = volume_bias
     elif price_bias in ["bullish", "bearish"]:
         bias = price_bias
+    elif structure_bias in ["bullish", "bearish"]:
+        bias = structure_bias
     else:
         bias = "neutral"
 
@@ -183,7 +298,8 @@ def build_liquidity_report(price_action=None, market_structure=None, volume=None
         "summary": (
             f"Liquidity Condition: {condition}. "
             f"Bias: {bias}. "
-            f"Liquidity score: {score}/100."
+            f"Liquidity score: {score}/100. "
+            f"Signals detected: {len(signals)}."
         ),
     }
 
