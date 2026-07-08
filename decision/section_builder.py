@@ -11,6 +11,7 @@ from decision.report_sections.decision_matrix_section import build_decision_matr
 from decision.report_sections.conviction_section import build_conviction_section
 from decision.report_sections.risk_section import build_risk_section
 from decision.report_sections.execution_section import build_execution_section
+from decision.report_sections.trade_management_section import build_trade_management_section
 from decision.report_sections.checklist_section import build_checklist_section
 from decision.report_sections.probability_section import build_probability_section
 from decision.report_sections.forecast_section import build_forecast_section
@@ -55,6 +56,7 @@ def build_sections(
     conviction,
     risk,
     execution,
+    trade_management,
     probability,
     similarity,
     smart_money,
@@ -132,6 +134,9 @@ def build_sections(
         ),
         "execution": build_execution_section(
             execution
+        ),
+        "trade_management": build_trade_management_section(
+            trade_management
         ),
         "checklist": build_checklist_section(
             checklist

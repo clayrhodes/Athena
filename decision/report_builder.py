@@ -20,6 +20,8 @@ def build_report(sections):
         "decision_matrix",
         "conviction",
         "risk",
+        "execution",
+        "trade_management",
         "checklist",
         "probability",
         "market_regime",
